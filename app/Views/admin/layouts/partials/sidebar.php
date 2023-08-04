@@ -145,6 +145,16 @@
 
 
                        </li>
+                         <li class="nav-item">
+
+                           <a href="<?php echo base_url();?>admin/notification" class="nav-link active">
+                               <i class="fa fa-circle nav-icon "></i>
+                               <p>Notification</p>
+                           </a>
+
+
+
+                       </li>
 
 
                         

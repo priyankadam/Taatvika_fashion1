@@ -289,8 +289,12 @@ input:focus + label {
                     <!-- Header Top Language, Currency & Link End -->
 
                     <!-- Header Top Message Start -->
-                    <div class="col">
-                        <p class="header-top-message">Ends Monday: Rs100 off any Shirt + 2 sets of Tops. <a href="#">Shop Now</a></p>
+                     <div class="col">
+                          <?php  $db = db_connect();
+                                $result = $db->query("select * from  notification");
+                                    $searchData=$result->getRowArray();
+                                              //var_dump($searchData['offer1']);?>
+                        <p class="header-top-message"><?php echo $searchData['offer1'];?><a href="#">Shop Now</a></p>
                     </div>
                     <!-- Header Top Message End -->
 

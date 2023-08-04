@@ -81,6 +81,12 @@ $routes->post('admin/miniBannerdelete', 'Admincontroller::miniBannerdelete');
 $routes->post('admin/miniBanneractive', 'Admincontroller::miniBanneractive');
 
 
+$routes->get('admin/notification', 'NotificationController::notification');
+$routes->get('admin/getNotification', 'NotificationController::getNotification');
+$routes->post('admin/editNotification', 'NotificationController::editNotification');
+$routes->post('admin/UpdateNotification', 'NotificationController::UpdateNotification');
+
+
 
 $routes->get('/admin/boxes', 'BoxController::boxview');
 $routes->get('/admin/create-box', 'BoxController::add_box_img_view');
