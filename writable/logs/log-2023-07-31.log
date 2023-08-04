@@ -1,0 +1,1010 @@
+INFO - 2023-07-31 04:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 04:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 04:55:26 --> unlink(C:\wamp\www\Beseen\writable\debugbar/debugbar_1690547937.336639.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp\\www\\Beseen\\writable\\debugbar/debugbar_1690547937.336639.json): No such file or directory', 'C:\\wamp\\www\\Beseen\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\wamp\\www\\Beseen\\writable\\debugbar/debugbar_1690547937.336639.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1690779314.270203', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(350): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 04:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 04:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 04:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 04:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:11:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-31 05:12:09 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp\www\Beseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp\www\Beseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp\www\Beseen\app\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp\www\Beseen\system\View\View.php(213): include('C:\\wamp\\www\\Bes...')
+#5 C:\wamp\www\Beseen\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\wamp\www\Beseen\system\Common.php(1184): CodeIgniter\View\View->render('MensCollection', Array, true)
+#7 C:\wamp\www\Beseen\app\Controllers\Checkout.php(29): view('MensCollection', Array)
+#8 C:\wamp\www\Beseen\system\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for we...')
+#9 C:\wamp\www\Beseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#10 C:\wamp\www\Beseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp\www\Beseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-31 05:12:09 --> Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 4 APPPATH\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 5 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 8 APPPATH\Controllers\Checkout.php(29): view('MensCollection', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for web-01 (1).png')
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-31 05:12:10 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp\www\Beseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp\www\Beseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp\www\Beseen\app\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp\www\Beseen\system\View\View.php(213): include('C:\\wamp\\www\\Bes...')
+#5 C:\wamp\www\Beseen\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\wamp\www\Beseen\system\Common.php(1184): CodeIgniter\View\View->render('MensCollection', Array, true)
+#7 C:\wamp\www\Beseen\app\Controllers\Checkout.php(29): view('MensCollection', Array)
+#8 C:\wamp\www\Beseen\system\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for we...')
+#9 C:\wamp\www\Beseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#10 C:\wamp\www\Beseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp\www\Beseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-31 05:12:10 --> Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 4 APPPATH\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 5 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 8 APPPATH\Controllers\Checkout.php(29): view('MensCollection', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for web-01 (1).png')
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 05:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-31 05:13:13 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp\www\Beseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp\www\Beseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp\www\Beseen\app\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp\www\Beseen\system\View\View.php(213): include('C:\\wamp\\www\\Bes...')
+#5 C:\wamp\www\Beseen\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\wamp\www\Beseen\system\Common.php(1184): CodeIgniter\View\View->render('MensCollection', Array, true)
+#7 C:\wamp\www\Beseen\app\Controllers\Checkout.php(29): view('MensCollection', Array)
+#8 C:\wamp\www\Beseen\system\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for we...')
+#9 C:\wamp\www\Beseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#10 C:\wamp\www\Beseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp\www\Beseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-31 05:13:13 --> Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 4 APPPATH\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 5 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 8 APPPATH\Controllers\Checkout.php(29): view('MensCollection', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for web-01 (1).png')
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-31 05:13:13 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp\www\Beseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp\www\Beseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp\www\Beseen\app\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp\www\Beseen\system\View\View.php(213): include('C:\\wamp\\www\\Bes...')
+#5 C:\wamp\www\Beseen\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\wamp\www\Beseen\system\Common.php(1184): CodeIgniter\View\View->render('MensCollection', Array, true)
+#7 C:\wamp\www\Beseen\app\Controllers\Checkout.php(29): view('MensCollection', Array)
+#8 C:\wamp\www\Beseen\system\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for we...')
+#9 C:\wamp\www\Beseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#10 C:\wamp\www\Beseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp\www\Beseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-31 05:13:13 --> Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 4 APPPATH\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 5 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 8 APPPATH\Controllers\Checkout.php(29): view('MensCollection', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for web-01 (1).png')
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 05:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-31 05:13:29 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp\www\Beseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp\www\Beseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp\www\Beseen\app\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp\www\Beseen\system\View\View.php(213): include('C:\\wamp\\www\\Bes...')
+#5 C:\wamp\www\Beseen\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\wamp\www\Beseen\system\Common.php(1184): CodeIgniter\View\View->render('MensCollection', Array, true)
+#7 C:\wamp\www\Beseen\app\Controllers\Checkout.php(29): view('MensCollection', Array)
+#8 C:\wamp\www\Beseen\system\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for we...')
+#9 C:\wamp\www\Beseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#10 C:\wamp\www\Beseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp\www\Beseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-31 05:13:29 --> Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 4 APPPATH\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 5 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 8 APPPATH\Controllers\Checkout.php(29): view('MensCollection', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for web-01 (1).png')
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-31 05:13:30 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp\www\Beseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp\www\Beseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp\www\Beseen\app\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp\www\Beseen\system\View\View.php(213): include('C:\\wamp\\www\\Bes...')
+#5 C:\wamp\www\Beseen\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\wamp\www\Beseen\system\Common.php(1184): CodeIgniter\View\View->render('MensCollection', Array, true)
+#7 C:\wamp\www\Beseen\app\Controllers\Checkout.php(29): view('MensCollection', Array)
+#8 C:\wamp\www\Beseen\system\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for we...')
+#9 C:\wamp\www\Beseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#10 C:\wamp\www\Beseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp\www\Beseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-31 05:13:30 --> Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 4 APPPATH\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 5 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 8 APPPATH\Controllers\Checkout.php(29): view('MensCollection', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for web-01 (1).png')
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 05:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 05:13:38 --> Undefined variable $prod_code
+in APPPATH\Views\MensCollection.php on line 284.
+ 1 APPPATH\Views\MensCollection.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prod_code', 'C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php', 284)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('MensCollection')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->MensView()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 05:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 05:18:56 --> Undefined variable $prod_code
+in APPPATH\Views\MensCollection.php on line 284.
+ 1 APPPATH\Views\MensCollection.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prod_code', 'C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php', 284)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('MensCollection')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->MensView()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 05:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 05:22:26 --> Undefined variable $prod_code
+in APPPATH\Views\MensCollection.php on line 291.
+ 1 APPPATH\Views\MensCollection.php(291): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prod_code', 'C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php', 291)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('MensCollection')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->MensView()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-31 05:23:15 --> Undefined variable $prod_code
+in APPPATH\Views\MensCollection.php on line 294.
+ 1 APPPATH\Views\MensCollection.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prod_code', 'C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php', 294)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('MensCollection')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->MensView()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 05:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 05:24:06 --> Undefined variable $prod_code
+in APPPATH\Views\MensCollection.php on line 294.
+ 1 APPPATH\Views\MensCollection.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prod_code', 'C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php', 294)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('MensCollection')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->MensView()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 05:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 05:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-31 07:13:53 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp\www\Beseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp\www\Beseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp\www\Beseen\app\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp\www\Beseen\system\View\View.php(213): include('C:\\wamp\\www\\Bes...')
+#5 C:\wamp\www\Beseen\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\wamp\www\Beseen\system\Common.php(1184): CodeIgniter\View\View->render('MensCollection', Array, true)
+#7 C:\wamp\www\Beseen\app\Controllers\Checkout.php(29): view('MensCollection', Array)
+#8 C:\wamp\www\Beseen\system\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for we...')
+#9 C:\wamp\www\Beseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#10 C:\wamp\www\Beseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp\www\Beseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-31 07:13:53 --> Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 4 APPPATH\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 5 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 8 APPPATH\Controllers\Checkout.php(29): view('MensCollection', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for web-01 (1).png')
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-31 07:13:54 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp\www\Beseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp\www\Beseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp\www\Beseen\app\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp\www\Beseen\system\View\View.php(213): include('C:\\wamp\\www\\Bes...')
+#5 C:\wamp\www\Beseen\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\wamp\www\Beseen\system\Common.php(1184): CodeIgniter\View\View->render('MensCollection', Array, true)
+#7 C:\wamp\www\Beseen\app\Controllers\Checkout.php(29): view('MensCollection', Array)
+#8 C:\wamp\www\Beseen\system\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for we...')
+#9 C:\wamp\www\Beseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#10 C:\wamp\www\Beseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp\www\Beseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-31 07:13:54 --> Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 4 APPPATH\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 5 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 8 APPPATH\Controllers\Checkout.php(29): view('MensCollection', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for web-01 (1).png')
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 07:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-31 07:13:59 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp\www\Beseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp\www\Beseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp\www\Beseen\app\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp\www\Beseen\system\View\View.php(213): include('C:\\wamp\\www\\Bes...')
+#5 C:\wamp\www\Beseen\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\wamp\www\Beseen\system\Common.php(1184): CodeIgniter\View\View->render('MensCollection', Array, true)
+#7 C:\wamp\www\Beseen\app\Controllers\Checkout.php(29): view('MensCollection', Array)
+#8 C:\wamp\www\Beseen\system\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for we...')
+#9 C:\wamp\www\Beseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#10 C:\wamp\www\Beseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp\www\Beseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-31 07:13:59 --> Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 4 APPPATH\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 5 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 8 APPPATH\Controllers\Checkout.php(29): view('MensCollection', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for web-01 (1).png')
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-31 07:14:01 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp\www\Beseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp\www\Beseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp\www\Beseen\app\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp\www\Beseen\system\View\View.php(213): include('C:\\wamp\\www\\Bes...')
+#5 C:\wamp\www\Beseen\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\wamp\www\Beseen\system\Common.php(1184): CodeIgniter\View\View->render('MensCollection', Array, true)
+#7 C:\wamp\www\Beseen\app\Controllers\Checkout.php(29): view('MensCollection', Array)
+#8 C:\wamp\www\Beseen\system\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for we...')
+#9 C:\wamp\www\Beseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#10 C:\wamp\www\Beseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp\www\Beseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-31 07:14:01 --> Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 4 APPPATH\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 5 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 8 APPPATH\Controllers\Checkout.php(29): view('MensCollection', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for web-01 (1).png')
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 07:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-31 07:17:55 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp\www\Beseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp\www\Beseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp\www\Beseen\app\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp\www\Beseen\system\View\View.php(213): include('C:\\wamp\\www\\Bes...')
+#5 C:\wamp\www\Beseen\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\wamp\www\Beseen\system\Common.php(1184): CodeIgniter\View\View->render('MensCollection', Array, true)
+#7 C:\wamp\www\Beseen\app\Controllers\Checkout.php(29): view('MensCollection', Array)
+#8 C:\wamp\www\Beseen\system\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for we...')
+#9 C:\wamp\www\Beseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#10 C:\wamp\www\Beseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp\www\Beseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-31 07:17:55 --> Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 4 APPPATH\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 5 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 8 APPPATH\Controllers\Checkout.php(29): view('MensCollection', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for web-01 (1).png')
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-31 07:17:55 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp\www\Beseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp\www\Beseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp\www\Beseen\app\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp\www\Beseen\system\View\View.php(213): include('C:\\wamp\\www\\Bes...')
+#5 C:\wamp\www\Beseen\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\wamp\www\Beseen\system\Common.php(1184): CodeIgniter\View\View->render('MensCollection', Array, true)
+#7 C:\wamp\www\Beseen\app\Controllers\Checkout.php(29): view('MensCollection', Array)
+#8 C:\wamp\www\Beseen\system\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for we...')
+#9 C:\wamp\www\Beseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#10 C:\wamp\www\Beseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp\www\Beseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-31 07:17:55 --> Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 4 APPPATH\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 5 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 8 APPPATH\Controllers\Checkout.php(29): view('MensCollection', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for web-01 (1).png')
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 07:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 07:25:37 --> Undefined variable $prod_code
+in APPPATH\Views\MensCollection.php on line 289.
+ 1 APPPATH\Views\MensCollection.php(289): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prod_code', 'C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php', 289)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('MensCollection')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->MensView()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 07:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 07:31:03 --> Undefined array key "Items"
+in APPPATH\Views\MensCollection.php on line 285.
+ 1 APPPATH\Views\MensCollection.php(285): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Items"', 'C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php', 285)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('MensCollection')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->MensView()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-31 07:31:23 --> Undefined array key "prod_code"
+in APPPATH\Views\MensCollection.php on line 285.
+ 1 APPPATH\Views\MensCollection.php(285): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prod_code"', 'C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php', 285)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('MensCollection')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->MensView()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-31 07:31:36 --> Undefined array key "prod_code"
+in APPPATH\Views\MensCollection.php on line 285.
+ 1 APPPATH\Views\MensCollection.php(285): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prod_code"', 'C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php', 285)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('MensCollection')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->MensView()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 07:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 07:32:33 --> Undefined array key "prod_code"
+in APPPATH\Views\MensCollection.php on line 285.
+ 1 APPPATH\Views\MensCollection.php(285): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prod_code"', 'C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php', 285)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('MensCollection')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->MensView()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 07:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 07:33:01 --> Undefined array key "prod_code"
+in APPPATH\Views\MensCollection.php on line 285.
+ 1 APPPATH\Views\MensCollection.php(285): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prod_code"', 'C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php', 285)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('MensCollection')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->MensView()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-31 07:33:20 --> Undefined array key "prod_code"
+in APPPATH\Views\MensCollection.php on line 285.
+ 1 APPPATH\Views\MensCollection.php(285): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prod_code"', 'C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php', 285)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('MensCollection')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->MensView()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 07:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 07:33:48 --> Undefined array key "prod_code"
+in APPPATH\Views\MensCollection.php on line 285.
+ 1 APPPATH\Views\MensCollection.php(285): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prod_code"', 'C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php', 285)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('MensCollection')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->MensView()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-31 07:34:24 --> Undefined array key "prod_code"
+in APPPATH\Views\MensCollection.php on line 285.
+ 1 APPPATH\Views\MensCollection.php(285): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prod_code"', 'C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php', 285)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('MensCollection')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->MensView()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-31 07:34:24 --> Undefined array key "prod_code"
+in APPPATH\Views\MensCollection.php on line 285.
+ 1 APPPATH\Views\MensCollection.php(285): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prod_code"', 'C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php', 285)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('MensCollection')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->MensView()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 07:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-31 07:34:27 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp\www\Beseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp\www\Beseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp\www\Beseen\app\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp\www\Beseen\system\View\View.php(213): include('C:\\wamp\\www\\Bes...')
+#5 C:\wamp\www\Beseen\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\wamp\www\Beseen\system\Common.php(1184): CodeIgniter\View\View->render('MensCollection', Array, true)
+#7 C:\wamp\www\Beseen\app\Controllers\Checkout.php(29): view('MensCollection', Array)
+#8 C:\wamp\www\Beseen\system\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for we...')
+#9 C:\wamp\www\Beseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#10 C:\wamp\www\Beseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp\www\Beseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-31 07:34:27 --> Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 4 APPPATH\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 5 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 8 APPPATH\Controllers\Checkout.php(29): view('MensCollection', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for web-01 (1).png')
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-31 07:34:27 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp\www\Beseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp\www\Beseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp\www\Beseen\app\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp\www\Beseen\system\View\View.php(213): include('C:\\wamp\\www\\Bes...')
+#5 C:\wamp\www\Beseen\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\wamp\www\Beseen\system\Common.php(1184): CodeIgniter\View\View->render('MensCollection', Array, true)
+#7 C:\wamp\www\Beseen\app\Controllers\Checkout.php(29): view('MensCollection', Array)
+#8 C:\wamp\www\Beseen\system\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for we...')
+#9 C:\wamp\www\Beseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#10 C:\wamp\www\Beseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp\www\Beseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-31 07:34:27 --> Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 4 APPPATH\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 5 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 8 APPPATH\Controllers\Checkout.php(29): view('MensCollection', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for web-01 (1).png')
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 07:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 07:34:31 --> Undefined array key "prod_code"
+in APPPATH\Views\MensCollection.php on line 285.
+ 1 APPPATH\Views\MensCollection.php(285): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prod_code"', 'C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php', 285)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('MensCollection')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->MensView()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 07:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-31 07:40:27 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp\www\Beseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp\www\Beseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp\www\Beseen\app\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp\www\Beseen\system\View\View.php(213): include('C:\\wamp\\www\\Bes...')
+#5 C:\wamp\www\Beseen\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\wamp\www\Beseen\system\Common.php(1184): CodeIgniter\View\View->render('MensCollection', Array, true)
+#7 C:\wamp\www\Beseen\app\Controllers\Checkout.php(29): view('MensCollection', Array)
+#8 C:\wamp\www\Beseen\system\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for we...')
+#9 C:\wamp\www\Beseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#10 C:\wamp\www\Beseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp\www\Beseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-31 07:40:27 --> Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 4 APPPATH\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 5 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 8 APPPATH\Controllers\Checkout.php(29): view('MensCollection', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for web-01 (1).png')
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-31 07:40:28 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\Beseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp\www\Beseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp\www\Beseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp\www\Beseen\app\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp\www\Beseen\system\View\View.php(213): include('C:\\wamp\\www\\Bes...')
+#5 C:\wamp\www\Beseen\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\wamp\www\Beseen\system\Common.php(1184): CodeIgniter\View\View->render('MensCollection', Array, true)
+#7 C:\wamp\www\Beseen\app\Controllers\Checkout.php(29): view('MensCollection', Array)
+#8 C:\wamp\www\Beseen\system\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for we...')
+#9 C:\wamp\www\Beseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#10 C:\wamp\www\Beseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp\www\Beseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-31 07:40:28 --> Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 4 APPPATH\Views\MensCollection.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `Mens` WHERE `Men_id`= assets ORDER BY `Id` ASC LIMIT 0 , 4')
+ 5 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 8 APPPATH\Controllers\Checkout.php(29): view('MensCollection', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->test('assets', 'images', 'logo', 'png logo for web-01 (1).png')
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 07:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 07:50:15 --> Undefined variable $data
+in APPPATH\Views\MensCollection.php on line 409.
+ 1 APPPATH\Views\MensCollection.php(409): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php', 409)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\MensCollection.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MensCollection', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('MensCollection')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->MensView()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 07:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:56:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 07:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 08:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 09:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 09:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 09:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 09:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 09:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 09:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 10:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 10:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 10:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 10:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 10:00:21 --> Class "App\Controllers\FitModel" not found
+in APPPATH\Controllers\Admincontroller.php on line 133.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->addFitFabric()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 10:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 10:00:43 --> Class "App\Controllers\FitModel" not found
+in APPPATH\Controllers\Admincontroller.php on line 133.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->addFitFabric()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 10:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 10:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 10:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 10:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 10:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 10:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 10:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 10:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 10:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 10:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 10:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 10:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 10:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 10:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 11:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 11:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 11:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 11:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 11:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 11:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 11:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 11:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 11:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 11:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 12:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 12:39:10 --> Undefined property: stdClass::$size
+in APPPATH\Views\admin\mens.php on line 267.
+ 1 APPPATH\Views\admin\mens.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$size', 'C:\\wamp\\www\\Beseen\\app\\Views\\admin\\mens.php', 267)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\admin\\mens.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/mens', [], true)
+ 5 APPPATH\Controllers\Admincontroller.php(45): view('admin/mens')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->AddMensProduct()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 12:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 12:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 12:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 12:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 12:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 12:51:22 --> Undefined variable $ID
+in APPPATH\Views\admin\mens.php on line 29.
+ 1 APPPATH\Views\admin\mens.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ID', 'C:\\wamp\\www\\Beseen\\app\\Views\\admin\\mens.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\admin\\mens.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/mens', [], true)
+ 5 APPPATH\Controllers\Admincontroller.php(45): view('admin/mens')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->AddMensProduct()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 12:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 12:51:54 --> Undefined property: stdClass::$Id
+in APPPATH\Views\admin\mens.php on line 29.
+ 1 APPPATH\Views\admin\mens.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$Id', 'C:\\wamp\\www\\Beseen\\app\\Views\\admin\\mens.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\Beseen\\app\\Views\\admin\\mens.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/mens', [], true)
+ 5 APPPATH\Controllers\Admincontroller.php(45): view('admin/mens')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->AddMensProduct()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 12:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 12:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 12:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 12:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 12:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 12:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 12:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 12:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 12:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 12:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

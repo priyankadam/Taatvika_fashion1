@@ -1,0 +1,7 @@
+[13-Jun-2023 05:55:26 UTC] PHP Fatal error:  Cannot redeclare App\Controllers\Admincontroller::box() in /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Controllers/Admincontroller.php on line 158
+[13-Jun-2023 09:13:54 UTC] PHP Fatal error:  Cannot redeclare App\Controllers\Admincontroller::AddMensProduct() in /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Controllers/Admincontroller.php on line 107
+[19-Jun-2023 14:04:15 UTC] PHP Fatal error:  Cannot redeclare App\Controllers\Checkout::testw() in /home/digilead/public_html/shital/shital/newbeseen/app/Controllers/Checkout.php on line 40
+[24-Jun-2023 10:47:15 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/digilead/public_html/shital/shital/newbeseen/app/Controllers/Home.php on line 3
+[24-Jun-2023 10:47:20 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/digilead/public_html/shital/shital/newbeseen/app/Controllers/Home.php on line 3
+[24-Jun-2023 10:47:25 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/digilead/public_html/shital/shital/newbeseen/app/Controllers/Home.php on line 3
+[24-Jun-2023 12:13:40 UTC] PHP Fatal error:  Cannot use App\Models\checkoutModal as checkoutModal because the name is already in use in /home/digilead/public_html/shital/shital/newbeseen/app/Controllers/Admincontroller.php on line 18

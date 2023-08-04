@@ -1,0 +1,66 @@
+CRITICAL - 2023-06-01 04:28:22 --> Undefined array key "name"
+in APPPATH/Views/admin/alluser_details.php on line 59.
+ 1 APPPATH/Views/admin/alluser_details.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/newbeseen/app/Views/admin/alluser_details.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/AdminDashboard.php(18): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\AdminDashboard->users_list()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 04:28:53 --> Undefined array key "product_image"
+in APPPATH/Views/admin/allproduct_details.php on line 60.
+ 1 APPPATH/Views/admin/allproduct_details.php(60): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/newbeseen/app/Views/admin/allproduct_details.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Product.php(20): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Product->product_list()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 04:40:45 --> Undefined array key "product_image"
+in APPPATH/Views/admin/allproduct_details.php on line 60.
+ 1 APPPATH/Views/admin/allproduct_details.php(60): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/newbeseen/app/Views/admin/allproduct_details.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Product.php(20): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Product->product_list()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 04:40:50 --> Undefined array key "name"
+in APPPATH/Views/admin/alluser_details.php on line 59.
+ 1 APPPATH/Views/admin/alluser_details.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/newbeseen/app/Views/admin/alluser_details.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/AdminDashboard.php(18): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\AdminDashboard->users_list()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 04:48:17 --> Undefined array key "product_image"
+in APPPATH/Views/admin/allproduct_details.php on line 60.
+ 1 APPPATH/Views/admin/allproduct_details.php(60): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/newbeseen/app/Views/admin/allproduct_details.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Product.php(20): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Product->product_list()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 05:29:52 --> Undefined array key "product_image"
+in APPPATH/Views/admin/allproduct_details.php on line 60.
+ 1 APPPATH/Views/admin/allproduct_details.php(60): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/newbeseen/app/Views/admin/allproduct_details.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Product.php(20): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Product->product_list()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

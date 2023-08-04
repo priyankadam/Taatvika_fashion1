@@ -1,0 +1,1115 @@
+INFO - 2023-06-05 04:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 04:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 04:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 04:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 04:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 04:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 04:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 04:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 04:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 05:43:56 --> Undefined array key "firstname"
+in APPPATH\Controllers\Checkout.php on line 14.
+ 1 APPPATH\Controllers\Checkout.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "firstname"', 'C:\\xampp\\htdocs\\newtemplate\\newbeseen\\app\\Controllers\\Checkout.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->payment()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 05:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 05:45:43 --> Undefined array key "firstname"
+in APPPATH\Controllers\Checkout.php on line 14.
+ 1 APPPATH\Controllers\Checkout.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "firstname"', 'C:\\xampp\\htdocs\\newtemplate\\newbeseen\\app\\Controllers\\Checkout.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->payment()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 05:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 05:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 06:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 06:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 06:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 06:03:58 --> Undefined variable $db
+in APPPATH\Controllers\Checkout.php on line 49.
+ 1 APPPATH\Controllers\Checkout.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp\\htdocs\\newtemplate\\newbeseen\\app\\Controllers\\Checkout.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->payment()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 06:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 06:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 06:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 06:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 06:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 06:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 06:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 06:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 06:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 06:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 07:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 08:57:45 --> Undefined property: App\Controllers\Home::$input
+in APPPATH\Controllers\Home.php on line 89.
+ 1 APPPATH\Controllers\Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'C:\\xampp\\htdocs\\newtemplate\\newbeseen\\app\\Controllers\\Home.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->remove_item()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 08:58:45 --> Undefined property: App\Controllers\Home::$input
+in APPPATH\Controllers\Home.php on line 89.
+ 1 APPPATH\Controllers\Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'C:\\xampp\\htdocs\\newtemplate\\newbeseen\\app\\Controllers\\Home.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->remove_item()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 09:00:09 --> Undefined property: App\Controllers\Home::$input
+in APPPATH\Controllers\Home.php on line 89.
+ 1 APPPATH\Controllers\Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'C:\\xampp\\htdocs\\newtemplate\\newbeseen\\app\\Controllers\\Home.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->remove_item()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 09:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 09:00:48 --> Undefined property: App\Controllers\Home::$input
+in APPPATH\Controllers\Home.php on line 89.
+ 1 APPPATH\Controllers\Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'C:\\xampp\\htdocs\\newtemplate\\newbeseen\\app\\Controllers\\Home.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->remove_item()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 09:00:49 --> Undefined property: App\Controllers\Home::$input
+in APPPATH\Controllers\Home.php on line 89.
+ 1 APPPATH\Controllers\Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'C:\\xampp\\htdocs\\newtemplate\\newbeseen\\app\\Controllers\\Home.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->remove_item()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 09:00:50 --> Undefined property: App\Controllers\Home::$input
+in APPPATH\Controllers\Home.php on line 89.
+ 1 APPPATH\Controllers\Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'C:\\xampp\\htdocs\\newtemplate\\newbeseen\\app\\Controllers\\Home.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->remove_item()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 09:00:50 --> Undefined property: App\Controllers\Home::$input
+in APPPATH\Controllers\Home.php on line 89.
+ 1 APPPATH\Controllers\Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'C:\\xampp\\htdocs\\newtemplate\\newbeseen\\app\\Controllers\\Home.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->remove_item()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 09:00:50 --> Undefined property: App\Controllers\Home::$input
+in APPPATH\Controllers\Home.php on line 89.
+ 1 APPPATH\Controllers\Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'C:\\xampp\\htdocs\\newtemplate\\newbeseen\\app\\Controllers\\Home.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->remove_item()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 09:07:46 --> Undefined property: App\Controllers\Home::$input
+in APPPATH\Controllers\Home.php on line 91.
+ 1 APPPATH\Controllers\Home.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'C:\\xampp\\htdocs\\newtemplate\\newbeseen\\app\\Controllers\\Home.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->remove_item()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 09:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 09:13:01 --> Undefined array key "name"
+in APPPATH\Views\admin\alluser_details.php on line 59.
+ 1 APPPATH\Views\admin\alluser_details.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\newtemplate\\newbeseen\\app\\Views\\admin\\alluser_details.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\newtemplate\\newbeseen\\app\\Views\\admin\\alluser_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/alluser_details', [], true)
+ 5 APPPATH\Controllers\AdminDashboard.php(18): view('admin/alluser_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminDashboard->users_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 09:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 10:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 10:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 10:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 10:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 10:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 10:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 10:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 10:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 10:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 10:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-05 11:01:39 --> mysqli_sql_exception: Table 'beseen.books' doesn't exist in C:\xampp\htdocs\newtemplate\newbeseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\newtemplate\newbeseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\newtemplate\newbeseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\newtemplate\newbeseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\newtemplate\newbeseen\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\newtemplate\newbeseen\app\Views\admin\layouts\partials\small_box1.php(8): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\newtemplate\newbeseen\system\View\View.php(213): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\newtemplate\newbeseen\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\newtemplate\newbeseen\system\View\View.php(431): CodeIgniter\View\View->render('admin/layouts/p...', NULL, true)
+#8 C:\xampp\htdocs\newtemplate\newbeseen\app\Views\admin\dashboard1.php(15): CodeIgniter\View\View->include('admin/layouts/p...')
+#9 C:\xampp\htdocs\newtemplate\newbeseen\system\View\View.php(213): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\newtemplate\newbeseen\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\newtemplate\newbeseen\system\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard...', Array, true)
+#12 C:\xampp\htdocs\newtemplate\newbeseen\app\Controllers\Admincontroller.php(85): view('admin/dashboard...', Array)
+#13 C:\xampp\htdocs\newtemplate\newbeseen\system\CodeIgniter.php(934): App\Controllers\Admincontroller->dashboard()
+#14 C:\xampp\htdocs\newtemplate\newbeseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+#15 C:\xampp\htdocs\newtemplate\newbeseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\newtemplate\newbeseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2023-06-05 11:01:39 --> Table 'beseen.books' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `books`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `books`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `books`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `books`', [], false)
+ 5 APPPATH\Views\admin\layouts\partials\small_box1.php(8): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\newtemplate\\newbeseen\\app\\Views\\admin\\layouts\\partials\\small_box1.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('admin/layouts/partials/small_box1', null, true)
+ 9 APPPATH\Views\admin\dashboard1.php(15): CodeIgniter\View\View->include('admin/layouts/partials/small_box1')
+10 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\newtemplate\\newbeseen\\app\\Views\\admin\\dashboard1.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard1', [], true)
+13 APPPATH\Controllers\Admincontroller.php(85): view('admin/dashboard1', [...])
+14 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->dashboard()
+15 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+16 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 11:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 11:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 11:54:57 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 394.
+ 1 APPPATH\Views\admin\box.php(3): CodeIgniter\View\View->endSection('links')
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\newtemplate\\newbeseen\\app\\Views\\admin\\box.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/box', [], true)
+ 5 APPPATH\Controllers\Admincontroller.php(90): view('admin/box', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->box()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 13:03:32 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 394.
+ 1 APPPATH\Views\admin\box.php(3): CodeIgniter\View\View->endSection('links')
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\newtemplate\\newbeseen\\app\\Views\\admin\\box.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/box', [], true)
+ 5 APPPATH\Controllers\Admincontroller.php(90): view('admin/box', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->box()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 13:10:40 --> Undefined variable $list
+in APPPATH\Views\admin\box.php on line 48.
+ 1 APPPATH\Views\admin\box.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', 'C:\\xampp\\htdocs\\newtemplate\\newbeseen\\app\\Views\\admin\\box.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\newtemplate\\newbeseen\\app\\Views\\admin\\box.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/box', [], true)
+ 5 APPPATH\Controllers\Admincontroller.php(90): view('admin/box', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->box()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 13:11:35 --> Unmatched '}'
+in APPPATH\Views\admin\box.php on line 113.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/box', [], true)
+ 3 APPPATH\Controllers\Admincontroller.php(90): view('admin/box', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->box()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 13:12:12 --> Unmatched '}'
+in APPPATH\Views\admin\box.php on line 113.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/box', [], true)
+ 3 APPPATH\Controllers\Admincontroller.php(90): view('admin/box', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->box()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-05 13:39:27 --> mysqli_sql_exception: Table 'digilead_beseen.add_to_cart' doesn't exist in /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+#4 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(213): include('/home/digilead/...')
+#5 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(229): CodeIgniter\View\View->render()
+#7 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Common.php(1184): CodeIgniter\View\View->render()
+#8 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Controllers/Register.php(77): view()
+#9 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(934): App\Controllers\Register->logincheck()
+#10 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/digilead/public_html/shital/NewBeseen/newbeseen/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-05 13:39:27 --> Table 'digilead_beseen.add_to_cart' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Register.php(77): view()
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->logincheck()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-05 13:39:59 --> mysqli_sql_exception: Table 'digilead_beseen.add_to_cart' doesn't exist in /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+#4 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(213): include('/home/digilead/...')
+#5 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(229): CodeIgniter\View\View->render()
+#7 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Common.php(1184): CodeIgniter\View\View->render()
+#8 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Controllers/Home.php(11): view()
+#9 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(934): App\Controllers\Home->index()
+#10 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/digilead/public_html/shital/NewBeseen/newbeseen/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-05 13:39:59 --> Table 'digilead_beseen.add_to_cart' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Home.php(11): view()
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-05 13:40:03 --> mysqli_sql_exception: Table 'digilead_beseen.add_to_cart' doesn't exist in /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+#4 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(213): include('/home/digilead/...')
+#5 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(229): CodeIgniter\View\View->render()
+#7 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Common.php(1184): CodeIgniter\View\View->render()
+#8 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Controllers/Home.php(11): view()
+#9 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(934): App\Controllers\Home->index()
+#10 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/digilead/public_html/shital/NewBeseen/newbeseen/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-05 13:40:03 --> Table 'digilead_beseen.add_to_cart' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Home.php(11): view()
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-05 13:40:09 --> mysqli_sql_exception: Table 'digilead_beseen.add_to_cart' doesn't exist in /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+#4 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(213): include('/home/digilead/...')
+#5 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(229): CodeIgniter\View\View->render()
+#7 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Common.php(1184): CodeIgniter\View\View->render()
+#8 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Controllers/Home.php(11): view()
+#9 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(934): App\Controllers\Home->index()
+#10 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/digilead/public_html/shital/NewBeseen/newbeseen/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-05 13:40:09 --> Table 'digilead_beseen.add_to_cart' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Home.php(11): view()
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-05 13:40:49 --> mysqli_sql_exception: Table 'digilead_beseen.add_to_cart' doesn't exist in /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+#4 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(213): include('/home/digilead/...')
+#5 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(229): CodeIgniter\View\View->render()
+#7 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Common.php(1184): CodeIgniter\View\View->render()
+#8 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Controllers/Register.php(77): view()
+#9 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(934): App\Controllers\Register->logincheck()
+#10 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/digilead/public_html/shital/NewBeseen/newbeseen/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-05 13:40:49 --> Table 'digilead_beseen.add_to_cart' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Register.php(77): view()
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->logincheck()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-05 13:41:04 --> mysqli_sql_exception: Table 'digilead_beseen.add_to_cart' doesn't exist in /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+#4 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(213): include('/home/digilead/...')
+#5 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(229): CodeIgniter\View\View->render()
+#7 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Common.php(1184): CodeIgniter\View\View->render()
+#8 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Controllers/Home.php(11): view()
+#9 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(934): App\Controllers\Home->index()
+#10 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/digilead/public_html/shital/NewBeseen/newbeseen/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-05 13:41:04 --> Table 'digilead_beseen.add_to_cart' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Home.php(11): view()
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-05 13:41:07 --> mysqli_sql_exception: Table 'digilead_beseen.add_to_cart' doesn't exist in /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+#4 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(213): include('/home/digilead/...')
+#5 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(229): CodeIgniter\View\View->render()
+#7 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Common.php(1184): CodeIgniter\View\View->render()
+#8 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Controllers/Home.php(11): view()
+#9 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(934): App\Controllers\Home->index()
+#10 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/digilead/public_html/shital/NewBeseen/newbeseen/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-05 13:41:07 --> Table 'digilead_beseen.add_to_cart' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Home.php(11): view()
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-05 13:41:27 --> mysqli_sql_exception: Table 'digilead_beseen.add_to_cart' doesn't exist in /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+#4 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(213): include('/home/digilead/...')
+#5 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(229): CodeIgniter\View\View->render()
+#7 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Common.php(1184): CodeIgniter\View\View->render()
+#8 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Controllers/Home.php(11): view()
+#9 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(934): App\Controllers\Home->index()
+#10 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/digilead/public_html/shital/NewBeseen/newbeseen/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-05 13:41:27 --> Table 'digilead_beseen.add_to_cart' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Home.php(11): view()
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-05 13:41:37 --> mysqli_sql_exception: Table 'digilead_beseen.add_to_cart' doesn't exist in /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+#4 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(213): include('/home/digilead/...')
+#5 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(229): CodeIgniter\View\View->render()
+#7 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Common.php(1184): CodeIgniter\View\View->render()
+#8 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Controllers/Home.php(11): view()
+#9 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(934): App\Controllers\Home->index()
+#10 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/digilead/public_html/shital/NewBeseen/newbeseen/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-05 13:41:37 --> Table 'digilead_beseen.add_to_cart' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Home.php(11): view()
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-05 13:42:33 --> mysqli_sql_exception: Table 'digilead_beseen.add_to_cart' doesn't exist in /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+#4 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(213): include('/home/digilead/...')
+#5 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(229): CodeIgniter\View\View->render()
+#7 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Common.php(1184): CodeIgniter\View\View->render()
+#8 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Controllers/Register.php(77): view()
+#9 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(934): App\Controllers\Register->logincheck()
+#10 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/digilead/public_html/shital/NewBeseen/newbeseen/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-05 13:42:33 --> Table 'digilead_beseen.add_to_cart' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Register.php(77): view()
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->logincheck()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-05 13:42:37 --> mysqli_sql_exception: Table 'digilead_beseen.add_to_cart' doesn't exist in /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+#4 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(213): include('/home/digilead/...')
+#5 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(229): CodeIgniter\View\View->render()
+#7 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Common.php(1184): CodeIgniter\View\View->render()
+#8 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Controllers/Home.php(47): view()
+#9 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(934): App\Controllers\Home->login()
+#10 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/digilead/public_html/shital/NewBeseen/newbeseen/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-05 13:42:37 --> Table 'digilead_beseen.add_to_cart' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Home.php(47): view()
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->login()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-05 13:42:40 --> mysqli_sql_exception: Table 'digilead_beseen.add_to_cart' doesn't exist in /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+#4 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(213): include('/home/digilead/...')
+#5 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(229): CodeIgniter\View\View->render()
+#7 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Common.php(1184): CodeIgniter\View\View->render()
+#8 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Controllers/Home.php(51): view()
+#9 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(934): App\Controllers\Home->Register()
+#10 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/digilead/public_html/shital/NewBeseen/newbeseen/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-05 13:42:40 --> Table 'digilead_beseen.add_to_cart' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Home.php(51): view()
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->Register()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-05 13:42:41 --> mysqli_sql_exception: Table 'digilead_beseen.add_to_cart' doesn't exist in /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+#4 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(213): include('/home/digilead/...')
+#5 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(229): CodeIgniter\View\View->render()
+#7 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Common.php(1184): CodeIgniter\View\View->render()
+#8 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Controllers/Home.php(47): view()
+#9 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(934): App\Controllers\Home->login()
+#10 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/digilead/public_html/shital/NewBeseen/newbeseen/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-05 13:42:41 --> Table 'digilead_beseen.add_to_cart' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Home.php(47): view()
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->login()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-05 13:42:42 --> mysqli_sql_exception: Table 'digilead_beseen.add_to_cart' doesn't exist in /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+#4 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(213): include('/home/digilead/...')
+#5 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(229): CodeIgniter\View\View->render()
+#7 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Common.php(1184): CodeIgniter\View\View->render()
+#8 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Controllers/Home.php(11): view()
+#9 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(934): App\Controllers\Home->index()
+#10 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/digilead/public_html/shital/NewBeseen/newbeseen/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-05 13:42:42 --> Table 'digilead_beseen.add_to_cart' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Home.php(11): view()
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-05 13:42:44 --> mysqli_sql_exception: Table 'digilead_beseen.add_to_cart' doesn't exist in /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+#4 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(213): include('/home/digilead/...')
+#5 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(229): CodeIgniter\View\View->render()
+#7 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Common.php(1184): CodeIgniter\View\View->render()
+#8 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Controllers/Home.php(11): view()
+#9 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(934): App\Controllers\Home->index()
+#10 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/digilead/public_html/shital/NewBeseen/newbeseen/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-05 13:42:44 --> Table 'digilead_beseen.add_to_cart' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Home.php(11): view()
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-05 13:42:46 --> mysqli_sql_exception: Table 'digilead_beseen.add_to_cart' doesn't exist in /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+#4 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(213): include('/home/digilead/...')
+#5 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(229): CodeIgniter\View\View->render()
+#7 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Common.php(1184): CodeIgniter\View\View->render()
+#8 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Controllers/Home.php(47): view()
+#9 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(934): App\Controllers\Home->login()
+#10 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/digilead/public_html/shital/NewBeseen/newbeseen/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-05 13:42:46 --> Table 'digilead_beseen.add_to_cart' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Home.php(47): view()
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->login()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-05 13:42:49 --> mysqli_sql_exception: Table 'digilead_beseen.add_to_cart' doesn't exist in /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+#4 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(213): include('/home/digilead/...')
+#5 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(229): CodeIgniter\View\View->render()
+#7 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Common.php(1184): CodeIgniter\View\View->render()
+#8 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Controllers/Home.php(47): view()
+#9 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(934): App\Controllers\Home->login()
+#10 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/digilead/public_html/shital/NewBeseen/newbeseen/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-05 13:42:49 --> Table 'digilead_beseen.add_to_cart' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Home.php(47): view()
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->login()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-05 13:42:55 --> mysqli_sql_exception: Table 'digilead_beseen.add_to_cart' doesn't exist in /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+#4 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(213): include('/home/digilead/...')
+#5 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(229): CodeIgniter\View\View->render()
+#7 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Common.php(1184): CodeIgniter\View\View->render()
+#8 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Controllers/Home.php(11): view()
+#9 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(934): App\Controllers\Home->index()
+#10 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/digilead/public_html/shital/NewBeseen/newbeseen/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-05 13:42:55 --> Table 'digilead_beseen.add_to_cart' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Home.php(11): view()
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-05 13:42:58 --> mysqli_sql_exception: Table 'digilead_beseen.add_to_cart' doesn't exist in /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+#4 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(213): include('/home/digilead/...')
+#5 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(229): CodeIgniter\View\View->render()
+#7 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Common.php(1184): CodeIgniter\View\View->render()
+#8 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Controllers/Home.php(11): view()
+#9 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(934): App\Controllers\Home->index()
+#10 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/digilead/public_html/shital/NewBeseen/newbeseen/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-05 13:42:58 --> Table 'digilead_beseen.add_to_cart' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Home.php(11): view()
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-05 13:42:59 --> mysqli_sql_exception: Table 'digilead_beseen.add_to_cart' doesn't exist in /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+#4 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(213): include('/home/digilead/...')
+#5 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(229): CodeIgniter\View\View->render()
+#7 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Common.php(1184): CodeIgniter\View\View->render()
+#8 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Controllers/Home.php(11): view()
+#9 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(934): App\Controllers\Home->index()
+#10 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/digilead/public_html/shital/NewBeseen/newbeseen/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-05 13:42:59 --> Table 'digilead_beseen.add_to_cart' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Home.php(11): view()
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-05 13:43:01 --> mysqli_sql_exception: Table 'digilead_beseen.add_to_cart' doesn't exist in /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+#4 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(213): include('/home/digilead/...')
+#5 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(229): CodeIgniter\View\View->render()
+#7 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Common.php(1184): CodeIgniter\View\View->render()
+#8 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Controllers/Home.php(11): view()
+#9 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(934): App\Controllers\Home->index()
+#10 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/digilead/public_html/shital/NewBeseen/newbeseen/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-05 13:43:01 --> Table 'digilead_beseen.add_to_cart' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Home.php(11): view()
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 13:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-05 13:44:06 --> mysqli_sql_exception: Table 'digilead_beseen.add_to_cart' doesn't exist in /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+#4 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(213): include('/home/digilead/...')
+#5 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(229): CodeIgniter\View\View->render()
+#7 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Common.php(1184): CodeIgniter\View\View->render()
+#8 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Controllers/Home.php(11): view()
+#9 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(934): App\Controllers\Home->index()
+#10 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/digilead/public_html/shital/NewBeseen/newbeseen/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-05 13:44:06 --> Table 'digilead_beseen.add_to_cart' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Home.php(11): view()
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 13:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-05 13:44:08 --> mysqli_sql_exception: Table 'digilead_beseen.add_to_cart' doesn't exist in /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+#4 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(213): include('/home/digilead/...')
+#5 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/View/View.php(229): CodeIgniter\View\View->render()
+#7 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/Common.php(1184): CodeIgniter\View\View->render()
+#8 /home/digilead/public_html/shital/NewBeseen/newbeseen/app/Controllers/Home.php(11): view()
+#9 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(934): App\Controllers\Home->index()
+#10 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /home/digilead/public_html/shital/NewBeseen/newbeseen/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/digilead/public_html/shital/NewBeseen/newbeseen/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-05 13:44:08 --> Table 'digilead_beseen.add_to_cart' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Views/layout/base.php(195): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/NewBeseen/newbeseen/app/Views/layout/base.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Home.php(11): view()
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 13:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:58:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 16:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

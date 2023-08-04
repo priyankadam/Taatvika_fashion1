@@ -1,0 +1,1135 @@
+CRITICAL - 2023-05-31 04:52:44 --> Class 'App\Controllers\ProductModel' not found
+in APPPATH\Controllers\Product.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 04:59:13 --> Class 'App\Controllers\ProductModel' not found
+in APPPATH\Controllers\Product.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 05:00:29 --> Class 'App\Controllers\ProductModel' not found
+in APPPATH\Controllers\Product.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 05:02:08 --> Class 'App\Controllers\ProductModel' not found
+in APPPATH\Controllers\Product.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 05:08:35 --> Class 'App\Controllers\ProductModel' not found
+in APPPATH\Controllers\Product.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 05:16:06 --> Class 'App\Controllers\ProductModel' not found
+in APPPATH\Controllers\Product.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 05:17:49 --> Class 'App\Controllers\ProductModel' not found
+in APPPATH\Controllers\Product.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 05:18:37 --> Class 'App\Controllers\ProductModel' not found
+in APPPATH\Controllers\Product.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 05:18:51 --> Class 'App\Controllers\ProductModel' not found
+in APPPATH\Controllers\Product.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 05:21:36 --> syntax error, unexpected 'use' (T_USE)
+in APPPATH\Controllers\Product.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp\\www\\BeSeen\\app\\Controllers\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Product')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Product')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Product', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 05:21:39 --> syntax error, unexpected 'use' (T_USE)
+in APPPATH\Controllers\Product.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp\\www\\BeSeen\\app\\Controllers\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Product')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Product')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Product', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 05:21:52 --> syntax error, unexpected 'use' (T_USE)
+in APPPATH\Controllers\Product.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp\\www\\BeSeen\\app\\Controllers\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Product')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Product')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Product', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 05:22:26 --> Class 'App\Controllers\ProductModel' not found
+in APPPATH\Controllers\Product.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 05:26:20 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\wamp\www\BeSeen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\BeSeen\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\wamp\www\BeSeen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\wamp\www\BeSeen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\wamp\www\BeSeen\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\wamp\www\BeSeen\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp\www\BeSeen\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp\www\BeSeen\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp\www\BeSeen\app\Controllers\Product.php(23): CodeIgniter\Model->insert(Array)
+#8 C:\wamp\www\BeSeen\system\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+#9 C:\wamp\www\BeSeen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#10 C:\wamp\www\BeSeen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp\www\BeSeen\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-31 05:26:20 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `product` (`product_name`, `product_type`, `product_img`) VALUES (\'dgfg\', \'Mens\', \'img\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `product` (`product_name`, `product_type`, `product_img`) VALUES (\'dgfg\', \'Mens\', \'img\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `product` (`product_name`, `product_type`, `product_img`) VALUES (\'dgfg\', \'Mens\', \'img\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product` (`product_name`, `product_type`, `product_img`) VALUES (:product_name:, :product_type:, :product_img:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Product.php(23): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 05:27:11 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\wamp\www\BeSeen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\BeSeen\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\wamp\www\BeSeen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\wamp\www\BeSeen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\wamp\www\BeSeen\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\wamp\www\BeSeen\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp\www\BeSeen\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp\www\BeSeen\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp\www\BeSeen\app\Controllers\Product.php(23): CodeIgniter\Model->insert(Array)
+#8 C:\wamp\www\BeSeen\system\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+#9 C:\wamp\www\BeSeen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#10 C:\wamp\www\BeSeen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp\www\BeSeen\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-31 05:27:11 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `product` (`product_name`, `product_type`, `product_img`) VALUES (\'tytrr\', \'Mens\', \'img\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `product` (`product_name`, `product_type`, `product_img`) VALUES (\'tytrr\', \'Mens\', \'img\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `product` (`product_name`, `product_type`, `product_img`) VALUES (\'tytrr\', \'Mens\', \'img\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product` (`product_name`, `product_type`, `product_img`) VALUES (:product_name:, :product_type:, :product_img:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Product.php(23): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 05:28:21 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\wamp\www\BeSeen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\BeSeen\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\wamp\www\BeSeen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\wamp\www\BeSeen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\wamp\www\BeSeen\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\wamp\www\BeSeen\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp\www\BeSeen\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp\www\BeSeen\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp\www\BeSeen\app\Controllers\Product.php(23): CodeIgniter\Model->insert(Array)
+#8 C:\wamp\www\BeSeen\system\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+#9 C:\wamp\www\BeSeen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#10 C:\wamp\www\BeSeen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp\www\BeSeen\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-31 05:28:21 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `product` (`product_name`, `product_type`, `product_img`) VALUES (\'tytrr\', \'Mens\', \'img\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `product` (`product_name`, `product_type`, `product_img`) VALUES (\'tytrr\', \'Mens\', \'img\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `product` (`product_name`, `product_type`, `product_img`) VALUES (\'tytrr\', \'Mens\', \'img\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product` (`product_name`, `product_type`, `product_img`) VALUES (:product_name:, :product_type:, :product_img:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Product.php(23): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 05:28:35 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\wamp\www\BeSeen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\BeSeen\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\wamp\www\BeSeen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\wamp\www\BeSeen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\wamp\www\BeSeen\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\wamp\www\BeSeen\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp\www\BeSeen\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp\www\BeSeen\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp\www\BeSeen\app\Controllers\Product.php(23): CodeIgniter\Model->insert(Array)
+#8 C:\wamp\www\BeSeen\system\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+#9 C:\wamp\www\BeSeen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#10 C:\wamp\www\BeSeen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp\www\BeSeen\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-31 05:28:35 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `product` (`product_name`, `product_type`, `product_img`) VALUES (\'dfgfg\', \'Womens\', \'img\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `product` (`product_name`, `product_type`, `product_img`) VALUES (\'dfgfg\', \'Womens\', \'img\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `product` (`product_name`, `product_type`, `product_img`) VALUES (\'dfgfg\', \'Womens\', \'img\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product` (`product_name`, `product_type`, `product_img`) VALUES (:product_name:, :product_type:, :product_img:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Product.php(23): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 05:31:13 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\wamp\www\BeSeen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\BeSeen\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\wamp\www\BeSeen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\wamp\www\BeSeen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\wamp\www\BeSeen\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\wamp\www\BeSeen\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp\www\BeSeen\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp\www\BeSeen\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp\www\BeSeen\app\Controllers\Product.php(23): CodeIgniter\Model->insert(Array)
+#8 C:\wamp\www\BeSeen\system\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+#9 C:\wamp\www\BeSeen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#10 C:\wamp\www\BeSeen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp\www\BeSeen\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-31 05:31:13 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `product` (`product_name`, `product_type`, `product_img`) VALUES (\'tshirt\', \'Womens\', \'img\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `product` (`product_name`, `product_type`, `product_img`) VALUES (\'tshirt\', \'Womens\', \'img\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `product` (`product_name`, `product_type`, `product_img`) VALUES (\'tshirt\', \'Womens\', \'img\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product` (`product_name`, `product_type`, `product_img`) VALUES (:product_name:, :product_type:, :product_img:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Product.php(23): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 05:43:09 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\wamp\www\BeSeen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\BeSeen\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\wamp\www\BeSeen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\wamp\www\BeSeen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\wamp\www\BeSeen\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\wamp\www\BeSeen\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp\www\BeSeen\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp\www\BeSeen\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp\www\BeSeen\app\Controllers\Product.php(26): CodeIgniter\Model->insert(Array)
+#8 C:\wamp\www\BeSeen\system\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+#9 C:\wamp\www\BeSeen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#10 C:\wamp\www\BeSeen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp\www\BeSeen\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-31 05:43:09 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `product` (`product_name`, `product_type`, `product_img`) VALUES (\'tshirt\', \'Womens\', \'img\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `product` (`product_name`, `product_type`, `product_img`) VALUES (\'tshirt\', \'Womens\', \'img\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `product` (`product_name`, `product_type`, `product_img`) VALUES (\'tshirt\', \'Womens\', \'img\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product` (`product_name`, `product_type`, `product_img`) VALUES (:product_name:, :product_type:, :product_img:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Product.php(26): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 07:39:28 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Product.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 07:40:52 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Product.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 08:27:26 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Product.php(28): CodeIgniter\HTTP\Files\UploadedFile->move('public/product/', '1685521645_79340c13f1db6d4e6a82')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 08:38:50 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Product.php(28): CodeIgniter\HTTP\Files\UploadedFile->move('public/product/', '1685522330_013f975a8c6274903bd7')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 08:47:52 --> syntax error, unexpected end of file
+in APPPATH\Views\admin\edit_products.php on line 150.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/edit_products', [], true)
+ 3 APPPATH\Controllers\Product.php(59): view('admin/edit_products', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->product_edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 08:48:57 --> Argument 2 passed to view() must be of the type array, null given, called in C:\wamp\www\BeSeen\app\Controllers\Product.php on line 59
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\Product.php(59): view('admin/edit_products', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->product_edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 08:48:59 --> Argument 2 passed to view() must be of the type array, null given, called in C:\wamp\www\BeSeen\app\Controllers\Product.php on line 59
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\Product.php(59): view('admin/edit_products', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->product_edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 08:49:15 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Product.php(28): CodeIgniter\HTTP\Files\UploadedFile->move('public/product/', '1685522955_8f2dbea8e80e9b700e84')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 08:49:16 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Product.php(28): CodeIgniter\HTTP\Files\UploadedFile->move('public/product/', '1685522956_fe0a9cc21771a6012576')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 09:06:16 --> Call to undefined method App\Controllers\Product::getVar()
+in APPPATH\Controllers\Product.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->UpdateEditProducts()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 09:09:42 --> Call to a member function update() on null
+in APPPATH\Controllers\Product.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->UpdateEditProducts()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 09:17:39 --> Call to a member function getClientName() on null
+in APPPATH\Controllers\Product.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->UpdateEditProducts()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 09:17:40 --> Call to a member function getClientName() on null
+in APPPATH\Controllers\Product.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->UpdateEditProducts()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 09:58:16 --> Too few arguments to function App\Controllers\Product::delete_product(), 0 passed in C:\wamp\www\BeSeen\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Product.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->delete_product()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 09:58:49 --> Too few arguments to function App\Controllers\Product::delete_product(), 0 passed in C:\wamp\www\BeSeen\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Product.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->delete_product()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 10:04:12 --> Too few arguments to function App\Controllers\Product::delete_product(), 0 passed in C:\wamp\www\BeSeen\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Product.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->delete_product()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 10:12:12 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Product.php(28): CodeIgniter\HTTP\Files\UploadedFile->move('public/product/', '1685527931_3b3dae52afc95ac17c7c')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 10:12:32 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Product.php(28): CodeIgniter\HTTP\Files\UploadedFile->move('public/product/', '1685527952_83fcddd2c3250b4e534a')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 10:13:24 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Product.php(28): CodeIgniter\HTTP\Files\UploadedFile->move('public/product/', '1685528004_0fe43b20c060417a7bd1')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addproduct()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 10:29:37 --> Too few arguments to function App\Controllers\Product::view_product_details(), 0 passed in C:\wamp\www\BeSeen\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Product.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->view_product_details()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 10:30:55 --> Invalid argument supplied for foreach()
+in APPPATH\Views\admin\view_product_details.php on line 52.
+ 1 APPPATH\Views\admin\view_product_details.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\wamp\\www\\BeSeen\\app\\Views\\admin\\view_product_details.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\BeSeen\\app\\Views\\admin\\view_product_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/view_product_details', [], true)
+ 5 APPPATH\Controllers\Product.php(69): view('admin/view_product_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->view_product_details()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 10:34:41 --> Invalid argument supplied for foreach()
+in APPPATH\Views\admin\view_product_details.php on line 52.
+ 1 APPPATH\Views\admin\view_product_details.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\wamp\\www\\BeSeen\\app\\Views\\admin\\view_product_details.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\BeSeen\\app\\Views\\admin\\view_product_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/view_product_details', [], true)
+ 5 APPPATH\Controllers\Product.php(69): view('admin/view_product_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->view_product_details('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 10:37:07 --> Invalid argument supplied for foreach()
+in APPPATH\Views\admin\view_product_details.php on line 52.
+ 1 APPPATH\Views\admin\view_product_details.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\wamp\\www\\BeSeen\\app\\Views\\admin\\view_product_details.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\wamp\\www\\BeSeen\\app\\Views\\admin\\view_product_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/view_product_details', [], true)
+ 5 APPPATH\Controllers\Product.php(69): view('admin/view_product_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->view_product_details('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 12:24:36 --> Call to undefined method App\Models\UserModel::emailExist
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Register.php(24): CodeIgniter\Model->__call('emailExist', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Register->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 12:25:52 --> mysqli_sql_exception: Table 'beseen.registered_user' doesn't exist in C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\wamp\www\newbeseen\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\wamp\www\newbeseen\app\Models\UserModel.php(20): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\wamp\www\newbeseen\app\Controllers\Register.php(25): App\Models\UserModel->emailExist('testUser@gmail....')
+#6 C:\wamp\www\newbeseen\system\CodeIgniter.php(934): App\Controllers\Register->register()
+#7 C:\wamp\www\newbeseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\wamp\www\newbeseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\newbeseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-31 12:25:52 --> Table 'beseen.registered_user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `registered_user`
+WHERE `user_email` = \'testUser@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `registered_user`
+WHERE `user_email` = \'testUser@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `registered_user`
+WHERE `user_email` = \'testUser@gmail.com\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `registered_user`
+WHERE `user_email` = :user_email:', [...], false)
+ 5 APPPATH\Models\UserModel.php(20): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH\Controllers\Register.php(25): App\Models\UserModel->emailExist('testUser@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Register->register()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 12:27:23 --> Class 'App\Controllers\signupModel' not found
+in APPPATH\Controllers\Register.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 12:29:38 --> mysqli_sql_exception: Table 'beseen.registered_user' doesn't exist in C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `user_id...', 0)
+#1 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_id...')
+#2 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_id...')
+#3 C:\wamp\www\newbeseen\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `user_id...', Array, false)
+#4 C:\wamp\www\newbeseen\app\Models\UserModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp\www\newbeseen\app\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail....')
+#6 C:\wamp\www\newbeseen\system\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+#7 C:\wamp\www\newbeseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\wamp\www\newbeseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\newbeseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-31 12:29:38 --> Table 'beseen.registered_user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = :email:', [...], false)
+ 5 APPPATH\Models\UserModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 12:30:45 --> mysqli_sql_exception: Table 'beseen.registered_user' doesn't exist in C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `user_id...', 0)
+#1 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_id...')
+#2 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_id...')
+#3 C:\wamp\www\newbeseen\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `user_id...', Array, false)
+#4 C:\wamp\www\newbeseen\app\Models\UserModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp\www\newbeseen\app\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail....')
+#6 C:\wamp\www\newbeseen\system\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+#7 C:\wamp\www\newbeseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\wamp\www\newbeseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\newbeseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-31 12:30:45 --> Table 'beseen.registered_user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = :email:', [...], false)
+ 5 APPPATH\Models\UserModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 12:31:28 --> mysqli_sql_exception: Table 'beseen.registered_user' doesn't exist in C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `user_id...', 0)
+#1 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_id...')
+#2 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_id...')
+#3 C:\wamp\www\newbeseen\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `user_id...', Array, false)
+#4 C:\wamp\www\newbeseen\app\Models\UserModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp\www\newbeseen\app\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail....')
+#6 C:\wamp\www\newbeseen\system\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+#7 C:\wamp\www\newbeseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\wamp\www\newbeseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\newbeseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-31 12:31:28 --> Table 'beseen.registered_user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = :email:', [...], false)
+ 5 APPPATH\Models\UserModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 12:32:53 --> mysqli_sql_exception: Table 'beseen.registered_user' doesn't exist in C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `user_id...', 0)
+#1 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_id...')
+#2 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_id...')
+#3 C:\wamp\www\newbeseen\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `user_id...', Array, false)
+#4 C:\wamp\www\newbeseen\app\Models\UserModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp\www\newbeseen\app\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail....')
+#6 C:\wamp\www\newbeseen\system\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+#7 C:\wamp\www\newbeseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\wamp\www\newbeseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\newbeseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-31 12:32:53 --> Table 'beseen.registered_user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = :email:', [...], false)
+ 5 APPPATH\Models\UserModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 12:33:01 --> mysqli_sql_exception: Table 'beseen.registered_user' doesn't exist in C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `user_id...', 0)
+#1 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_id...')
+#2 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_id...')
+#3 C:\wamp\www\newbeseen\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `user_id...', Array, false)
+#4 C:\wamp\www\newbeseen\app\Models\UserModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp\www\newbeseen\app\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail....')
+#6 C:\wamp\www\newbeseen\system\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+#7 C:\wamp\www\newbeseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\wamp\www\newbeseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\newbeseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-31 12:33:01 --> Table 'beseen.registered_user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = :email:', [...], false)
+ 5 APPPATH\Models\UserModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 12:33:28 --> mysqli_sql_exception: Table 'beseen.registered_user' doesn't exist in C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `user_id...', 0)
+#1 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_id...')
+#2 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_id...')
+#3 C:\wamp\www\newbeseen\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `user_id...', Array, false)
+#4 C:\wamp\www\newbeseen\app\Models\UserModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp\www\newbeseen\app\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail....')
+#6 C:\wamp\www\newbeseen\system\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+#7 C:\wamp\www\newbeseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\wamp\www\newbeseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\newbeseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-31 12:33:28 --> Table 'beseen.registered_user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = :email:', [...], false)
+ 5 APPPATH\Models\UserModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 12:33:36 --> mysqli_sql_exception: Table 'beseen.registered_user' doesn't exist in C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `user_id...', 0)
+#1 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_id...')
+#2 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_id...')
+#3 C:\wamp\www\newbeseen\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `user_id...', Array, false)
+#4 C:\wamp\www\newbeseen\app\Models\UserModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp\www\newbeseen\app\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail....')
+#6 C:\wamp\www\newbeseen\system\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+#7 C:\wamp\www\newbeseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\wamp\www\newbeseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\newbeseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-31 12:33:36 --> Table 'beseen.registered_user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = :email:', [...], false)
+ 5 APPPATH\Models\UserModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 12:34:00 --> mysqli_sql_exception: Table 'beseen.registered_user' doesn't exist in C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `user_id...', 0)
+#1 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_id...')
+#2 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_id...')
+#3 C:\wamp\www\newbeseen\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `user_id...', Array, false)
+#4 C:\wamp\www\newbeseen\app\Models\UserModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp\www\newbeseen\app\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail....')
+#6 C:\wamp\www\newbeseen\system\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+#7 C:\wamp\www\newbeseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\wamp\www\newbeseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\newbeseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-31 12:34:00 --> Table 'beseen.registered_user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = :email:', [...], false)
+ 5 APPPATH\Models\UserModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 12:34:21 --> mysqli_sql_exception: Table 'beseen.registered_user' doesn't exist in C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `user_id...', 0)
+#1 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_id...')
+#2 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_id...')
+#3 C:\wamp\www\newbeseen\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `user_id...', Array, false)
+#4 C:\wamp\www\newbeseen\app\Models\UserModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp\www\newbeseen\app\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail....')
+#6 C:\wamp\www\newbeseen\system\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+#7 C:\wamp\www\newbeseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\wamp\www\newbeseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\newbeseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-31 12:34:21 --> Table 'beseen.registered_user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `user_id`, `email`, `pass`
+FROM `registered_user`
+WHERE `email` = :email:', [...], false)
+ 5 APPPATH\Models\UserModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 12:36:08 --> mysqli_sql_exception: Table 'beseen.registered_user' doesn't exist in C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\wamp\www\newbeseen\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\wamp\www\newbeseen\app\Models\UserModel.php(33): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\wamp\www\newbeseen\app\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail....')
+#6 C:\wamp\www\newbeseen\system\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+#7 C:\wamp\www\newbeseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\wamp\www\newbeseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\newbeseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-31 12:36:08 --> Table 'beseen.registered_user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `registered_user`
+WHERE `email` = :email:', [...], false)
+ 5 APPPATH\Models\UserModel.php(33): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 12:36:16 --> mysqli_sql_exception: Table 'beseen.registered_user' doesn't exist in C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\wamp\www\newbeseen\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\wamp\www\newbeseen\app\Models\UserModel.php(33): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\wamp\www\newbeseen\app\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail....')
+#6 C:\wamp\www\newbeseen\system\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+#7 C:\wamp\www\newbeseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\wamp\www\newbeseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\newbeseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-31 12:36:16 --> Table 'beseen.registered_user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `registered_user`
+WHERE `email` = :email:', [...], false)
+ 5 APPPATH\Models\UserModel.php(33): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 12:36:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::count()
+in APPPATH\Models\UserModel.php on line 33.
+ 1 APPPATH\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail.com')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 12:43:15 --> mysqli_sql_exception: Table 'beseen.registered_user' doesn't exist in C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp\www\newbeseen\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp\www\newbeseen\app\Models\UserModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp\www\newbeseen\app\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail....')
+#6 C:\wamp\www\newbeseen\system\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+#7 C:\wamp\www\newbeseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\wamp\www\newbeseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\newbeseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-31 12:43:15 --> Table 'beseen.registered_user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `registered_user`
+WHERE `email` = :email:', [...], false)
+ 5 APPPATH\Models\UserModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 12:43:40 --> mysqli_sql_exception: Table 'beseen.registered_user' doesn't exist in C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp\www\newbeseen\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp\www\newbeseen\app\Models\UserModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp\www\newbeseen\app\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail....')
+#6 C:\wamp\www\newbeseen\system\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+#7 C:\wamp\www\newbeseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\wamp\www\newbeseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\newbeseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-31 12:43:40 --> Table 'beseen.registered_user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `registered_user`
+WHERE `email` = \'testUser@gmail.com\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `registered_user`
+WHERE `email` = :email:', [...], false)
+ 5 APPPATH\Models\UserModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 12:47:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com'' at line 1 in C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\wamp\www\newbeseen\app\Models\UserModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\wamp\www\newbeseen\app\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail....')
+#5 C:\wamp\www\newbeseen\system\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+#6 C:\wamp\www\newbeseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\wamp\www\newbeseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\newbeseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 12:47:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'')
+ 4 APPPATH\Models\UserModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'')
+ 5 APPPATH\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 12:47:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com'' at line 1 in C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\wamp\www\newbeseen\app\Models\UserModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\wamp\www\newbeseen\app\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail....')
+#5 C:\wamp\www\newbeseen\system\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+#6 C:\wamp\www\newbeseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\wamp\www\newbeseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\newbeseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 12:47:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'')
+ 4 APPPATH\Models\UserModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'')
+ 5 APPPATH\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 12:48:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com'' at line 1 in C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\wamp\www\newbeseen\app\Models\UserModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\wamp\www\newbeseen\app\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail....')
+#5 C:\wamp\www\newbeseen\system\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+#6 C:\wamp\www\newbeseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\wamp\www\newbeseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\newbeseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 12:48:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'')
+ 4 APPPATH\Models\UserModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'')
+ 5 APPPATH\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 12:48:39 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com'' at line 1 in C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\wamp\www\newbeseen\app\Models\UserModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\wamp\www\newbeseen\app\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail....')
+#5 C:\wamp\www\newbeseen\system\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+#6 C:\wamp\www\newbeseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\wamp\www\newbeseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\newbeseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 12:48:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'')
+ 4 APPPATH\Models\UserModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'')
+ 5 APPPATH\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 12:49:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com'' at line 1 in C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\wamp\www\newbeseen\app\Models\UserModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\wamp\www\newbeseen\app\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail....')
+#5 C:\wamp\www\newbeseen\system\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+#6 C:\wamp\www\newbeseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\wamp\www\newbeseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\newbeseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 12:49:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'')
+ 4 APPPATH\Models\UserModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'')
+ 5 APPPATH\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 12:50:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com'' at line 1 in C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\wamp\www\newbeseen\app\Models\UserModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\wamp\www\newbeseen\app\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail....')
+#5 C:\wamp\www\newbeseen\system\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+#6 C:\wamp\www\newbeseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\wamp\www\newbeseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\newbeseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 12:50:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'')
+ 4 APPPATH\Models\UserModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'')
+ 5 APPPATH\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 12:52:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com'' at line 1 in C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\wamp\www\newbeseen\app\Models\UserModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\wamp\www\newbeseen\app\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail....')
+#5 C:\wamp\www\newbeseen\system\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+#6 C:\wamp\www\newbeseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\wamp\www\newbeseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\newbeseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 12:52:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'')
+ 4 APPPATH\Models\UserModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'')
+ 5 APPPATH\Controllers\Register.php(56): App\Models\UserModel->verifyEmail('testUser@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 12:54:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com'' at line 1 in C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp\www\newbeseen\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\wamp\www\newbeseen\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\wamp\www\newbeseen\app\Models\UserModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\wamp\www\newbeseen\app\Controllers\Register.php(57): App\Models\UserModel->verifyEmail('testUser@gmail....')
+#5 C:\wamp\www\newbeseen\system\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+#6 C:\wamp\www\newbeseen\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\wamp\www\newbeseen\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\newbeseen\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 12:54:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'')
+ 4 APPPATH\Models\UserModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM registered_user where \'email\' = testUser@gmail.com\'')
+ 5 APPPATH\Controllers\Register.php(57): App\Models\UserModel->verifyEmail('testUser@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Register->logincheck()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 13:33:48 --> Undefined array key "name"
+in APPPATH\Views\admin\alluser_details.php on line 59.
+ 1 APPPATH\Views\admin\alluser_details.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\newtemplate\\priyanka\\newbeseen\\app\\Views\\admin\\alluser_details.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\newtemplate\\priyanka\\newbeseen\\app\\Views\\admin\\alluser_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/alluser_details', [], true)
+ 5 APPPATH\Controllers\AdminDashboard.php(18): view('admin/alluser_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminDashboard->users_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 13:33:56 --> Undefined array key "name"
+in APPPATH\Views\admin\alluser_details.php on line 59.
+ 1 APPPATH\Views\admin\alluser_details.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\newtemplate\\priyanka\\newbeseen\\app\\Views\\admin\\alluser_details.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\newtemplate\\priyanka\\newbeseen\\app\\Views\\admin\\alluser_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/alluser_details', [], true)
+ 5 APPPATH\Controllers\AdminDashboard.php(18): view('admin/alluser_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminDashboard->users_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 13:34:12 --> Undefined array key "product_image"
+in APPPATH\Views\admin\allproduct_details.php on line 60.
+ 1 APPPATH\Views\admin\allproduct_details.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_image"', 'C:\\xampp\\htdocs\\newtemplate\\priyanka\\newbeseen\\app\\Views\\admin\\allproduct_details.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\newtemplate\\priyanka\\newbeseen\\app\\Views\\admin\\allproduct_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/allproduct_details', [], true)
+ 5 APPPATH\Controllers\Product.php(20): view('admin/allproduct_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->product_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

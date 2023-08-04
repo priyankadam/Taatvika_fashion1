@@ -1,0 +1,529 @@
+CRITICAL - 2023-05-27 11:19:36 --> Invalid file: "layouts/main.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/main.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/main', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 4 APPPATH\Controllers\admin.php(13): view('admin/dashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 11:20:01 --> Invalid file: "layouts/main.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/main.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/main', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 4 APPPATH\Controllers\admin.php(13): view('admin/dashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 11:22:54 --> array_merge(): Expected parameter 1 to be an array, null given
+in APPPATH\Controllers\admin.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): Expected parameter 1 to be an array, null given', 'C:\\wamp\\www\\BeSeen\\app\\Controllers\\admin.php', 14, [])
+ 2 APPPATH\Controllers\admin.php(14): array_merge(null, [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 11:22:56 --> array_merge(): Expected parameter 1 to be an array, null given
+in APPPATH\Controllers\admin.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): Expected parameter 1 to be an array, null given', 'C:\\wamp\\www\\BeSeen\\app\\Controllers\\admin.php', 14, [])
+ 2 APPPATH\Controllers\admin.php(14): array_merge(null, [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 11:22:56 --> array_merge(): Expected parameter 1 to be an array, null given
+in APPPATH\Controllers\admin.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): Expected parameter 1 to be an array, null given', 'C:\\wamp\\www\\BeSeen\\app\\Controllers\\admin.php', 14, [])
+ 2 APPPATH\Controllers\admin.php(14): array_merge(null, [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 11:22:56 --> array_merge(): Expected parameter 1 to be an array, null given
+in APPPATH\Controllers\admin.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): Expected parameter 1 to be an array, null given', 'C:\\wamp\\www\\BeSeen\\app\\Controllers\\admin.php', 14, [])
+ 2 APPPATH\Controllers\admin.php(14): array_merge(null, [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 11:22:57 --> array_merge(): Expected parameter 1 to be an array, null given
+in APPPATH\Controllers\admin.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): Expected parameter 1 to be an array, null given', 'C:\\wamp\\www\\BeSeen\\app\\Controllers\\admin.php', 14, [])
+ 2 APPPATH\Controllers\admin.php(14): array_merge(null, [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 11:22:57 --> array_merge(): Expected parameter 1 to be an array, null given
+in APPPATH\Controllers\admin.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): Expected parameter 1 to be an array, null given', 'C:\\wamp\\www\\BeSeen\\app\\Controllers\\admin.php', 14, [])
+ 2 APPPATH\Controllers\admin.php(14): array_merge(null, [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 11:49:23 --> array_merge(): Expected parameter 1 to be an array, null given
+in APPPATH\Controllers\admin.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): Expected parameter 1 to be an array, null given', 'C:\\wamp\\www\\BeSeen\\app\\Controllers\\admin.php', 14, [])
+ 2 APPPATH\Controllers\admin.php(14): array_merge(null, [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 11:51:28 --> array_merge(): Expected parameter 1 to be an array, null given
+in APPPATH\Controllers\admin.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): Expected parameter 1 to be an array, null given', 'C:\\wamp\\www\\BeSeen\\app\\Controllers\\admin.php', 14, [])
+ 2 APPPATH\Controllers\admin.php(14): array_merge(null, [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 11:51:30 --> array_merge(): Expected parameter 1 to be an array, null given
+in APPPATH\Controllers\admin.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): Expected parameter 1 to be an array, null given', 'C:\\wamp\\www\\BeSeen\\app\\Controllers\\admin.php', 14, [])
+ 2 APPPATH\Controllers\admin.php(14): array_merge(null, [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 11:51:30 --> array_merge(): Expected parameter 1 to be an array, null given
+in APPPATH\Controllers\admin.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): Expected parameter 1 to be an array, null given', 'C:\\wamp\\www\\BeSeen\\app\\Controllers\\admin.php', 14, [])
+ 2 APPPATH\Controllers\admin.php(14): array_merge(null, [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 11:51:30 --> array_merge(): Expected parameter 1 to be an array, null given
+in APPPATH\Controllers\admin.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): Expected parameter 1 to be an array, null given', 'C:\\wamp\\www\\BeSeen\\app\\Controllers\\admin.php', 14, [])
+ 2 APPPATH\Controllers\admin.php(14): array_merge(null, [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 11:51:30 --> array_merge(): Expected parameter 1 to be an array, null given
+in APPPATH\Controllers\admin.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): Expected parameter 1 to be an array, null given', 'C:\\wamp\\www\\BeSeen\\app\\Controllers\\admin.php', 14, [])
+ 2 APPPATH\Controllers\admin.php(14): array_merge(null, [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 11:51:30 --> array_merge(): Expected parameter 1 to be an array, null given
+in APPPATH\Controllers\admin.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): Expected parameter 1 to be an array, null given', 'C:\\wamp\\www\\BeSeen\\app\\Controllers\\admin.php', 14, [])
+ 2 APPPATH\Controllers\admin.php(14): array_merge(null, [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 11:51:31 --> array_merge(): Expected parameter 1 to be an array, null given
+in APPPATH\Controllers\admin.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): Expected parameter 1 to be an array, null given', 'C:\\wamp\\www\\BeSeen\\app\\Controllers\\admin.php', 14, [])
+ 2 APPPATH\Controllers\admin.php(14): array_merge(null, [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 11:51:31 --> array_merge(): Expected parameter 1 to be an array, null given
+in APPPATH\Controllers\admin.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): Expected parameter 1 to be an array, null given', 'C:\\wamp\\www\\BeSeen\\app\\Controllers\\admin.php', 14, [])
+ 2 APPPATH\Controllers\admin.php(14): array_merge(null, [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 12:41:30 --> Invalid file: "layouts/base.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/base.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/base', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 4 APPPATH\Controllers\admin.php(13): view('admin/dashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 12:43:49 --> Invalid file: "layouts/base.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/base.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/base', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 4 APPPATH\Controllers\admin.php(13): view('admin/dashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:00:20 --> Invalid file: "layouts/base.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/base.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/base', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 4 APPPATH\Controllers\admin.php(13): view('admin/dashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:00:26 --> Invalid file: "layouts/base.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/base.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/base', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 4 APPPATH\Controllers\admin.php(13): view('admin/dashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:00:32 --> Invalid file: "layouts/base.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/base.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/base', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 4 APPPATH\Controllers\admin.php(13): view('admin/dashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:10:30 --> Invalid file: "layouts/base.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/base.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/base', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 4 APPPATH\Controllers\admin.php(13): view('admin/dashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:11:23 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:11:26 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:11:26 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:11:26 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:11:27 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:11:27 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:11:27 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:11:27 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:11:27 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:14:07 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:14:09 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:14:09 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:14:25 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:14:52 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:14:53 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:14:53 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:14:53 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:14:54 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:14:54 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:14:59 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:15:18 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:15:19 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:15:20 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:15:20 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:15:20 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:15:20 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:15:20 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:15:21 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:15:21 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:15:21 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:19:26 --> Invalid file: "layouts/base.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/base.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/base', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 4 APPPATH\Controllers\admin.php(13): view('admin/dashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:19:51 --> Invalid file: "admin/oldDashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/oldDashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/oldDashboard', [], true)
+ 3 APPPATH\Controllers\admin.php(13): view('admin/oldDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:21:41 --> Invalid file: "layouts/base.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/base.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/base', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 4 APPPATH\Controllers\admin.php(13): view('admin/dashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:21:43 --> Invalid file: "layouts/base.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/base.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/base', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 4 APPPATH\Controllers\admin.php(13): view('admin/dashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:22:35 --> Invalid file: "layouts/base.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/base.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/base', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 4 APPPATH\Controllers\admin.php(14): view('admin/dashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 13:22:36 --> Invalid file: "layouts/base.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/base.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/base', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 4 APPPATH\Controllers\admin.php(14): view('admin/dashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\admin->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

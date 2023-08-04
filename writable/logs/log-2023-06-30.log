@@ -1,0 +1,868 @@
+INFO - 2023-06-30 04:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:52:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 04:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 04:55:14 --> Undefined array key "sizes"
+in APPPATH/Controllers/Admincontroller.php on line 237.
+ 1 APPPATH/Controllers/Admincontroller.php(237): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admincontroller->UpdateProduct()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 04:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 04:59:57 --> Undefined array key "sizes"
+in APPPATH/Controllers/Admincontroller.php on line 237.
+ 1 APPPATH/Controllers/Admincontroller.php(237): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admincontroller->UpdateProduct()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 05:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 05:00:35 --> foreach() argument must be of type array|object, string given
+in APPPATH/Controllers/Admincontroller.php on line 239.
+ 1 APPPATH/Controllers/Admincontroller.php(239): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admincontroller->UpdateProduct()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 05:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 05:02:58 --> Undefined variable $sizename
+in APPPATH/Controllers/Admincontroller.php on line 184.
+ 1 APPPATH/Controllers/Admincontroller.php(184): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admincontroller->editproductDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 05:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 05:03:02 --> Undefined variable $sizename
+in APPPATH/Controllers/Admincontroller.php on line 184.
+ 1 APPPATH/Controllers/Admincontroller.php(184): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admincontroller->editproductDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 05:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 05:03:11 --> Undefined variable $sizename
+in APPPATH/Controllers/Admincontroller.php on line 184.
+ 1 APPPATH/Controllers/Admincontroller.php(184): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admincontroller->editproductDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 05:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 05:03:42 --> Undefined variable $sizename
+in APPPATH/Controllers/Admincontroller.php on line 184.
+ 1 APPPATH/Controllers/Admincontroller.php(184): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admincontroller->editproductDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 05:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 05:20:56 --> Undefined variable $sizename
+in APPPATH/Controllers/Admincontroller.php on line 187.
+ 1 APPPATH/Controllers/Admincontroller.php(187): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admincontroller->editproductDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 05:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 05:20:58 --> Undefined variable $sizename
+in APPPATH/Controllers/Admincontroller.php on line 187.
+ 1 APPPATH/Controllers/Admincontroller.php(187): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admincontroller->editproductDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 05:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 05:27:37 --> Undefined array key "sizes"
+in APPPATH/Controllers/Admincontroller.php on line 240.
+ 1 APPPATH/Controllers/Admincontroller.php(240): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admincontroller->UpdateProduct()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 05:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 06:18:42 --> Undefined array key "material"
+in APPPATH/Controllers/Admincontroller.php on line 247.
+ 1 APPPATH/Controllers/Admincontroller.php(247): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admincontroller->UpdateProduct()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 06:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 07:28:25 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_sessionbff1bfgpgd436vsebonf0pkin5e6sbin): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(415): session_regenerate_id()
+ 5 SYSTEMPATH/Session/Session.php(259): CodeIgniter\Session\Session->regenerate()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Views/index.php(5): session()
+13 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/shital/newbeseen/app/Views/index.php')
+14 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+15 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+16 APPPATH/Controllers/Home.php(11): view()
+17 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+18 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+19 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+20 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 07:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 08:10:27 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_sessionge3p26ll6shhbahcdi6gbcd5eccerqis): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(415): session_regenerate_id()
+ 5 SYSTEMPATH/Session/Session.php(259): CodeIgniter\Session\Session->regenerate()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Views/index.php(5): session()
+13 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/shital/newbeseen/app/Views/index.php')
+14 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+15 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+16 APPPATH/Controllers/Home.php(11): view()
+17 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+18 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+19 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+20 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 08:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 10:09:41 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_sessionj53emfrctpugogiqpp7shgnn19cq2ms6): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(250): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Filters/AdminLoginFilter.php(29): session()
+13 SYSTEMPATH/Filters/Filters.php(173): App\Filters\AdminLoginFilter->before()
+14 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+15 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+16 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:09:42 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_sessionj53emfrctpugogiqpp7shgnn19cq2ms6): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(250): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Views/index.php(5): session()
+13 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/shital/newbeseen/app/Views/index.php')
+14 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+15 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+16 APPPATH/Controllers/Home.php(11): view()
+17 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+18 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+19 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+20 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:09:46 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_sessionj53emfrctpugogiqpp7shgnn19cq2ms6): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(250): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Views/index.php(5): session()
+13 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/shital/newbeseen/app/Views/index.php')
+14 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+15 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+16 APPPATH/Controllers/Home.php(11): view()
+17 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+18 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+19 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+20 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:09:52 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_sessionj53emfrctpugogiqpp7shgnn19cq2ms6): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(250): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Views/index.php(5): session()
+13 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/shital/newbeseen/app/Views/index.php')
+14 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+15 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+16 APPPATH/Controllers/Home.php(11): view()
+17 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+18 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+19 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+20 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:09:57 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_sessionj53emfrctpugogiqpp7shgnn19cq2ms6): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(250): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Views/index.php(5): session()
+13 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/shital/newbeseen/app/Views/index.php')
+14 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+15 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+16 APPPATH/Controllers/Home.php(11): view()
+17 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+18 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+19 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+20 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:10:26 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_sessionj53emfrctpugogiqpp7shgnn19cq2ms6): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(250): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Views/index.php(5): session()
+13 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/shital/newbeseen/app/Views/index.php')
+14 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+15 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+16 APPPATH/Controllers/Home.php(11): view()
+17 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+18 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+19 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+20 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:10:37 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_sessionqgdc0dtrrdoub3kar482ls736c8pjp3d): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(250): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Views/index.php(5): session()
+13 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/shital/newbeseen/app/Views/index.php')
+14 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+15 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+16 APPPATH/Controllers/Home.php(11): view()
+17 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+18 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+19 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+20 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:11:07 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_sessionj53emfrctpugogiqpp7shgnn19cq2ms6): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(250): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Controllers/Admincontroller.php(27): session()
+13 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Admincontroller->__construct()
+14 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+15 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+16 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:11:08 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_sessionj53emfrctpugogiqpp7shgnn19cq2ms6): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(250): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Controllers/Admincontroller.php(27): session()
+13 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Admincontroller->__construct()
+14 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+15 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+16 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:11:20 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_sessionj53emfrctpugogiqpp7shgnn19cq2ms6): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(250): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Controllers/Admincontroller.php(27): session()
+13 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Admincontroller->__construct()
+14 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+15 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+16 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:11:24 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_sessionj53emfrctpugogiqpp7shgnn19cq2ms6): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(250): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Controllers/Admincontroller.php(27): session()
+13 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Admincontroller->__construct()
+14 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+15 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+16 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:11:44 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_sessionj53emfrctpugogiqpp7shgnn19cq2ms6): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(250): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Controllers/Admincontroller.php(27): session()
+13 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Admincontroller->__construct()
+14 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+15 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+16 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:13:27 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_sessionj53emfrctpugogiqpp7shgnn19cq2ms6): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(250): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Controllers/Admincontroller.php(27): session()
+13 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Admincontroller->__construct()
+14 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+15 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+16 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:14:49 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_sessionj53emfrctpugogiqpp7shgnn19cq2ms6): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(250): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Controllers/Admincontroller.php(27): session()
+13 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Admincontroller->__construct()
+14 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+15 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+16 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:14:54 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_sessionqgdc0dtrrdoub3kar482ls736c8pjp3d): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(250): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Views/index.php(5): session()
+13 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/shital/newbeseen/app/Views/index.php')
+14 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+15 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+16 APPPATH/Controllers/Home.php(11): view()
+17 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+18 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+19 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+20 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:14:58 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_sessionqgdc0dtrrdoub3kar482ls736c8pjp3d): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(250): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Views/index.php(5): session()
+13 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/shital/newbeseen/app/Views/index.php')
+14 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+15 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+16 APPPATH/Controllers/Home.php(11): view()
+17 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+18 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+19 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+20 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:14:59 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_sessionqgdc0dtrrdoub3kar482ls736c8pjp3d): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(250): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Views/index.php(5): session()
+13 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/shital/newbeseen/app/Views/index.php')
+14 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+15 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+16 APPPATH/Controllers/Home.php(11): view()
+17 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+18 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+19 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+20 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:15:01 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_sessionj53emfrctpugogiqpp7shgnn19cq2ms6): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(250): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Controllers/Admincontroller.php(27): session()
+13 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Admincontroller->__construct()
+14 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+15 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+16 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:15:06 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_sessionj53emfrctpugogiqpp7shgnn19cq2ms6): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(250): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Views/index.php(5): session()
+13 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/shital/newbeseen/app/Views/index.php')
+14 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+15 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+16 APPPATH/Controllers/Home.php(11): view()
+17 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+18 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+19 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+20 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:19:24 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_sessions4dh7glgg0q93qcpifckjtc0fbtshgui): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(250): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Views/index.php(5): session()
+13 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/shital/newbeseen/app/Views/index.php')
+14 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+15 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+16 APPPATH/Controllers/Home.php(11): view()
+17 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+18 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+19 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+20 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:19:33 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_sessiond7rqqv64no1lff1aqcn982rnp4ebe6u5): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(250): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Views/index.php(5): session()
+13 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/shital/newbeseen/app/Views/index.php')
+14 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+15 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+16 APPPATH/Controllers/Home.php(11): view()
+17 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+18 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+19 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+20 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:31:55 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_sessions4dh7glgg0q93qcpifckjtc0fbtshgui): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(250): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Views/index.php(5): session()
+13 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/shital/newbeseen/app/Views/index.php')
+14 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+15 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+16 APPPATH/Controllers/Home.php(11): view()
+17 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+18 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+19 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+20 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:33:21 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_session81cme1lvv7pbip6dcfbqidjhebesbgo8): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(250): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Views/index.php(5): session()
+13 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/shital/newbeseen/app/Views/index.php')
+14 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+15 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+16 APPPATH/Controllers/Home.php(11): view()
+17 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+18 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+19 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+20 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:37:02 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_sessiondeoma57mfphtl2mdduieqm3hjh3cfgi0): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(250): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Views/index.php(5): session()
+13 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/shital/newbeseen/app/Views/index.php')
+14 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+15 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+16 APPPATH/Controllers/Home.php(11): view()
+17 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+18 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+19 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+20 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:37:50 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_session99j9310kg7p00kn2dl8sn8frkd7dq9v5): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(250): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Views/index.php(5): session()
+13 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/shital/newbeseen/app/Views/index.php')
+14 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+15 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+16 APPPATH/Controllers/Home.php(11): view()
+17 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+18 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+19 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+20 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:44:18 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_session99j9310kg7p00kn2dl8sn8frkd7dq9v5): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(250): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Views/index.php(5): session()
+13 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/shital/newbeseen/app/Views/index.php')
+14 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+15 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+16 APPPATH/Controllers/Home.php(11): view()
+17 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+18 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+19 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+20 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:46:59 --> fopen(/home/digilead/public_html/shital/shital/newbeseen/writable/session/ci_sessiondqt83mbfuidvf8a767mdfbg9aifou0um): Failed to open stream: Disk quota exceeded
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(128): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(250): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(674): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+12 APPPATH/Views/index.php(5): session()
+13 SYSTEMPATH/View/View.php(213): include('/home/digilead/public_html/shital/shital/newbeseen/app/Views/index.php')
+14 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+15 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+16 APPPATH/Controllers/Home.php(11): view()
+17 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+18 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+19 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+20 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 11:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:18:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:22:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 12:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 12:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
