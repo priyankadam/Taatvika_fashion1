@@ -135,6 +135,11 @@ $routes->get('admin/size_materialView', 'Admincontroller::size_materialView');
 
 // ------------Frontend Routes---------------------------------------------------------------------
 
+//New Route after requirement changes
+$routes->get('Men-Wear/(:any)', 'menController::men/$1');
+$routes->get('Men-Product-Details/(:any)','menController::productdetail/$1');
+$routes->post('Add-To-Cart','AddtoCartController::Addtocart');
+
 $routes->post('Add-to-cart-customise', 'customiseController::cus_order');
 
 $routes->get('test/(:any)', 'Checkout::test/$1');
@@ -145,7 +150,7 @@ $routes->post('Continue-To-Payment', 'Register::updateUser');
 $routes->post('ContinueToPayment', 'Register::ADDUser');
 $routes->get('/', 'Home::index');
 $routes->get('Men-Wear', 'Home::MensView');///view return w/o args
-$routes->get('Men-Wear/(:any)', 'Checkout::test/$1');//with ags
+// $routes->get('Men-Wear/(:any)', 'Checkout::test/$1');//with ags
 $routes->get('Women-Wear', 'Home::WomensView');
 $routes->get('Women-Wear/(:any)', 'Checkout::testw/$1');
 $routes->get('Accessories', 'Home::AccessoriesView');

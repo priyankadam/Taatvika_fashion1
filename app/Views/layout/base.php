@@ -6,15 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Be Seen Customer Wear</title>
     <!-- Favicons -->
-    <link rel="shortcut icon" href="assets/images/logo/png logo for web-01 (1).png">
+    <link rel="shortcut icon" href="<?php echo base_url() ; ?>assets/images/logo/png logo for web-01 (1).png">
 
     <!-- Vendor CSS (Icon Font) -->
 
     <link rel="stylesheet" href="<?= base_url(); ?>assets/css/vendor/fontawesome.min.css">
     <link rel="stylesheet" href="<?= base_url(); ?>assets/css/vendor/pe-icon-7-stroke.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" /> -->
-
 
     <!-- Plugins CSS (All Plugins Files) -->
 
@@ -47,219 +45,8 @@
         .dropdown:hover .dropdown-content {
             display: block;
         }
-/*
-     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
-
-body{
-  background: #f4f5;
-  padding: 0 20px;
-}
-
-::selection{
-  color: #fff;
-  background: #664AFF;
-}*/
-
-/*.container{
-  max-width: 450px;
-  margin: 150px auto;
-}*/
-
-.container .searchInput{
-  background: #fff;
-  width: 100%;
-  border-radius: 5px;
-  position: relative;
-  box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.12);
-}
-
-/*.searchInput input{
-  height: 55px;
-  width: 100%;
-  outline: none;
-  border: none;
-  border-radius: 5px;
-  padding: 0 60px 0 20px;
-  font-size: 18px;
-  box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
-}
-
-.searchInput.active input{
-  border-radius: 5px 5px 0 0;
-}
-
-.searchInput .resultBox{
-  padding: 0;
-  opacity: 0;
-  pointer-events: none;
-  max-height: 280px;
-  overflow-y: auto;
-}
-
-.searchInput.active .resultBox{
-  padding: 10px 8px;
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.resultBox li{
-  list-style: none;
-  padding: 8px 12px;
-  display: none;
-  width: 100%;
-  cursor: default;
-  border-radius: 3px;
-}
-
-.searchInput.active .resultBox li{
-  display: block;
-}
-.resultBox li:hover{
-  background: #efefef;
-}
-
-.searchInput .icon{
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  height: 55px;
-  width: 55px;
-  text-align: center;
-  line-height: 55px;
-  font-size: 20px;
-  color: #644bff;
-  cursor: pointer;
-}*/
-
-/**/
-/** {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Nunito', sans-serif;
-}
-
-body {
-  background-color: #110e17;
-}
-
-/*.container {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 60px 15px;
-}*/
-
-/*form {
-  max-width: 80%;
-  margin: 0 auto;
-  position: relative;
-}
-
-.input-group {
-  position: relative;
-}
-
-label {
-  position: absolute;
-  right: 2%;
-  top: 50%;
-  transform: translatey(-50%);
-  color: rgba(0, 0, 0, 0.08);
-  transition: all 0.2s ease;
-}
-
-input {
-  width: 100%;
-  padding: 8px 30px 8px 12px;
-  border: 2px solid rgba(0, 0, 0, 0.08);
-  outline: none;
-  font-size: 16px;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.06);
-  color: #F27121;
-  font-weight: bold;
-  letter-spacing: 1px;
-  border-radius: 1px;
-  transition: all 0.2s ease;
-}
-
-input:focus {
-  border-color: #F27121;
-}
-
-input:focus + label {
-  transform: scale(1.05) translatey(-50%);
-  color: #F27121;
-}
-
-#apps {
-  margin-top: 42px;
-}
-
-.app {
-  display: inline-block;
-  width: 20%;
-  margin: 0 2.2% 24px;
-  padding: 12px 6px;
-  text-align: center;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 3px;
-  transition: all 0.2s ease;
-}
-
-.app:hover {
-  border-color: rgba(255, 255, 255, 0.5);
-}
-
-.app i {
-  font-size: 2.4em;
-  color: #fff;
-}
-
-.app p {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
-  margin-top: 6px;
-  transition: 0.2s all ease;
-}
-
-.app:hover p {
-  color: rgba(255, 255, 255, 0.8);
-}
-
-.suggestion-list {
-  background-color: #fff;
-  padding: 18px 24px 6px 12px;
-  border-radius: 0 0 6px 6px;
-  position: absolute;
-  width: 100%;
-  margin-top: 0px;
-  border: 2px solid #F27121;
-  border-top: none;
-}
-
-.suggestion-list.hidden {
-  display: none;
-}
-
-.suggestion-list p {
-  margin-bottom: 12px;
-}
-
-.suggestion-list i {
-  margin-right: 12px;
-  color: #F27121;
-}
-*/
-
-
- </style>
-    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/style.css" />
+    </style>
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css" />
 </head>
 
 <body>
@@ -289,12 +76,8 @@ input:focus + label {
                     <!-- Header Top Language, Currency & Link End -->
 
                     <!-- Header Top Message Start -->
-                     <div class="col">
-                          <?php  $db = db_connect();
-                                $result = $db->query("select * from  notification");
-                                    $searchData=$result->getRowArray();
-                                              //var_dump($searchData['offer1']);?>
-                        <p class="header-top-message"><?php echo $searchData['offer1'];?><a href="#">Shop Now</a></p>
+                    <div class="col">
+                        <p class="header-top-message">Ends111 Monday: Rs100 off any Shirt + 2 sets of Tops. <a href="#">Shop Now</a></p>
                     </div>
                     <!-- Header Top Message End -->
 
@@ -307,13 +90,12 @@ input:focus + label {
         <div class="header-bottom">
             <div class="header-sticky">
                 <div class="container">
-                    
                     <div class="row align-items-center">
 
                         <!-- Header Logo Start -->
                         <div class="col-xl-2 col-6">
                             <div class="header-logo">
-                                <a href="#"><img src="assets/images/logo/png logo for web-01 (1).png" alt="Site Logo" /></a>
+                                <a href="#"><img src="<?php echo base_url(); ?>assets/images/logo/png logo for web-01 (1).png" alt="Site Logo" /></a>
                             </div>
                         </div>
                         <!-- Header Logo End -->
@@ -326,19 +108,22 @@ input:focus + label {
                                         <a href="<?php echo base_url(); ?>"><span>Home</span></i></a>
 
                                     </li>
-                                    
+
                                     <li class="has-children position-static">
                                         <a href="<?php echo base_url(); ?>Men-Wear/1 "></a><span>Mens</span> <i class="fa fa-angle-down"></i></a>
                                         <ul class="sub-menu">
 
-                                            <li><a href="<?php echo base_url(); ?>Men-Wear/1">Suit</a></li>
-                                            <li><a href="<?php echo base_url(); ?>Men-Wear/2">WC</a></li>
-                                            <li><a href="<?php echo base_url(); ?>Men-Wear/5">Smokeing Jacket</a></li>
-                                            <li><a href="<?php echo base_url(); ?>Men-Wear/6">IKAT Jacket</a></li>
-                                            <li><a href="<?php echo base_url(); ?>Men-Wear/7">shirt</a></li>
-                                            <li><a href="<?php echo base_url(); ?>Men-Wear/8">Trouser</a></li>
-                                            <li><a href="<?php echo base_url(); ?>Men-Wear/9">Sherwani</a></li>
-                                            <li><a href="<?php echo base_url(); ?>Men-Wear/10">Kurta</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Men-Wear/Suit">Suit</a></li>
+
+                                            <li><a href="<?php echo base_url(); ?>Men-Wear/WaistCoat">WaistCoat</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Men-Wear/Smokeing-Jacket">Smokeing Jacket</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Men-Wear/IKAT-Jacket">IKAT Jacket</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Men-Wear/Shirt">Shirt</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Men-Wear/Trouser">Trouser</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Men-Wear/Sherwani">Sherwani</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Men-Wear/Kurta">Kurta</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Men-Wear/Blazer">Blazer</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Men-Wear/Bundi">Bundi</a></li>
 
                                         </ul>
                                     </li>
@@ -435,33 +220,24 @@ input:focus + label {
                             <div class="header-actions">
 
                                 <!-- Search Header Action Button Start -->
-                                <?php  $db = db_connect();
-                                    $result = $db->query("select * from product where product like 'mens-suit'");
-                                    $searchData=$result->getResult();
-                                              // <?php   var_dump($searchData);?>
-                 
-                      <!--     
-                         <a href="javascript:void(0)" class="header-action-btn header-action-btn-search"><i class="fa fa-search" aria-hidden="true"></i>
-                                 
-                             </a>  -->
-                              
-                                <!-- Search Header Action Button End
+                                <!--<a href="javascript:void(0)" class="header-action-btn header-action-btn-search"><i class="fa fa-search" aria-hidden="true"></i></a>-->
+                                <!-- Search Header Action Button End -->
 
-                                
-                                User Account Header Action Button End -->
+
+                                <!-- User Account Header Action Button End -->
                                 <!-- Wishlist Header Action Button Start -->
-                               <?php   if ((session()->has('logged_info'))) {?>
-                                <div class="dropdown">
-                                    <span><i class="fa fa-user" style="color: red;margin-top: 40px;font-size: 25px;"></i></span>
-                                    <div class="dropdown-content">
-                                        <div><a href="<?php echo base_url(); ?>Logout" class="header-action-btn d-none d-md-block" style="line-height:40px"><i class="fa fa-power-off"></i></a></div>
-                                        <div><a href="<?php echo base_url(); ?>My-Account" class="header-action-btn d-none d-md-block" style="line-height:40px"><i class="fa fa-user-o"></i></a></div>
+                                <?php if ((session()->has('logged_info'))) { ?>
+                                    <div class="dropdown">
+                                        <span><i class="fa fa-user" style="color: red;margin-top: 40px;font-size: 25px;"></i></span>
+                                        <div class="dropdown-content">
+                                            <div><a href="<?php echo base_url(); ?>Logout" class="header-action-btn d-none d-md-block" style="line-height:40px"><i class="fa fa-power-off"></i></a></div>
+                                            <div><a href="<?php echo base_url(); ?>My-Account" class="header-action-btn d-none d-md-block" style="line-height:40px"><i class="fa fa-user-o"></i></a></div>
+                                        </div>
                                     </div>
-                                </div>
-                                <?php }else{ ?>
-                                  <a href="<?php echo base_url(); ?>Login" class="header-action-btn d-none d-md-block"><i class="fa fa-user"></i></a>
-                                  <?php } ?>
-                              
+                                <?php } else { ?>
+                                    <a href="<?php echo base_url(); ?>Login" class="header-action-btn d-none d-md-block"><i class="fa fa-user"></i></a>
+                                <?php } ?>
+
 
                                 <!-- Wishlist Header Action Button End -->
 
@@ -479,7 +255,7 @@ input:focus + label {
                                     // $result=$result->count_all_results();
                                     // print_r($query);
                                 } else {
-                                   
+
                                     $session = \Config\Services::session();
                                     $session = session();
                                     $this->session = session();
@@ -528,25 +304,10 @@ input:focus + label {
                         <!-- Header Action End -->
 
                     </div>
-                     <!--  -->
-                      <select class="form-control product" id="cat">
-  <option>search..</option>
-   <?php
-                        $db      = \Config\Database::connect();
-                        $query11  = $db->query("SELECT Distinct product FROM product");
-                        ?>
-                        <?php foreach ($query11->getResult() as $row11) : ?>
-                            <option value="<?php echo $row11->product; ?>"><?php echo $row11->product; ?></option>
-                        <?php endforeach; ?>
-<!--   <option>white</option>
-  <option>purple</option> -->
-</select>
-<!-- <i class="fa fa-search"></i> -->
                 </div>
             </div>
         </div>
         <!-- Header Bottom End -->
-        
 
         <!-- Mobile Menu Start -->
         <div class="mobile-menu-wrapper">
@@ -572,17 +333,20 @@ input:focus + label {
                             <li class="has-children">
                                 <a href="#">Mens <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown">
-                                  <li><a href="<?php echo base_url(); ?>Men-Wear/1">Suit</a></li>
-                                    <li><a href="<?php echo base_url(); ?>Men-Wear/2">WC</a></li>
+                                    <li><a href="<?php echo base_url(); ?>Men-Wear/1">Suit</a></li>
+
+                                    <li><a href="<?php echo base_url(); ?>Men-Wear/2">Waist Coat</a></li>
                                     <li><a href="<?php echo base_url(); ?>Men-Wears/5">Smokeing Jacket</a></li>
                                     <li><a href="<?php echo base_url(); ?>Men-Wears/6">IKAT Jacket</a></li>
-                                    <li><a href="<?php echo base_url(); ?>Men-Wears/7">shirt</a></li>
+                                    <li><a href="<?php echo base_url(); ?>Men-Wears/7">Shirt</a></li>
                                     <li><a href="<?php echo base_url(); ?>Men-Wears/8">Trouser</a></li>
                                     <li><a href="<?php echo base_url(); ?>Men-Wears/9">Sherwani</a></li>
                                     <li><a href="<?php echo base_url(); ?>Men-Wears/10">Kurta</a></li>
+                                    <li><a href="<?php echo base_url(); ?>Men-Wears/10">Blazer</a></li>
+                                    <li><a href="<?php echo base_url(); ?>Men-Wears/10">Bundi</a></li>
                                 </ul>
                             </li>
-                          
+
                             <li class="has-children">
                                 <a href="#">Womens<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown">
@@ -598,8 +362,8 @@ input:focus + label {
                             <li class="has-children">
                                 <a href="#">Collection<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown">
-                                      <li><a href="<?php echo base_url(); ?>Collection/1">Signature Stripe</a></li>
-                                      <li><a href="<?php echo base_url(); ?>Collection/2">Art Work</a></li>
+                                    <li><a href="<?php echo base_url(); ?>Collection/1">Signature Stripe</a></li>
+                                    <li><a href="<?php echo base_url(); ?>Collection/2">Art Work</a></li>
                                 </ul>
                             </li>
                             <li class="has-children">
@@ -608,28 +372,28 @@ input:focus + label {
                                     <li class="has-children">
                                         <a href="#">Women<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                         <ul class="dropdown">
-                                           <li><a href="<?php echo base_url(); ?>Accessories/1">Nails</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessories/2">Neckline</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessories/3">Scarfs</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessories/4">Brooch</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessories/5">Tie</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessories/6">Belts</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessories/7">Shoes</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessories/8">Lapel</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessories/9">Pin</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessories/10">Bow</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Accessories/1">Nails</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Accessories/2">Neckline</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Accessories/3">Scarfs</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Accessories/4">Brooch</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Accessories/5">Tie</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Accessories/6">Belts</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Accessories/7">Shoes</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Accessories/8">Lapel</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Accessories/9">Pin</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Accessories/10">Bow</a></li>
                                         </ul>
                                     </li>
                                     <li class="has-children">
                                         <a href="#">Mens<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                         <ul class="dropdown">
-                                           <li><a href="<?php echo base_url(); ?>Accessoriess/1">Brooch</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessoriess/2">Cufflink</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessoriess/3">Pockets Square</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessoriess/4">Tie</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessoriess/5">Belts</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessoriess/6">Shoes</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessoriess/7">Bow</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Accessoriess/1">Brooch</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Accessoriess/2">Cufflink</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Accessoriess/3">Pockets Square</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Accessoriess/4">Tie</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Accessoriess/5">Belts</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Accessoriess/6">Shoes</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Accessoriess/7">Bow</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -735,26 +499,26 @@ input:focus + label {
 
                         <!-- Single Cart Product Start -->
                         <?php
-                         if ((session()->has('logged_info'))) {
+                        if ((session()->has('logged_info'))) {
                             $data = session()->get('logged_info');
                             $userid = $data['user_id'];
 
 
                             $db  = \Config\Database::connect();
                             $fetch_cart = $db->query("SELECT * FROM add_to_cart WHERE user_id='$userid' AND status=0");
-                           
+
                             $query =  $fetch_cart->getNumRows();
                             if ($query > 0) { //if fetct
                                 foreach ($fetch_cart->getResult() as $key) {
                                     $product = $key->id;
                                     $product_id = $key->product_id;
-                                    $productCode=$key->ProductCode;
+                                    $productCode = $key->ProductCode;
                                     $tabelName = $key->table_name;
                                     $fold = $key->folder;
                                     $qty = $key->quantity;
-                                      $builder = $db->table($tabelName);
-                                       $builder->where('ProductCode',$productCode);
-                                      $result = $builder->get();
+                                    $builder = $db->table($tabelName);
+                                    $builder->where('ProductCode', $productCode);
+                                    $result = $builder->get();
                                     foreach ($result->getResult() as $key1) {
                                         // var_dump($key1);exit();
                                         $Product_name = $key1->Product_name;
@@ -774,7 +538,7 @@ input:focus + label {
                                             <span class="price">
                                                 <span class="new">₹ <?php echo  $Product_price; ?>X <?php echo $qty ?></span>
                                                 <?php $sum[] = $Product_price * $qty; ?>
-                                                <span class="old">Rs40.00</span>
+                                               
                                             </span>
                                         </div>
 
@@ -821,19 +585,19 @@ input:focus + label {
                             if ($query > 0) { //if fetct
                                 foreach ($fetch_cart->getResult() as $key) {
                                     $product = $key->id;
-                                   
+
                                     $product_id = $key->product_id;
-                                     
-                                      $productCode=$key->ProductCode;
+
+                                    $productCode = $key->ProductCode;
                                     //   var_dump($productCode);exit();
                                     $tabelName = $key->table_name;
                                     // var_dump($tabelName);exit();
                                     $fold = $key->folder;
                                     $qty = $key->quantity;
                                     $builder = $db->table($tabelName);
-                                         $builder->where('ProductCode',$productCode);
-                                      $result = $builder->get();
-                                        // var_dump($result->getResult());
+                                    $builder->where('ProductCode', $productCode);
+                                    $result = $builder->get();
+                                    // var_dump($result->getResult());
                                     foreach ($result->getResult() as $key1) {
                                         $Product_name = $key1->Product_name;
                                         $Product_price = $key1->Product_price;
@@ -852,7 +616,7 @@ input:focus + label {
                                             <span class="price">
                                                 <span class="new">₹ <?php echo  $Product_price; ?>X <?php echo $qty ?></span>
                                                 <?php $sum[] = $Product_price * $qty; ?>
-                                                <span class="old">Rs40.00</span>
+                                             
                                             </span>
                                         </div>
 
@@ -912,7 +676,7 @@ input:focus + label {
                     <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-10" data-aos="fade-up" data-aos-delay="200">
                         <div class="single-footer-widget">
                             <h2 class="widget-title">Contact Us</h2>
-                          
+
                             <!-- Contact Address Start -->
                             <ul class="widget-address">
                                 <li><span>Address: </span> Banglore</li>
@@ -969,7 +733,7 @@ input:focus + label {
                 <div class="row align-items-center">
                     <div class="col-12 text-center">
                         <div class="copyright-content">
-                            <p class="mb-0">© <?php echo date("Y");?> <strong>Sirsonite</strong><i class="fa fa-heart text-danger"></i> <a href="https://sirsonite.com/">All Right Reserved</a></p>
+                            <p class="mb-0">© <?php echo date("Y"); ?> <strong>Sirsonite</strong><i class="fa fa-heart text-danger"></i> <a href="https://sirsonite.com/">All Right Reserved</a></p>
                         </div>
                     </div>
                 </div>
@@ -986,7 +750,7 @@ input:focus + label {
     </a>
     <!-- Scroll Top End -->
 
-    
+
 
     <!-- Scripts -->
     <!-- Scripts -->
@@ -1038,41 +802,10 @@ input:focus + label {
     <script src="<?= base_url(); ?>assets/js/plugins/lightgallery-all.min.js"></script>
     <script src="<?= base_url(); ?>assets/js/plugins/thia-sticky-sidebar.min.js"></script>
 
-<!-- <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script> -->
+
 
     <!--Main JS-->
     <script src="<?= base_url(); ?>assets/js/main.js"></script>
- <!--    <script>
-            $(".product").select2({
-          tags: true
-});
-
-    </script> -->
-    <script>
-
-    $(document).on('change', '#cat', function() {
-        var name = $('#cat').val();
-       // alert(name);
-        $.ajax({
-            type: "post",
-            url: "<?php echo base_url('admin/getSearchCat') ?> ",
-            data: {
-                'category': $('#cat').val(),
-            },
-            //dataType: "JSON",
-            dataType: 'html',
-            success: function(response) {
-                  // alert(response);
-                localStorage.setItem('prod_code', response);
-            window.location.href = "<?php echo base_url('/Men-Wear') ?> ";
-           
-
-            }
-        });
-    });
-
-   
-</script>
 
 </body>
 
