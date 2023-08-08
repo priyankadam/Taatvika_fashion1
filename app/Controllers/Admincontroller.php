@@ -26,14 +26,14 @@ class Admincontroller extends BaseController
     {
       helper(['url', 'session', 'cookie', 'form']);
       if (!isset($session)) {
-         $session = session();
-     }
-     $session = \Config\Services::session();
-     $session = session();
-     $request = \Config\Services::request();
- }
- public function index()
- {
+       $session = session();
+   }
+   $session = \Config\Services::session();
+   $session = session();
+   $request = \Config\Services::request();
+}
+public function index()
+{
         // return redirect()->to( base_url('/admin') );
   return view('admin/login');
 }
@@ -53,33 +53,33 @@ public function getSearchCat()
     $db  = \Config\Database::connect();
     $category = $this->request->getVar('category');
     if($category=='Mens Suit'){
-       $result = $db->query("SELECT * FROM product WHERE product='$category'");
-       
-       foreach ($result->getResultArray() as $key1) {
+     $result = $db->query("SELECT * FROM product WHERE product='$category'");
+     
+     foreach ($result->getResultArray() as $key1) {
         $prod_code[]=$key1['ProductCode'];
         
     }
               // $data['prod_code']=$prod_code;
     foreach($prod_code as $code){
-       $result = $db->query("SELECT * FROM mens WHERE ProductCode='$code'");
-       
-       foreach ($result->getResultArray() as $key) {
-           $mens_data[]=$key;
-           
-       }
-       
-   }
+     $result = $db->query("SELECT * FROM mens WHERE ProductCode='$code'");
+     
+     foreach ($result->getResultArray() as $key) {
+         $mens_data[]=$key;
+         
+     }
+     
+ }
               // $data['mens_data']=$mens_data;
            // var_dump($mens_data);
-   return $this->response->setJSON($mens_data);
+ return $this->response->setJSON($mens_data);
            //return view('MensCollection',$data);
 }
 
       // return view('admin/mens');
 }
 public function showsubcategories(){
- $db  = \Config\Database::connect();
- $i = 1;
+   $db  = \Config\Database::connect();
+   $i = 1;
          $tablename = $this->request->getVar('id');//table name
          if ($tablename == 'Mens') {
             $folder = 'mens';
@@ -102,11 +102,11 @@ public function showsubcategories(){
                 $id=$key11->id;
             }
             else{
-               $id=$key11->Id;
-           }
-           $productname=$key11->Product_name;
-           $image1=$key11->image1;
-           $ssw[]=array(
+             $id=$key11->Id;
+         }
+         $productname=$key11->Product_name;
+         $image1=$key11->image1;
+         $ssw[]=array(
             'ids'=>$i,
             'productname'=>$productname,
             'image1'=>$image1,
@@ -114,15 +114,15 @@ public function showsubcategories(){
             'id'=>$id,
             'table'=>$tablename
         );
-           $i++;
-       }
-       $data['subbook']=$ssw;
-       
-       return $this->response->setJSON($data);
-   }
-   
-   public function fit_fabricView()
-   {
+         $i++;
+     }
+     $data['subbook']=$ssw;
+       // var_dump($data);exit();
+     return $this->response->setJSON($data);
+ }
+ 
+ public function fit_fabricView()
+ {
     return view('admin/add_fit_fabric');
 }
 public function addFitFabric()
@@ -226,7 +226,7 @@ public function editproductDetails()
             $productname = $key11->Product_name;
             $image1 = $key11->image1;
             $Product_price = $key11->Product_price;
-            $Brand = $key11->Brand;
+           // $Brand = $key11->Brand;
             $size = $key11->size;
             $size_ids = explode(",", $size);
             
@@ -239,41 +239,78 @@ public function editproductDetails()
                     $sizename[] = $key1->size;
                 }
             }
-            $material = $key11->material;
-            $material_ids = explode(",", $material);
-            foreach ($material_ids as $key1) {
+            $fit = $key11->fit;
+            $fit_ids = explode(",", $fit);
+            foreach ($fit_ids as $key1) {
                 $db = db_connect();
-                $result1 = $db->query("SELECT * FROM material_master WHERE id='$key1'");
+                $result1 = $db->query("SELECT * FROM fit_master WHERE id='$key1'");
                 foreach ($result1->getResult() as $key2) {
-                    $materialname[] = $key2->material;
+                    $fitname[] = $key2->fit;
                 }
             }
+            // $material = $key11->material;
+            // $material_ids = explode(",", $material);
+            // foreach ($material_ids as $key1) {
+            //     $db = db_connect();
+            //     $result1 = $db->query("SELECT * FROM material_master WHERE id='$key1'");
+            //     foreach ($result1->getResult() as $key2) {
+            //         $materialname[] = $key2->material;
+            //     }
+            // }
             $image1 = $key11->image1;
             $image2 = $key11->image2;
             $image3 = $key11->image3;
             $image4 = $key11->image4;
             $image5 = $key11->image5;
             $image6 = $key11->image6;
+            $fabric = $key11->fabric;
+            $count = $key11->count;
+            $weave = $key11->weave;
+            $care = $key11->care;
             $ProductDesc = $key11->ProductDesc;
+            if(isset($sizename)){
+                $ss['size']=$sizename;
 
-            $ss = array(
-                'productname' => $productname,
-                'image1' => $image1,
-                'ProductCode' => $ProductCode,
-                'ProductPrice' => $Product_price,
-                'ProductBrand' => $Brand,
-                'size' => $sizename,
-                'material' => $materialname,
-                'image1' => $image1,
-                'image2' => $image2,
-                'image3' => $image3,
-                'image4' => $image4,
-                'image5' => $image5,
-                'image6' => $image6,
-                'ProductDesc' => $ProductDesc,
-                'folder' => $folder
-            );
+            }
+            if(isset($fitname)){
+                $ss['fit']=$fitname;
+
+            }
+            $ss['productname']=$productname;
+            $ss['image1']=$image1;
+            $ss['ProductCode']=$ProductCode;
+            $ss['ProductPrice']=$Product_price;
+            $ss['image2']=$image2;
+            $ss['image3']=$image3;
+            $ss['image4']=$image4;
+            $ss['image5']=$image5;
+            $ss['image6']=$image6;
+            $ss['fabric']=$fabric;
+            $ss['count']=$count;
+            $ss['weave']=$weave;
+            $ss['care']=$care;
+            $ss['ProductDesc']=$ProductDesc;
+            $ss['folder']=$folder;
+
+            // $ss = array(
+            //     'productname' => $productname,
+            //     'image1' => $image1,
+            //     'ProductCode' => $ProductCode,
+            //     'ProductPrice' => $Product_price,
+            //     //'ProductBrand' => $Brand,
+            //     'size' => $sizename,
+            //     //'material' => $materialname,
+            //     'image1' => $image1,
+            //     'image2' => $image2,
+            //     'image3' => $image3,
+            //     'image4' => $image4,
+            //     'image5' => $image5,
+            //     'image6' => $image6,
+            //     'ProductDesc' => $ProductDesc,
+            //     'folder' => $folder
+            // );
         }
+        //var_dump($ss);exit();
         echo json_encode($ss);
     }
     public function UpdateProduct()
@@ -310,107 +347,113 @@ public function editproductDetails()
             $table = 'accessories';
             $folder = 'assets/images/uploads/accessories/';
         }
-        $Brand = $_POST['Brand'];
+        // $Brand = $_POST['Brand'];
         $ProductName = $_POST['ProductName'];
         $ProductName = $_POST['ProductName'];
         $ProductPrice = $_POST['ProductPrice'];
         $ProductDesc = $_POST['ProductDesc'];
-        $size = $_POST['sizes'];
-        
-        foreach ($size as $val) {
+        if(isset($_POST['sizes'])){
+           $size = $_POST['sizes'];
+           
+           foreach ($size as $val) {
             $sizes[] = $val;
         }
         $size_ids = implode(',', $sizes);
-        
-        $material = $_POST['material'];
-        
+    }
+    
+    
+        // $material = $_POST['material'];
+    
 
-        foreach ($material as $mat) {
-            $materials[] = $mat;
-        }
+        // foreach ($material as $mat) {
+        //     $materials[] = $mat;
+        // }
 
-        $material_ids = implode(',', $materials);
-        
+        // $material_ids = implode(',', $materials);
+    
 
-        $image1 = $this->request->getFile('ProductImage1');
+    $image1 = $this->request->getFile('ProductImage1');
         // var_dump($image1);exit();
-        $image1temp = $_FILES["ProductImage1"]["tmp_name"];
-        $image1Type = $_FILES['ProductImage1']['type'];
+    $image1temp = $_FILES["ProductImage1"]["tmp_name"];
+    $image1Type = $_FILES['ProductImage1']['type'];
 
-        $image2 = $this->request->getFile('ProductImage2');
-        $image2temp = $_FILES["ProductImage2"]["tmp_name"];
-        $image2Type = $_FILES['ProductImage2']['type'];
+    $image2 = $this->request->getFile('ProductImage2');
+    $image2temp = $_FILES["ProductImage2"]["tmp_name"];
+    $image2Type = $_FILES['ProductImage2']['type'];
 
-        $image3 = $this->request->getFile('ProductImage3');
-        $image3temp = $_FILES["ProductImage3"]["tmp_name"];
-        $image3Type = $_FILES['ProductImage3']['type'];
+    $image3 = $this->request->getFile('ProductImage3');
+    $image3temp = $_FILES["ProductImage3"]["tmp_name"];
+    $image3Type = $_FILES['ProductImage3']['type'];
 
-        $image4 = $this->request->getFile('ProductImage4');
-        $image4temp = $_FILES["ProductImage4"]["tmp_name"];
-        $image4Type = $_FILES['ProductImage4']['type'];
+    $image4 = $this->request->getFile('ProductImage4');
+    $image4temp = $_FILES["ProductImage4"]["tmp_name"];
+    $image4Type = $_FILES['ProductImage4']['type'];
 
-        $image5 = $this->request->getFile('ProductImage5');
-        $image5temp = $_FILES["ProductImage5"]["tmp_name"];
-        $image5Type = $_FILES['ProductImage5']['type'];
+    $image5 = $this->request->getFile('ProductImage5');
+    $image5temp = $_FILES["ProductImage5"]["tmp_name"];
+    $image5Type = $_FILES['ProductImage5']['type'];
 
-        $image6 = $this->request->getFile('ProductImage6');
-        $image6temp = $_FILES["ProductImage6"]["tmp_name"];
-        $image6Type = $_FILES['ProductImage6']['type'];
-        if (!empty($_FILES['ProductImage1']['name'])) {
-            if ($image1->isValid() || !$image1->hasMoved()) {
-                $image11 = $this->resizeProductImage($image1, $image1temp, $image1Type, $folder);
-            }
+    $image6 = $this->request->getFile('ProductImage6');
+    $image6temp = $_FILES["ProductImage6"]["tmp_name"];
+    $image6Type = $_FILES['ProductImage6']['type'];
+    if (!empty($_FILES['ProductImage1']['name'])) {
+        if ($image1->isValid() || !$image1->hasMoved()) {
+            $image11 = $this->resizeProductImage($image1, $image1temp, $image1Type, $folder);
         }
-        if (!empty($_FILES['ProductImage2']['name'])) {
-            if ($image2->isValid() || !$image2->hasMoved()) {
+    }
+    if (!empty($_FILES['ProductImage2']['name'])) {
+        if ($image2->isValid() || !$image2->hasMoved()) {
 
-                $image22 =  $this->resizeProductImage($image2, $image2temp, $image2Type, $folder);
-            }
+            $image22 =  $this->resizeProductImage($image2, $image2temp, $image2Type, $folder);
         }
-        if (!empty($_FILES['ProductImage3']['name'])) {
-            if ($image3->isValid() || !$image3->hasMoved()) {
-                $image33 = $this->resizeProductImage($image3, $image3temp, $image3Type, $folder);
-            }
+    }
+    if (!empty($_FILES['ProductImage3']['name'])) {
+        if ($image3->isValid() || !$image3->hasMoved()) {
+            $image33 = $this->resizeProductImage($image3, $image3temp, $image3Type, $folder);
         }
-        if (!empty($_FILES['ProductImage4']['name'])) {
-            if ($image4->isValid() || !$image4->hasMoved()) {
-                $image44 = $this->resizeProductImage($image4, $image4temp, $image4Type, $folder);
-            }
+    }
+    if (!empty($_FILES['ProductImage4']['name'])) {
+        if ($image4->isValid() || !$image4->hasMoved()) {
+            $image44 = $this->resizeProductImage($image4, $image4temp, $image4Type, $folder);
         }
-        if (!empty($_FILES['ProductImage5']['name'])) {
-            if ($image5->isValid() || !$image5->hasMoved()) {
-                $image55 = $this->resizeProductImage($image5, $image5temp, $image5Type, $folder);
-            }
+    }
+    if (!empty($_FILES['ProductImage5']['name'])) {
+        if ($image5->isValid() || !$image5->hasMoved()) {
+            $image55 = $this->resizeProductImage($image5, $image5temp, $image5Type, $folder);
         }
-        if (!empty($_FILES['ProductImage6']['name'])) {
-            if ($image6->isValid() || !$image6->hasMoved()) {
-                $image66 = $this->resizeProductImage($image6, $image6temp, $image6Type, $folder);
-            }
+    }
+    if (!empty($_FILES['ProductImage6']['name'])) {
+        if ($image6->isValid() || !$image6->hasMoved()) {
+            $image66 = $this->resizeProductImage($image6, $image6temp, $image6Type, $folder);
         }
-        if (isset($image55)) {
-            $data['image5'] = $image55;
-        }
-        if (isset($image44)) {
-            $data['image4'] = $image44;
-        }
-        if (isset($image33)) {
-            $data['image3'] = $image33;
-        }
-        if (isset($image22)) {
-            $data['image2'] = $image22;
-        }
-        if (isset($image11)) {
-            $data['image1'] = $image11;
-        }
-        if (isset($image66)) {
-            $data['image6'] = $image66;
-        }
-        $data['Brand'] = $Brand;
-        $data['Product_name'] = $ProductName;
-        $data['Product_price'] = $ProductPrice;
-        $data['ProductDesc'] = $ProductDesc;
+    }
+    if (isset($image55)) {
+        $data['image5'] = $image55;
+    }
+    if (isset($image44)) {
+        $data['image4'] = $image44;
+    }
+    if (isset($image33)) {
+        $data['image3'] = $image33;
+    }
+    if (isset($image22)) {
+        $data['image2'] = $image22;
+    }
+    if (isset($image11)) {
+        $data['image1'] = $image11;
+    }
+    if (isset($image66)) {
+        $data['image6'] = $image66;
+    }
+    if (isset($size_ids)) {
         $data['size'] = $size_ids;
-        $data['material'] = $material_ids;
+    }
+        // $data['Brand'] = $Brand;
+    $data['Product_name'] = $ProductName;
+    $data['Product_price'] = $ProductPrice;
+    $data['ProductDesc'] = $ProductDesc;
+        //$data['size'] = $size_ids;
+       // $data['material'] = $material_ids;
         // $data = [
         //     'Brand' => $Brand,
         //     'Product_name' => $ProductName,
@@ -420,24 +463,24 @@ public function editproductDetails()
         //     'material' => $material_ids
         // ];
 
-        $builder = $db->table($table);
-        $builder->where('ProductCode', $ProductCode);
-        $result = $builder->update($data);
-        if ($result) {
-            echo json_encode(array(
-                "success" => true,
-                "msg" => "Product Updated, Successfully",
-            ));
-        } else {
-            echo json_encode(array(
-                "success" => false,
-                "msg" => "not Added",
-            ));
+    $builder = $db->table($table);
+    $builder->where('ProductCode', $ProductCode);
+    $result = $builder->update($data);
+    if ($result) {
+        echo json_encode(array(
+            "success" => true,
+            "msg" => "Product Updated, Successfully",
+        ));
+    } else {
+        echo json_encode(array(
+            "success" => false,
+            "msg" => "not Added",
+        ));
 
             //return redirect()->to('/admin/banner');
 
-        }
     }
+}
     // public function productdelete(){
     //     	 $db  = \Config\Database::connect();
     //      $id = $this->request->getVar('id');
@@ -458,106 +501,106 @@ public function editproductDetails()
     //         return json_encode($data);
     //     }
     // }
-    public function productdelete()
-    {
-        $db  = \Config\Database::connect();
-        $id = $this->request->getVar('id');
-        $table = $this->request->getVar('table');
+public function productdelete()
+{
+    $db  = \Config\Database::connect();
+    $id = $this->request->getVar('id');
+    $table = $this->request->getVar('table');
         //   echo  $id = '49';
         //   echo  $table = 'mens';
-        $builder1 = $db->table($table);
-        $builder1->where('Id', $id);
-        $result12 = $builder1->get();
-        foreach ($result12->getResult() as $key11) {
-            $Pc = $key11->ProductCode;
+    $builder1 = $db->table($table);
+    $builder1->where('Id', $id);
+    $result12 = $builder1->get();
+    foreach ($result12->getResult() as $key11) {
+        $Pc = $key11->ProductCode;
             // var_dump($Pc);exit();
-        }
+    }
         // $update = $db->query("delete from product where ProductCode='$Pc'" );
         // var_dump($update);exit();
-        $builder2 = $db->table('add_to_cart');
-        $builder2->where('ProductCode', $Pc);
-        $builder2->delete();
-        $builder3 = $db->table('product');
-        $builder3->where('ProductCode', $Pc);
-        $builder3->delete();
+    $builder2 = $db->table('add_to_cart');
+    $builder2->where('ProductCode', $Pc);
+    $builder2->delete();
+    $builder3 = $db->table('product');
+    $builder3->where('ProductCode', $Pc);
+    $builder3->delete();
         // var_dump($id);exit();
         //create obj for db
         // $id='38';
         // $addb = new MensModel();
-        $builder = $db->table($table);
-        $builder->where('Id', $id);
+    $builder = $db->table($table);
+    $builder->where('Id', $id);
         //   $builder->delete();
         //delete code
-        if ($builder->delete()) {
-            $data['success'] = ' deleted Successfully';
-            return json_encode($data);
-        } else {
-            $data['fail'] = 'oops!!! Unable to delete, Please try again.';
-            return json_encode($data);
-        }
+    if ($builder->delete()) {
+        $data['success'] = ' deleted Successfully';
+        return json_encode($data);
+    } else {
+        $data['fail'] = 'oops!!! Unable to delete, Please try again.';
+        return json_encode($data);
     }
-    public function orders(){
-      return view('admin/orders');
-  }
-  public function ordersget()
-  {
+}
+public function orders(){
+  return view('admin/orders');
+}
+public function ordersget()
+{
 		// echo json_encode(1);
-      $cart = new cartModel();
+  $cart = new cartModel();
 
-      $db  = \Config\Database::connect();
-      $i=1;
-      $data12= $cart->where('status', '1')->findAll();
+  $db  = \Config\Database::connect();
+  $i=1;
+  $data12= $cart->where('status', '1')->findAll();
         // $json_data['data'] = $data['students'] ; 
-      foreach ($data12 as $key) {
-         $id=$key['order_id'];
-         $ProductCode=$key['ProductCode'];
-         $user_id=$key['user_id'];
+  foreach ($data12 as $key) {
+   $id=$key['order_id'];
+   $ProductCode=$key['ProductCode'];
+   $user_id=$key['user_id'];
 				// var_dump($user_id);exit();
-         $tabelName=$key['table_name'];
-         $builder = $db->table('register_user');
-         $builder->where('user_id',$user_id);
-         $result12 = $builder->get();
+   $tabelName=$key['table_name'];
+   $builder = $db->table('register_user');
+   $builder->where('user_id',$user_id);
+   $result12 = $builder->get();
                                         // var_dump($result12->getResult());exit();
-         foreach ($result12->getResult() as $key11) {
-           $username=$key11->firstname ;
-       }
-       $tabelName=$key['table_name'];
-       
-       $builder = $db->table($tabelName);
-       $builder->where('ProductCode',$ProductCode);
-       $result = $builder->get();
+   foreach ($result12->getResult() as $key11) {
+     $username=$key11->firstname ;
+ }
+ $tabelName=$key['table_name'];
+ 
+ $builder = $db->table($tabelName);
+ $builder->where('ProductCode',$ProductCode);
+ $result = $builder->get();
                                         // var_dump($result->getResult());
-       foreach ($result->getResult() as $key1) {
-        $Product_name = $key1->Product_name;
-        $Product_price = $key1->Product_price;
-        $image1 = $key1->image1;
-    }
-    $ss1[] = array(
-        'ids' => $i,
-        'id' => $id,
-        'Product_name'=>$Product_name,
-        'username'=>$username
-    );
-    $i++;
+ foreach ($result->getResult() as $key1) {
+    $Product_name = $key1->Product_name;
+    $Product_price = $key1->Product_price;
+    $image1 = $key1->image1;
+}
+$ss1[] = array(
+    'ids' => $i,
+    'id' => $id,
+    'Product_name'=>$Product_name,
+    'username'=>$username
+);
+$i++;
 }
 $data['orders'] = $ss1;
 return $this->response->setJSON($data); /** Change $data to $json_data for DataTable */
 }
 public function orderstoedit(){
- $id = $this->request->getPost('id');
- 
- $check = new checkoutModal();
- $data = $check->find($id);
- $data=$check->where('order_id',$id)->find();
+   $id = $this->request->getPost('id');
+   
+   $check = new checkoutModal();
+   $data = $check->find($id);
+   $data=$check->where('order_id',$id)->find();
 // 	  $data['id']=$id;
- echo json_encode($data);
+   echo json_encode($data);
 }
 public function orderupdate(){
-   $status = $this->request->getPost('order_sta');
-   $orderid = $this->request->getPost('idc');
-   $db  = \Config\Database::connect();
-   $update = $db->query("update checkout set order_status='$status' WHERE order_id='$orderid'" );
-   return view('admin/orders');
+ $status = $this->request->getPost('order_sta');
+ $orderid = $this->request->getPost('idc');
+ $db  = \Config\Database::connect();
+ $update = $db->query("update checkout set order_status='$status' WHERE order_id='$orderid'" );
+ return view('admin/orders');
 }
 public function vieworder(){
   $id = $this->request->getPost('id');
@@ -573,64 +616,64 @@ public function vieworder(){
   $result12 = $builder->get();
                                         // var_dump($result12->getResult());exit();
   foreach ($result12->getResult() as $key11) {
-   $username=$key11->firstname.$key11->lastname ;
-   $address=$key11->address;
-   $email=$key11->email;
-   $contact=$key11->contact;
-}
-$size=$data12['size'];
-$material=$data12['material'];
-$builder12 = $db->table('material_master');
-$builder12->where('id ',$material);
-$result12 = $builder12->get();
-foreach ($result12->getResult() as $key22) {
-   $material=$key22->material;
-}
-$builder123 = $db->table('size_master');
-$builder123->where('id ',$size);
-$result123 = $builder123->get();
-foreach ($result123->getResult() as $key113) {
-   $size=$key113->size;
-   
-   $bust=$data12['bust'];
-   $waist=$data12['waist'];
-   $hip=$data12['hip'];
-   $qty=$data12['quantity'];
-   $amt=$data12['amount'];
-   $folder=$data12['folder'];
-   
-   $tablename=$data12['table_name'];
-   $builder = $db->table($tablename);
-   $builder->where('ProductCode',$ProductCode);
-   $result = $builder->get();
-   foreach ($result->getResult() as $key11) {
-       $Productname=$key11->Product_name;
-       $productimage=$key11->image1;
-       $ss[] = array(
+     $username=$key11->firstname.$key11->lastname ;
+     $address=$key11->address;
+     $email=$key11->email;
+     $contact=$key11->contact;
+ }
+ $size=$data12['size'];
+ $material=$data12['material'];
+ $builder12 = $db->table('material_master');
+ $builder12->where('id ',$material);
+ $result12 = $builder12->get();
+ foreach ($result12->getResult() as $key22) {
+     $material=$key22->material;
+ }
+ $builder123 = $db->table('size_master');
+ $builder123->where('id ',$size);
+ $result123 = $builder123->get();
+ foreach ($result123->getResult() as $key113) {
+     $size=$key113->size;
+     
+     $bust=$data12['bust'];
+     $waist=$data12['waist'];
+     $hip=$data12['hip'];
+     $qty=$data12['quantity'];
+     $amt=$data12['amount'];
+     $folder=$data12['folder'];
+     
+     $tablename=$data12['table_name'];
+     $builder = $db->table($tablename);
+     $builder->where('ProductCode',$ProductCode);
+     $result = $builder->get();
+     foreach ($result->getResult() as $key11) {
+         $Productname=$key11->Product_name;
+         $productimage=$key11->image1;
+         $ss[] = array(
+           
+           'order_id'=>$id,
+           'Product_name'=>$Productname,
+           'ProductCode'=>$ProductCode,
+           'size'=>$size,
+           'bust'=>$bust,
+           'waist'=>$waist,
+           'hip'=>$hip,
+           'qty'=>$qty,
+           'amt'=>$amt,
+           'productimage'=>$productimage,
+           'folder'=>$folder,
+           'material'=>$material,
+           'name'=>$username,
+           'address'=>$address,
+           'email'=>$email,
+           'contact'=>$contact
+       );
          
-         'order_id'=>$id,
-         'Product_name'=>$Productname,
-         'ProductCode'=>$ProductCode,
-         'size'=>$size,
-         'bust'=>$bust,
-         'waist'=>$waist,
-         'hip'=>$hip,
-         'qty'=>$qty,
-         'amt'=>$amt,
-         'productimage'=>$productimage,
-         'folder'=>$folder,
-         'material'=>$material,
-         'name'=>$username,
-         'address'=>$address,
-         'email'=>$email,
-         'contact'=>$contact
-     );
-       
-       echo json_encode($ss);
-   }}
-}
-public function users_list()
-{
+         echo json_encode($ss);
+     }}
+ }
+ public function users_list()
+ {
     $userModel = new \App\Models\UserModel ();
 
     return view('admin/alluser_details');
@@ -729,33 +772,33 @@ public function Banner()
 }
 public function shipping_view()
 {
- 
+   
     return view('admin/add_shippingPolicy');
 }
 public function mega_boxview()
 {
 
              //$model = new BoxModel;
- 
+   
     return view('admin/add_megaBox');
 }
 public function mini_bannerview()
 {
 
     
- 
+   
     return view('admin/add_miniBanner');
 }
 public function addShippingPolicy()
 {
- $db = \Config\Database::connect();
- 
- helper(['form', 'url']);
- $model = new ShippingPolicyModel();
- $description = $_POST['content'];
+   $db = \Config\Database::connect();
+   
+   helper(['form', 'url']);
+   $model = new ShippingPolicyModel();
+   $description = $_POST['content'];
 
- 
- $data = [
+   
+   $data = [
     'policy'   =>$description
     
 ];
@@ -765,7 +808,7 @@ $db  = \Config\Database::connect();
 $update = $db->query("update shipping_master set policy='$description' " );
 
 if($update){
- echo json_encode(array(
+   echo json_encode(array(
     "success" => true,
     "msg" => "Data Updated, Successfully",
 ));
@@ -853,10 +896,10 @@ function generate_string()
   $input_length = strlen($input);
   $random_string = '';
   for ($i = 0; $i < 5; $i++) {
-     $random_character = $input[mt_rand(0, $input_length - 1)];
-     $random_string .= $random_character;
- }
- return $random_string;
+   $random_character = $input[mt_rand(0, $input_length - 1)];
+   $random_string .= $random_character;
+}
+return $random_string;
 }
 
 
@@ -878,16 +921,16 @@ public function addbanner(){
         //   var_dump($file_name);exit();
   $data = [
                 // 'banner_type'   =>$banner_type,
-   'tag_line'    => $_POST['tag'],
-   'subtag_line' => $_POST['subtag'],
-   'banner_img' =>$cover1,
-   'status'=>1
-];
+     'tag_line'    => $_POST['tag'],
+     'subtag_line' => $_POST['subtag'],
+     'banner_img' =>$cover1,
+     'status'=>1
+ ];
 
 
-$result=$model->save($data);
-if($result){
- echo json_encode(array(
+ $result=$model->save($data);
+ if($result){
+   echo json_encode(array(
     "success" => true,
     "msg" => "Data Added, Successfully",
 ));
@@ -902,11 +945,11 @@ if($result){
 }
 }
 public function getAllBanner(){
-   $banner = new BannerModel();
-   $banner=$banner->findAll();
-   
-   $i = 1;
-   foreach ($banner as $key) {
+ $banner = new BannerModel();
+ $banner=$banner->findAll();
+ 
+ $i = 1;
+ foreach ($banner as $key) {
     $id=$key['banner_id'];
             // var_dump($id);exit();
     $tagline= $key['tag_line'];
@@ -972,16 +1015,16 @@ public function Updatebanner()
         $cover1 = $this->resizeImage($file_name, $fileName, $imageType, $image, $folder);
     }
     else{
-       $builder = $db->table('Banner_Master');
-       $builder->where('banner_id',$banner_id);
-       $result = $builder->get();
-       foreach ($result->getResult() as $key11) {
-           $cover1 = $key11->banner_img;
-       }
-   }
+     $builder = $db->table('Banner_Master');
+     $builder->where('banner_id',$banner_id);
+     $result = $builder->get();
+     foreach ($result->getResult() as $key11) {
+         $cover1 = $key11->banner_img;
+     }
+ }
         // $update = $db->query("update Banner_Master set status='0' where banner_type= '$banner_type'");
         //   var_dump($file_name);exit();
-   $data = [
+ $data = [
 
     'tag_line'    => $_POST['tagline'],
     'subtag_line' => $_POST['subtagline'],
@@ -1049,11 +1092,11 @@ public function resizeImage($file_name, $fileName, $imageType, $image, $folder)
             $newheight = 300;
         }
         if ($image == 'Boxes') {
-         $newwidth = 370;
-         $newheight = 370;
-     }
+           $newwidth = 370;
+           $newheight = 370;
+       }
             // var_dump($newwidth);var_dump($newheight);exit();
-     if ($width >= $newwidth && $height >= $newheight) {
+       if ($width >= $newwidth && $height >= $newheight) {
 
 
         $targetLayer = imagecreatetruecolor($newwidth, $newheight);
@@ -1208,10 +1251,10 @@ public function getAllboxes(){
         $status1='Active Image';
     }
     else{
-       $status1='Inactive Image';
-   }
-   $folder = 'https://digileadz.com/sirsonite/Beseen/public/product/';
-   $bannerdata[]=array(
+     $status1='Inactive Image';
+ }
+ $folder = 'https://digileadz.com/sirsonite/Beseen/public/product/';
+ $bannerdata[]=array(
     'tag_line'=>$tagline,
     'subtag_line'=>$subtagline,
     'banner'=>$folder.$banner,
@@ -1220,7 +1263,7 @@ public function getAllboxes(){
     'boxType'=>$box_type,
     'status'=>$status1
 );
-   $i++;
+ $i++;
 }
 $data['boxes'] = $bannerdata;
             // var_dump($banner);exit();
@@ -1228,14 +1271,14 @@ return $this->response->setJSON($data);
 
 }
 public function editboxes(){
-   $db  = \Config\Database::connect();
-   $id = $this->request->getVar('id');
+ $db  = \Config\Database::connect();
+ $id = $this->request->getVar('id');
         // var_dump($id);exit();
-   
-   $builder = $db->table('box_master');
-   $builder->where('id',$id);
-   $result = $builder->get();
-   foreach ($result->getResult() as $key11) {
+ 
+ $builder = $db->table('box_master');
+ $builder->where('id',$id);
+ $result = $builder->get();
+ foreach ($result->getResult() as $key11) {
     $tag_line = $key11->title;
     $image=$key11->surl;
     $sub_tagline=$key11->sub_title;
@@ -1269,16 +1312,16 @@ public function Updateboxes(){
         $cover1 = $this->resizeImage($file_name, $fileName, $imageType, $image, $folder);
     }
     else{
-       $builder = $db->table('box_master');
-       $builder->where('id',$banner_id);
-       $result = $builder->get();
-       foreach ($result->getResult() as $key11) {
-           $cover1 = $key11->surl;
-       }
-   }
+     $builder = $db->table('box_master');
+     $builder->where('id',$banner_id);
+     $result = $builder->get();
+     foreach ($result->getResult() as $key11) {
+         $cover1 = $key11->surl;
+     }
+ }
         // $update = $db->query("update Banner_Master set status='0' where banner_type= '$banner_type'");
         //   var_dump($file_name);exit();
-   $data = [
+ $data = [
 
     'title'    => $_POST['tagline'],
     'sub_title' => $_POST['subtagline'],
@@ -1327,10 +1370,10 @@ public function boxesdelete(){
     
 }
 public function boxesactive(){
-   $db  = \Config\Database::connect();
-   $id = $this->request->getVar('id');
-   $boxtype = $this->request->getVar('boxtype');
-   $data = [
+ $db  = \Config\Database::connect();
+ $id = $this->request->getVar('id');
+ $boxtype = $this->request->getVar('boxtype');
+ $data = [
     'status'    => '1',
 ];
 $update = $db->query("update box_master set status='0' where box_type= '$boxtype' and status='1'");
@@ -1408,7 +1451,7 @@ $result=$megamodel->save($data);
             //$mensProduct_id = $mens->getInsertID();
 
 if($result){
- echo json_encode(array(
+   echo json_encode(array(
     "success" => true,
     "msg" => "Data Added, Successfully",
 ));
@@ -1495,16 +1538,16 @@ public function Updatemegabox(){
         $cover1 = $this->resizeImage($file_name, $fileName, $imageType, $image, $folder);
     }
     else{
-       $builder = $db->table('mega_box_master');
-       $builder->where('id',$banner_id);
-       $result = $builder->get();
-       foreach ($result->getResult() as $key11) {
-           $cover1 = $key11->image1;
-       }
-   }
+     $builder = $db->table('mega_box_master');
+     $builder->where('id',$banner_id);
+     $result = $builder->get();
+     foreach ($result->getResult() as $key11) {
+         $cover1 = $key11->image1;
+     }
+ }
         // $update = $db->query("update Banner_Master set status='0' where banner_type= '$banner_type'");
         //   var_dump($file_name);exit();
-   $data = [
+ $data = [
 
     'tag_line'    => $_POST['tagline'],
     'subtag_line' => $_POST['subtagline'],
@@ -1552,10 +1595,10 @@ public function megaboxdelete(){
 
 }
 public function megaboxactive(){
-   $db  = \Config\Database::connect();
-   $id = $this->request->getVar('id');
-   $boxtype = $this->request->getVar('boxtype');
-   $data = [
+ $db  = \Config\Database::connect();
+ $id = $this->request->getVar('id');
+ $boxtype = $this->request->getVar('boxtype');
+ $data = [
     'status'    => '1',
 ];
 $update = $db->query("update mega_box_master set status='0' where mega_box_type= '$boxtype' and status='1'");
@@ -1582,22 +1625,22 @@ if ($result) {
 
 public function add_miniBanner_img()
 {
- helper(['form', 'url']);
- $model = new MiniBannerModel();
- 
- 
- 
- 
- $folder ='assets/images/uploads/mini_banner/';
- 
- $image1 = $this->request->getFile('minibanner');
- $image1temp = $_FILES["minibanner"]["tmp_name"];
- $image1Type= $_FILES['minibanner']['type'];
+   helper(['form', 'url']);
+   $model = new MiniBannerModel();
+   
+   
+   
+   
+   $folder ='assets/images/uploads/mini_banner/';
+   
+   $image1 = $this->request->getFile('minibanner');
+   $image1temp = $_FILES["minibanner"]["tmp_name"];
+   $image1Type= $_FILES['minibanner']['type'];
 
- $image='MiniBanner';
+   $image='MiniBanner';
 
- 
- if ($image1->isValid() || !$image1->hasMoved()) {
+   
+   if ($image1->isValid() || !$image1->hasMoved()) {
     $image11 = $this->resizeImage($image1, $image1temp,$image1Type, $image ,$folder);
 } 
 
@@ -1615,7 +1658,7 @@ $result=$model->save($data);
             //$mensProduct_id = $mens->getInsertID();
 
 if($result){
- echo json_encode(array(
+   echo json_encode(array(
     "success" => true,
     "msg" => "Data Added, Successfully",
 ));
@@ -1633,11 +1676,11 @@ if($result){
 
 }
 public function getAllminibanner(){
- $model = new MiniBannerModel();
- $model=$model->findAll();
- 
- $i = 1;
- foreach ($model as $key) {
+   $model = new MiniBannerModel();
+   $model=$model->findAll();
+   
+   $i = 1;
+   foreach ($model as $key) {
     $id=$key['id'];
             // var_dump($id);exit();
     $tagline= $key['tag_line'];
@@ -1658,14 +1701,14 @@ $data['minibanner'] = $bannerdata;
 return $this->response->setJSON($data);
 }     
 public function editminibanner(){
-   $db  = \Config\Database::connect();
-   $id = $this->request->getVar('id');
+ $db  = \Config\Database::connect();
+ $id = $this->request->getVar('id');
         // var_dump($id);exit();
-   
-   $builder = $db->table('mini_banner_master');
-   $builder->where('id',$id);
-   $result = $builder->get();
-   foreach ($result->getResult() as $key11) {
+ 
+ $builder = $db->table('mini_banner_master');
+ $builder->where('id',$id);
+ $result = $builder->get();
+ foreach ($result->getResult() as $key11) {
     $tag_line = $key11->tag_line;
     $image=$key11->mini_banner_img;
     $sub_tagline=$key11->subtag_line;
@@ -1681,13 +1724,13 @@ public function editminibanner(){
 }
 } 
 public function Updateminibanner(){
- helper(['form', 'url']);
- $model = new MiniBannerModel();
- $db  = \Config\Database::connect();
+   helper(['form', 'url']);
+   $model = new MiniBannerModel();
+   $db  = \Config\Database::connect();
         //    var_dump($banner_type);exit();
- $banner_id = $_POST['banner_id'];
- $file_name = $this->request->getFile('banner1');
- if(!empty($_FILES['banner1']['name'])){
+   $banner_id = $_POST['banner_id'];
+   $file_name = $this->request->getFile('banner1');
+   if(!empty($_FILES['banner1']['name'])){
         // var_dump($file_name);
     $fileName = $_FILES["banner1"]["tmp_name"];
 
@@ -1698,12 +1741,12 @@ public function Updateminibanner(){
     $cover1 = $this->resizeImage($file_name, $fileName, $imageType, $image, $folder);
 }
 else{
-   $builder = $db->table('mini_banner_master');
-   $builder->where('id',$banner_id);
-   $result = $builder->get();
-   foreach ($result->getResult() as $key11) {
-       $cover1 = $key11->mini_banner_img;
-   }
+ $builder = $db->table('mini_banner_master');
+ $builder->where('id',$banner_id);
+ $result = $builder->get();
+ foreach ($result->getResult() as $key11) {
+     $cover1 = $key11->mini_banner_img;
+ }
 }
         // $update = $db->query("update Banner_Master set status='0' where banner_type= '$banner_type'");
         //   var_dump($file_name);exit();
@@ -1793,8 +1836,8 @@ public function logout(){
 
 public function resizeProductImage($file_name, $fileName, $imageType, $folder)
 {
- 
-   if (!$fileName==""){
+   
+ if (!$fileName==""){
 
     list($width, $height) = getimagesize($file_name);
 

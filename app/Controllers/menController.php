@@ -26,10 +26,21 @@ class menController extends BaseController
                // $ProductName = $_POST['ProductName'];
       $ProductPrice = $_POST['ProductPrice'];
       $ProductDesc = $_POST['ProductDesc'];
-      $fabric= $_POST['fabric'];
-      $count= $_POST['count'];
-      $weave= $_POST['weave'];
-      $care= $_POST['care'];
+      if(isset($_POST['fabric'])){
+   $fabric= $_POST['fabric'];
+      }
+        if(isset($_POST['count'])){
+   $count= $_POST['count'];
+      }
+        if(isset($_POST['weave'])){
+   $weave= $_POST['weave'];
+      }
+        if(isset($_POST['care'])){
+   $care= $_POST['care'];
+      }
+      if(isset($_POST['fits'])){
+   $fit= $_POST['fits'];
+      }
       if(isset($_POST['sizes'])){
         $size = $_POST['sizes'];
         foreach ($size as $val) {
@@ -40,7 +51,7 @@ class menController extends BaseController
     }
     
 
-    $fit = $_POST['fits'];
+   // $fit = $_POST['fits'];
 
     
 
@@ -150,14 +161,26 @@ class menController extends BaseController
    if(isset($size_ids)){
        $data['size'] = $size_ids;
    }
+    if(isset($fabric)){
+       $data['fabric'] = $fabric;
+   }
+   if(isset($weave)){
+       $data['weave'] = $weave;
+   }
+   if(isset($care)){
+       $data['care'] = $care;
+   }
+   if(isset($fit_ids)){
+       $data['fit'] = $fit_ids;
+   }
    $data['Men_id'] = $mensCat;
            // $data['Brand'] = $Brand;
    $data['Product_name'] = $ProductName;
    $data['Product_price'] = $ProductPrice;
-   $data['fabric'] = $fabric;
-   $data['count'] = $count;
-   $data['weave'] = $weave;
-   $data['care'] = $care;
+   // $data['fabric'] = $fabric;
+   // $data['count'] = $count;
+   // $data['weave'] = $weave;
+   // $data['care'] = $care;
    
    $data['ProductDesc'] = $ProductDesc;
    

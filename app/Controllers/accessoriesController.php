@@ -45,6 +45,35 @@ class accessoriesController extends BaseController
     $ProductName = $_POST['ProductName'];
     $ProductPrice = $_POST['ProductPrice'];
     $ProductDesc=$_POST['ProductDesc'];
+      if(isset($_POST['fabric'])){
+   $fabric= $_POST['fabric'];
+      }
+        if(isset($_POST['count'])){
+   $count= $_POST['count'];
+      }
+        if(isset($_POST['weave'])){
+   $weave= $_POST['weave'];
+      }
+        if(isset($_POST['care'])){
+   $care= $_POST['care'];
+      }
+      if(isset($_POST['fits'])){
+   $fit= $_POST['fits'];
+    foreach ($fit as $mat) {
+        $fits[] = $mat;
+    }
+
+    $fit_ids = implode(',', $fits);
+      }
+  
+      // $count= $_POST['count'];
+      // $weave= $_POST['weave'];
+      // $care= $_POST['care'];
+      //   $fit = $_POST['fits'];
+
+    
+
+   
     if(isset($_POST['sizes'])){
         $size = $_POST['sizes'];
         foreach ($size as $val) {
@@ -149,6 +178,18 @@ if(isset($image66)){
 if(isset($size_ids)){
        $data['size'] = $size_ids;
    }
+   if(isset($fabric)){
+       $data['fabric'] = $fabric;
+   }
+   if(isset($weave)){
+       $data['weave'] = $weave;
+   }
+   if(isset($care)){
+       $data['care'] = $care;
+   }
+   if(isset($fit_ids)){
+       $data['fit'] = $fit_ids;
+   }
 
 
 // $data['Brand'] = $Brand;
@@ -156,6 +197,11 @@ $data['Product_name'] = $ProductName;
 $data['Product_price'] = $ProductPrice;
 
 $data['ProductDesc'] = $ProductDesc;
+// $data['fabric'] = $fabric;
+//    $data['count'] = $count;
+//    $data['weave'] = $weave;
+//    $data['care'] = $care;
+//    $data['fit'] = $fit_ids;
 // $data['size'] = $size_ids;
 // $data['material'] = $material_ids;
      // $data['men_acces_id'] = $men_cat_id;

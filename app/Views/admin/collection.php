@@ -63,20 +63,20 @@
                                   </div>
                                    <div class="form-group col-md-12">
                                     <div class="row">
-                                      <div class="form-group col-md-6">
+                                     <!--  <div class="form-group col-md-6">
                                     <label for="size">Size</label>
 <br>
-                                     <?php 
+                                     </?php 
                                          $db = db_connect();
                                         $result = $db->query("SELECT * FROM `size_master` ");
                                          foreach ($result->getResult() as $key) {
                                                  //  var_dump($key);  
                                         $ID=$key->id;
                                         $size=$key->size;?>
-                                         <input type="radio" name="sizes[<?php echo $ID;?>]" value="<?php echo $ID ?>" /> <?php echo $size?>
+                                         <input type="radio" name="sizes[</?php echo $ID;?>]" value="</?php echo $ID ?>" /> </?php echo $size?>
                                          
-                            <?php    }?>
-                              </div>
+                            </?php    }?>
+                              </div> -->
                               <!-- <div class="form-group col-md-6">
                                     <label for="material">Material</label>
 <br>
@@ -93,6 +93,51 @@
                               </div> -->
                                 </div>
                                   </div>
+                                  <div class="form-group col-md-12">
+                                        <div class="row">
+                                            <div class="form-group col-md-6">
+                                                <label for="size">Fit</label>
+                                                <br>
+                                                <?php
+                                                $db = db_connect();
+                                                $result = $db->query("SELECT * FROM `fit_master` ");
+                                                foreach ($result->getResult() as $key) {
+                                                    //  var_dump($key);  
+                                                    $ID = $key->id;
+                                                    $fit = $key->fit; ?>
+                                                    <input type="radio" name="fits[<?php echo $ID; ?>]" value="<?php echo $ID ?>"  /> <?php echo $fit ?>
+
+                                                <?php    } ?>
+                                            </div>
+                                       
+                                        </div>
+                                    </div>
+                                     <div class="form-group col-md-12 fabric ">
+                                        <div class="row">
+                                            <div class="form-group col-md-6">
+                                                <label for="Name">Fabric:</label>
+                                            <input type="text" id="fabric" name="fabric" placeholder="">
+                                            </div>
+                                               <div class="form-group col-md-6">
+                                                <label for="Name">Count:</label>
+                                            <input type="text" id="count" name="count" placeholder="">
+                                            </div>
+                                               
+                                       
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-group col-md-6">
+                                                <label for="Name">Weave/Pattern:</label>
+                                            <input type="text" id="weave" name="weave" placeholder="">
+                                            </div>
+                                               <div class="form-group col-md-6">
+                                                <label for="Name">Care:</label>
+                                            <input type="text" id="care" name="care" placeholder="">
+                                            </div>
+                                               
+                                       
+                                        </div>
+                                    </div>
                                   <div class="form-group col-md-12">
                                     <label for="Banner_Image">Choose Product Image 1 *</label><span style="color:red;">Image Size Only greater than  or 470 * 470</span>
                                     <input type="file" class="form-control" id="ProductImage1" name="ProductImage1" ><span id="img_error1" class="text-danger ms-3" required></span>

@@ -96,7 +96,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                 <!--    <div class="row">
                         <div class="col-6">
                             <div class="mb-3">
                                 <label for="category" class="form-label">Product Brand</label>
@@ -105,7 +105,7 @@
                             </div>
                         </div>
                     </div>
-
+ -->
                     <div class="row">
 
                         <div class="col-6">
@@ -135,48 +135,98 @@
                     </div>
                     <div class="row">
 
-                        <div class="col-12">
+                        <div class="col-12 ">
                             <div class="mb-3">
-                                <label for="category" class="form-label">Size:</label><br>
+                                <label for="category" class="form-label ">Size:</label><br>
                                 <small style="color:red;">Please Select Default selected Size below if required same</small><br>
                                 <?php
                                 $db = db_connect();
                                 $result = $db->query("SELECT * FROM `size_master` ");
+                                if($result){
                                 foreach ($result->getResult() as $key) {
 
                                     $ID = $key->id;
                                     $size = $key->size; ?>
                                     <input type="radio" name="sizes[<?php echo $ID; ?>]" value="<?php echo $ID ?>" /> <?php echo $size ?>
 
-                                <?php    } ?>
+                                <?php    } 
+                            }?>
                                 <span class="text-danger ml-1 author_error"></span>
                                 <div><span class="author"></span></div>
                                 <input type="text" class="form-control author" id="ms" name="author" readonly>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="form-group col-md-12 ">
+                                        <div class="row">
+                                            <div class="form-group col-md-6">
+                                                <label for="size">Fit</label>
+                                                <br>
+                                                <?php
+                                                $db = db_connect();
+                                                $result = $db->query("SELECT * FROM `fit_master` ");
+                                                foreach ($result->getResult() as $key) {
+                                                    //  var_dump($key);  
+                                                    $ID = $key->id;
+                                                    $fit = $key->fit; ?>
+                                                    <input type="radio" name="fits[<?php echo $ID; ?>]" value="<?php echo $ID ?>"  /> <?php echo $fit ?>
+
+                                                <?php    } ?>
+                                                 <span class="text-danger ml-1 author_error"></span>
+                                <div><span class="author"></span></div>
+                                <input type="text" class="form-control author" id="fit" name="fit" readonly>
+                                            </div>
+                                       
+                                        </div>
+                                    </div>
+                                     <div class="form-group col-md-12 ">
+                                        <div class="row">
+                                            <div class="form-group col-md-6">
+                                                <label for="Name">Fabric:</label>
+                                            <input type="text" id="fabric" name="fabric" placeholder="">
+                                            </div>
+                                               <div class="form-group col-md-6">
+                                                <label for="Name">Count:</label>
+                                            <input type="text" id="count" name="count" placeholder="">
+                                            </div>
+                                               
+                                       
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-group col-md-6">
+                                                <label for="Name">Weave/Pattern:</label>
+                                            <input type="text" id="weave" name="weave" placeholder="">
+                                            </div>
+                                               <div class="form-group col-md-6">
+                                                <label for="Name">Care:</label>
+                                            <input type="text" id="care" name="care" placeholder="">
+                                            </div>
+                                               
+                                       
+                                        </div>
+                                    </div>
+                   <!--  <div class="row">
 
                         <div class="col-12">
                             <div class="mb-3">
                                 <label for="category" class="form-label">Material</label><br>
                                 <small style="color:red;">Please Select Default selected Size below if required same</small><br>
-                                <?php
+                                </?php
                                 $db = db_connect();
                                 $result = $db->query("SELECT * FROM `material_master` ");
                                 foreach ($result->getResult() as $key) {
 
                                     $ID = $key->Id;
                                     $material = $key->material; ?>
-                                    <input type="radio" name="material[<?php echo $ID; ?>]" value="<?php echo $ID ?>" /> <?php echo $material ?>
+                                    <input type="radio" name="material[</?php echo $ID; ?>]" value="</?php echo $ID ?>" /> </?php echo $material ?>
 
-                                <?php    } ?>
+                                </?php    } ?>
                                 <span class="text-danger ml-1 author_error"></span>
                                 <div><span class="author"></span></div>
                                 <input type="text" class="form-control author" id="ms1" name="author" readonly>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="row">
 
                         <div class="col-6">
@@ -418,8 +468,33 @@
                 $('#ProductBrand').val(response.ProductBrand);
                 $('#PC').val(response.ProductCode);
                 $('#ProductDesc').val(response.ProductDesc);
-               /// alert(response.material);
-                $('#ms').val(response.size);
+                $('#fabric').val(response.fabric);
+                $('#count').val(response.count);
+                $('#weave').val(response.weave);
+                $('#care').val(response.care);
+               $('#fit').val(response.fit);
+//alert(response.size);
+               // if(response.size){
+               // $('.sizediv').removeClass('d-none');
+               $('#ms').val(response.size);
+               //}
+
+
+               
+        //         if(response.size==){
+        // //             document.getElementById('hidden_div').style.display = "block";
+        // //             $('#ms').val(response.size);
+        // //       } else{
+        // // document.getElementById('hidden_div').style.display = "none";
+        //               alert(response.size);
+        //             //$('.sizediv').AddClass('d-none');
+                     
+        //         $('.sizediv').removeClass('d-none');
+        //         $('#ms').val(response.size);
+                    
+        //         }
+               
+                
                 $('#ms1').val(response.material);
                 $('.image1').html("<img width='100' src='https://digileadz.com/sirsonite/Beseen/assets/images/uploads/" + response.folder + "/" + response.image1 + "'>");
                 $('.image2').html("<img width='100' src='https://digileadz.com/sirsonite/Beseen/assets/images/uploads/" + response.folder + "/" + response.image2 + "'>");

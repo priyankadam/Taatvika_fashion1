@@ -26,6 +26,21 @@ class collectionController extends BaseController
     $ProductName = $_POST['ProductName'];
     $ProductPrice = $_POST['ProductPrice'];
     $ProductDesc=$_POST['ProductDesc'];
+     if(isset($_POST['fabric'])){
+   $fabric= $_POST['fabric'];
+      }
+        if(isset($_POST['count'])){
+   $count= $_POST['count'];
+      }
+        if(isset($_POST['weave'])){
+   $weave= $_POST['weave'];
+      }
+        if(isset($_POST['care'])){
+   $care= $_POST['care'];
+      }
+      if(isset($_POST['fits'])){
+   $fits= $_POST['fits'];
+      }
     if(isset($_POST['sizes'])){
         $size = $_POST['sizes'];
         foreach ($size as $val) {
@@ -34,6 +49,15 @@ class collectionController extends BaseController
 
         $size_ids = implode(',', $mensizes);
     }
+      $fit = $_POST['fits'];
+
+    
+
+    foreach ($fit as $mat) {
+        $fits[] = $mat;
+    }
+
+    $fit_ids = implode(',', $fits);
   $folder ='assets/images/uploads/collections/';
   
   $image1 = $this->request->getFile('ProductImage1');
@@ -113,16 +137,31 @@ if(isset($image66)){
 if(isset($size_ids)){
        $data['size'] = $size_ids;
    }
+    if(isset($fabric)){
+       $data['fabric'] = $fabric;
+   }
+   if(isset($weave)){
+       $data['weave'] = $weave;
+   }
+   if(isset($care)){
+       $data['care'] = $care;
+   }
+   if(isset($fit_ids)){
+       $data['fit'] = $fit_ids;
+   }
 $data['Collection_id'] = $coll_cat;
 // $data['Brand'] = $Brand;
 $data['Product_name'] = $ProductName;
 $data['Product_price'] = $ProductPrice;
-
+ // $data['fabric'] = $fabric;
+ //   $data['count'] = $count;
+ //   $data['weave'] = $weave;
+ //   $data['care'] = $care;
 $data['ProductDesc'] = $ProductDesc;
 // $data['size'] = $size_ids;
 // $data['material'] = $material_ids;
 $data['ProductCode'] = 'C-'.$getProductCode;
-
+$data['fit'] = $fit_ids;
         // $data = [
         //     'Collection_id'   =>$coll_cat,
         //     'Brand'    => $Brand,
