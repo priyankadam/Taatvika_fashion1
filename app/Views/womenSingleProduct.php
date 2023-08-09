@@ -130,11 +130,11 @@
                     <!-- Product Meta Start -->
                     <div class="product-meta mb-3">
                         <!-- Product Size Start -->
-                    
 
 
 
-                            <!-- Product Size End -->
+
+                        <!-- Product Size End -->
                     </div>
                     <!-- Product Meta End -->
 
@@ -153,25 +153,28 @@
                                 <!-- Product Size Start -->
                                 <span style="font-size:20px;padding-bottom:5px;">Fit :</span><br>
                                 <?php
-                                $fit_ids=explode(',',$data['fit']);
+                                $fit_ids = explode(',', $data['fit']);
                                 foreach ($fit_ids as $key) {
                                     $db = db_connect();
-                                     $result = $db->query("SELECT * FROM fit_master WHERE id='$key'");
-                                      foreach ($result->getResult() as $key1) {
-                                          $fitname=$key1->fit;
-                                     
-                             ?>
+                                    $result = $db->query("SELECT * FROM fit_master WHERE id='$key'");
+                                    foreach ($result->getResult() as $key1) {
+                                        $fitname = $key1->fit;
 
-                                    <input type="radio" id="size" name="fit" value="<?php echo $key ?>" required /> <?php echo $fitname  ?>
-                                <?php }} ?>
+                                ?>
+
+                                        <input type="radio" id="size" name="fit" value="<?php echo $key ?>" required /> <?php echo $fitname  ?>
+                                <?php }
+                                } ?>
 
                                 <!-- Product Size End -->
                             </div>
                             <!-- Product Meta End -->
+                            <input type="text" value="<?php echo $data['folder'] ?>" name="folder">
+                            <input type="text" value="<?php echo $data['table'] ?>" name="table">
                             <input type="text" value="<?php echo $data['userid'] ?>" name="userid">
                             <input type="text" value="<?php echo $data['Product_price'] ?>" name="productprice">
                             <input type="text" value="<?php echo $data['Product_code'] ?>" name="productcode">
-                          
+
 
                             <!-- Product Meta Start -->
                             <div class="product-meta mb-5" data-aos="fade-up" data-aos-delay="300">
@@ -210,9 +213,9 @@
                     <!-- Product Meta End -->
 
 
-                
 
-                   
+
+
                     <!--<div class="cart-wishlist-btn mb-4">-->
 
                     <!--    <div class="add-to-wishlist">-->

@@ -15,6 +15,8 @@ class AddtoCartController extends BaseController
     $size = $this->request->getVar('size');
     $fit = $this->request->getVar('fit');
     $waist=$this->request->getVar('waist');
+    $table=$this->request->getVar('table');
+    $folder=$this->request->getVar('folder');
     if(!empty($waist)){
         $waist=$this->request->getVar('waist');
     }else{
@@ -32,8 +34,8 @@ class AddtoCartController extends BaseController
             'ProductCode'=>$productcode,
             'quantity'=>$qty ,
             'fit'=>$fit,
-            'table_name'=>'mens',
-            'folder'=>'mens',
+            'table_name'=>$table,
+            'folder'=>$folder,
             'waist'=>$waist
         );
         $result = $model->save($array);

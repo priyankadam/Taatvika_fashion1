@@ -277,7 +277,9 @@ class menController extends BaseController
                 'image6' => $key->image6,
                 'size' => $key->size,
                 'material' => $key->material,
-                'fit'=>$key->fit
+                'fit'=>$key->fit,
+                'folder'=>'mens',
+                'table'=>'mens'
             );
             $menid = $key->Men_id;
         }

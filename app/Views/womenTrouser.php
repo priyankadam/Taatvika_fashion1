@@ -2,10 +2,9 @@
 
 <?= $this->section('content'); ?>
 <style type="text/css">
-    
     .cun-name1 {
-  text-align: center;
-}
+        text-align: center;
+    }
 </style>
 <!-- Single Product Section Start -->
 <div class="section section-margin">
@@ -135,11 +134,11 @@
                     <!-- Product Meta Start -->
                     <div class="product-meta mb-3">
                         <!-- Product Size Start -->
-                    
 
 
 
-                            <!-- Product Size End -->
+
+                        <!-- Product Size End -->
                     </div>
                     <!-- Product Meta End -->
 
@@ -184,10 +183,12 @@
                                 <!-- Product Size End -->
                             </div>
                             <!-- Product Meta End -->
-                            <!-- <input type="text" value="</?php echo $data['userid'] ?>" name="userid">
-                            <input type="text" value="</?php echo $data['Product_price'] ?>" name="productprice">
-                            <input type="text" value="</?php echo $data['Product_code'] ?>" name="productcode">
-                           -->
+                            <input type="text" value="<?php echo $data['folder'] ?>" name="folder">
+                            <input type="text" value="<?php echo $data['table'] ?>" name="table">
+                            <input type="text" value="<?php echo $data['userid'] ?>" name="userid">
+                            <input type="text" value="<?php echo $data['Product_price'] ?>" name="productprice">
+                            <input type="text" value="<?php echo $data['Product_code'] ?>" name="productcode">
+
 
                             <!-- Product Meta Start -->
                             <div class="product-meta mb-5" data-aos="fade-up" data-aos-delay="300">
@@ -226,9 +227,9 @@
                     <!-- Product Meta End -->
 
 
-                
 
-                   
+
+
                     <!--<div class="cart-wishlist-btn mb-4">-->
 
                     <!--    <div class="add-to-wishlist">-->
@@ -292,58 +293,114 @@
                                 <tbody>
                                     <tr>
                                         <td class="cun-name"><span>Body Part</span></td>
-                                        <td class="cun-name1"colspan="3"><span>23-25</span></td>
-                                        <td class="cun-name1"colspan="3"><span>26-28</span></td>
-                                        <td class="cun-name1"colspan="3"><span>29-31</span></td>
-                                        <td class="cun-name1"colspan="3"><span>32-34</span></td>
-                                        <td class="cun-name1"colspan="3"><span>35-37</span></td>
-                                        <td class="cun-name1"colspan="3"><span>38-40</span></td>
-                                        <td class="cun-name1"colspan="3"><span>41-43</span></td>
+                                        <td class="cun-name1" colspan="3"><span>23-25</span></td>
+                                        <td class="cun-name1" colspan="3"><span>26-28</span></td>
+                                        <td class="cun-name1" colspan="3"><span>29-31</span></td>
+                                        <td class="cun-name1" colspan="3"><span>32-34</span></td>
+                                        <td class="cun-name1" colspan="3"><span>35-37</span></td>
+                                        <td class="cun-name1" colspan="3"><span>38-40</span></td>
+                                        <td class="cun-name1" colspan="3"><span>41-43</span></td>
 
                                     </tr>
                                     <tr>
 
                                         <td>Waist</td>
-                                        <td>23</td><td>24</td><td>25</td>
-                                        <td>26</td><td>27</td><td>28</td>
-                                        <td>29</td><td>30</td><td>31</td>
-                                        <td>32</td><td>33</td><td>34</td>
-                                        <td>35</td><td>36</td><td>37</td>
-                                        <td>38</td><td>39</td><td>40</td>
-                                        <td>41</td><td>42</td><td>43</td>
+                                        <td>23</td>
+                                        <td>24</td>
+                                        <td>25</td>
+                                        <td>26</td>
+                                        <td>27</td>
+                                        <td>28</td>
+                                        <td>29</td>
+                                        <td>30</td>
+                                        <td>31</td>
+                                        <td>32</td>
+                                        <td>33</td>
+                                        <td>34</td>
+                                        <td>35</td>
+                                        <td>36</td>
+                                        <td>37</td>
+                                        <td>38</td>
+                                        <td>39</td>
+                                        <td>40</td>
+                                        <td>41</td>
+                                        <td>42</td>
+                                        <td>43</td>
                                     </tr>
                                     <tr>
 
                                         <td>Hip</td>
-                                        <td>32</td><td>33</td><td>34</td>
-                                        <td>35</td><td>36</td><td>37</td>
-                                        <td>38</td><td>39</td><td>40</td>
-                                        <td>41</td><td>42</td><td>43</td>
-                                        <td>44</td><td>45</td><td>46</td>
-                                        <td>47</td><td>48</td><td>49</td>
-                                        <td>50</td><td>51</td><td>52</td>
+                                        <td>32</td>
+                                        <td>33</td>
+                                        <td>34</td>
+                                        <td>35</td>
+                                        <td>36</td>
+                                        <td>37</td>
+                                        <td>38</td>
+                                        <td>39</td>
+                                        <td>40</td>
+                                        <td>41</td>
+                                        <td>42</td>
+                                        <td>43</td>
+                                        <td>44</td>
+                                        <td>45</td>
+                                        <td>46</td>
+                                        <td>47</td>
+                                        <td>48</td>
+                                        <td>49</td>
+                                        <td>50</td>
+                                        <td>51</td>
+                                        <td>52</td>
                                     </tr>
                                     <tr>
 
                                         <td>Fork</td>
-                                       <td>22</td><td>23</td><td>24</td>
-                                        <td>25</td><td>26</td><td>27</td>
-                                        <td>28</td><td>29</td><td>30</td>
-                                        <td>31</td><td>32</td><td>33</td>
-                                        <td>34</td><td>35</td><td>36</td>
-                                        <td>37</td><td>38</td><td>39</td>
-                                        <td>40</td><td>41</td><td>42</td>
+                                        <td>22</td>
+                                        <td>23</td>
+                                        <td>24</td>
+                                        <td>25</td>
+                                        <td>26</td>
+                                        <td>27</td>
+                                        <td>28</td>
+                                        <td>29</td>
+                                        <td>30</td>
+                                        <td>31</td>
+                                        <td>32</td>
+                                        <td>33</td>
+                                        <td>34</td>
+                                        <td>35</td>
+                                        <td>36</td>
+                                        <td>37</td>
+                                        <td>38</td>
+                                        <td>39</td>
+                                        <td>40</td>
+                                        <td>41</td>
+                                        <td>42</td>
                                     </tr>
                                     <tr>
 
                                         <td>Thigh</td>
-                                        <td>22</td><td>23</td><td>24</td>
-                                        <td>25</td><td>26</td><td>27</td>
-                                        <td>28</td><td>29</td><td>30</td>
-                                        <td>31</td><td>32</td><td>33</td>
-                                        <td>34</td><td>35</td><td>36</td>
-                                        <td>37</td><td>38</td><td>39</td>
-                                        <td>40</td><td>41</td><td>42</td>
+                                        <td>22</td>
+                                        <td>23</td>
+                                        <td>24</td>
+                                        <td>25</td>
+                                        <td>26</td>
+                                        <td>27</td>
+                                        <td>28</td>
+                                        <td>29</td>
+                                        <td>30</td>
+                                        <td>31</td>
+                                        <td>32</td>
+                                        <td>33</td>
+                                        <td>34</td>
+                                        <td>35</td>
+                                        <td>36</td>
+                                        <td>37</td>
+                                        <td>38</td>
+                                        <td>39</td>
+                                        <td>40</td>
+                                        <td>41</td>
+                                        <td>42</td>
                                     </tr>
 
 

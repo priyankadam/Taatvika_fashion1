@@ -130,11 +130,11 @@
                     <!-- Product Meta Start -->
                     <div class="product-meta mb-3">
                         <!-- Product Size Start -->
-                    
 
 
 
-                            <!-- Product Size End -->
+
+                        <!-- Product Size End -->
                     </div>
                     <!-- Product Meta End -->
 
@@ -153,36 +153,39 @@
                                 <!-- Product Size Start -->
                                 <span style="font-size:20px;padding-bottom:5px;">Fit :</span><br>
                                 <?php
-                                $fit_ids=explode(',',$data['fit']);
+                                $fit_ids = explode(',', $data['fit']);
                                 foreach ($fit_ids as $key) {
                                     $db = db_connect();
-                                     $result = $db->query("SELECT * FROM fit_master WHERE id='$key'");
-                                      foreach ($result->getResult() as $key1) {
-                                          $fitname=$key1->fit;
-                                     
-                             ?>
+                                    $result = $db->query("SELECT * FROM fit_master WHERE id='$key'");
+                                    foreach ($result->getResult() as $key1) {
+                                        $fitname = $key1->fit;
 
-                                    <input type="radio" id="size" name="fit" value="<?php echo $key ?>" required /> <?php echo $fitname  ?>
-                                <?php }} ?>
+                                ?>
+
+                                        <input type="radio" id="size" name="fit" value="<?php echo $key ?>" required /> <?php echo $fitname  ?>
+                                <?php }
+                                } ?>
 
                                 <!-- Product Size End -->
                             </div>
                             <div class="product-meta mb-3" data-aos="fade-up" data-aos-delay="300">
                                 <!-- Product Size Start -->
                                 <span style="font-size:20px;padding-bottom:5px;">Waist Position :</span><br>
-                            
 
-                                    <input type="radio" id="waist" name="waist" value="Regular" required /> Regular
-                                    <input type="radio" id="waist" name="waist" value="Low Waist" required /> Low Waist
-                                    <input type="radio" id="waist" name="waist" value="High Waist" required /> High Waist
+
+                                <input type="radio" id="waist" name="waist" value="Regular" required /> Regular
+                                <input type="radio" id="waist" name="waist" value="Low Waist" required /> Low Waist
+                                <input type="radio" id="waist" name="waist" value="High Waist" required /> High Waist
 
                                 <!-- Product Size End -->
                             </div>
                             <!-- Product Meta End -->
+                            <input type="text" value="<?php echo $data['folder'] ?>" name="folder">
+                            <input type="text" value="<?php echo $data['table'] ?>" name="table">
                             <input type="text" value="<?php echo $data['userid'] ?>" name="userid">
                             <input type="text" value="<?php echo $data['Product_price'] ?>" name="productprice">
                             <input type="text" value="<?php echo $data['Product_code'] ?>" name="productcode">
-                          
+
 
                             <!-- Product Meta Start -->
                             <div class="product-meta mb-5" data-aos="fade-up" data-aos-delay="300">
@@ -221,9 +224,9 @@
                     <!-- Product Meta End -->
 
 
-                
 
-                   
+
+
                     <!--<div class="cart-wishlist-btn mb-4">-->
 
                     <!--    <div class="add-to-wishlist">-->
@@ -292,7 +295,7 @@
                                         <th class="cun-name"><span>Hip</span></th>
                                     </tr>
                                     <?php
-                                    $j = 31.5 ;
+                                    $j = 31.5;
                                     $k = 32.5;
                                     $l = 36;
                                     for ($i = 30; $i <= 50; $i++) {
@@ -300,16 +303,17 @@
                                         <tr>
                                             <td><?php echo $i ?></td>
                                             <td><?php echo $j ?></td>
-                                            <?php if($i<39){?>
-                                            <td><?php echo '33' ?></td>
-                                            <?php }else{?>
+                                            <?php if ($i < 39) { ?>
+                                                <td><?php echo '33' ?></td>
+                                            <?php } else { ?>
                                                 <td><?php echo $k ?></td>
-                                                <?php  $k -= 0.5;} ?>
+                                            <?php $k -= 0.5;
+                                            } ?>
                                             <td><?php echo $l ?></td>
                                         </tr>
                                     <?php
                                         $j++;
-                                       
+
                                         $l++;
                                     } ?>
 
