@@ -17,33 +17,33 @@
                         <div class="single-product-img swiper-container gallery-top">
                             <div class="swiper-wrapper popup-gallery">
                                 <?php if (isset($data['image1'])) { ?>
-                                    <a class="swiper-slide w-100" href="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image1']; ?>">
-                                        <img class="w-100" src="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image1']; ?>" alt="Product">
+                                    <a class="swiper-slide w-100" href="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image1']; ?>">
+                                        <img class="w-100" src="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image1']; ?>" alt="Product">
                                     </a>
                                 <?php } ?>
                                 <?php if (isset($data['image2'])) { ?>
-                                    <a class="swiper-slide w-100" href="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image1']; ?>">
-                                        <img class="w-100" src="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image1']; ?>" alt="Product">
+                                    <a class="swiper-slide w-100" href="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image1']; ?>">
+                                        <img class="w-100" src="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image1']; ?>" alt="Product">
                                     </a>
                                 <?php } ?>
                                 <?php if (isset($data['image3'])) { ?>
-                                    <a class="swiper-slide w-100" href="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image1']; ?>">
-                                        <img class="w-100" src="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image1']; ?>" alt="Product">
+                                    <a class="swiper-slide w-100" href="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image1']; ?>">
+                                        <img class="w-100" src="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image1']; ?>" alt="Product">
                                     </a>
                                 <?php } ?>
                                 <?php if (isset($data['image4'])) { ?>
-                                    <a class="swiper-slide w-100" href="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image4']; ?>">
-                                        <img class="w-100" src="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image4']; ?>" alt="Product">
+                                    <a class="swiper-slide w-100" href="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image4']; ?>">
+                                        <img class="w-100" src="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image4']; ?>" alt="Product">
                                     </a>
                                 <?php } ?>
                                 <?php if (isset($data['image5'])) { ?>
-                                    <a class="swiper-slide w-100" href="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image5']; ?>">
-                                        <img class="w-100" src="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image5']; ?>" alt="Product">
+                                    <a class="swiper-slide w-100" href="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image5']; ?>">
+                                        <img class="w-100" src="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image5']; ?>" alt="Product">
                                     </a>
                                 <?php } ?>
                                 <?php if (isset($data['image6'])) { ?>
-                                    <a class="swiper-slide w-100" href="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image6']; ?>">
-                                        <img class="w-100" src="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image6']; ?>" alt="Product">
+                                    <a class="swiper-slide w-100" href="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image6']; ?>">
+                                        <img class="w-100" src="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image6']; ?>" alt="Product">
                                     </a>
                                 <?php } ?>
                             </div>
@@ -55,32 +55,32 @@
                             <div class="swiper-wrapper">
                                 <?php if (isset($data['image1'])) { ?>
                                     <div class="swiper-slide">
-                                        <img src="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image1']; ?>" alt="Product">
+                                        <img src="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image1']; ?>" alt="Product">
                                     </div>
                                 <?php } ?>
                                 <?php if (isset($data['image2'])) { ?>
                                     <div class="swiper-slide">
-                                        <img src="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image2']; ?>" alt="Product">
+                                        <img src="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image2']; ?>" alt="Product">
                                     </div>
                                 <?php } ?>
                                 <?php if (isset($data['image3'])) { ?>
                                     <div class="swiper-slide">
-                                        <img src="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image3']; ?>" alt="Product">
+                                        <img src="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image3']; ?>" alt="Product">
                                     </div>
                                 <?php } ?>
                                 <?php if (isset($data['image4'])) { ?>
                                     <div class="swiper-slide">
-                                        <img src="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image4']; ?>" alt="Product">
+                                        <img src="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image4']; ?>" alt="Product">
                                     </div>
                                 <?php } ?>
                                 <?php if (isset($data['image5'])) { ?>
                                     <div class="swiper-slide">
-                                        <img src="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image5']; ?>" alt="Product">
+                                        <img src="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image5']; ?>" alt="Product">
                                     </div>
                                 <?php } ?>
                                 <?php if (isset($data['image6'])) { ?>
                                     <div class="swiper-slide">
-                                        <img src="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image6']; ?>" alt="Product">
+                                        <img src="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image6']; ?>" alt="Product">
                                     </div>
                                 <?php } ?>
                             </div>
@@ -130,8 +130,27 @@
                     <!-- Product Meta Start -->
                     <div class="product-meta mb-3">
                         <!-- Product Size Start -->
-                    
+                        <form method="post" action="<?php echo base_url(); ?>Add-To-Cart" id="myform">
+                            <div class="product-size">
+                                <span style="font-size:20px;padding-bottom:5px;">Size :</span><br>
+                                <?php
 
+                                $size_ids = explode(",", $data['size']);
+                                foreach ($size_ids as $key) {
+                                    $db = db_connect();
+                                    $result = $db->query("SELECT * FROM size_master WHERE id='$key'");
+                                    foreach ($result->getResult() as $key1) {
+                                        $sizename = $key1->size;
+
+                                ?>
+                                        <input type="radio" id="size" name="size" value="<?php echo $key ?>" required /> <?php echo $sizename ?>
+
+                                <?php      }
+                                } ?>
+
+
+
+                            </div>
 
 
                             <!-- Product Size End -->
@@ -139,20 +158,12 @@
                     <!-- Product Meta End -->
 
                     <!-- Product Meta Start -->
-                    <!--  -->
-                    <form method="post" action="<?php echo base_url(); ?>Add-To-Cart" id="myform">
-                        <!-- Product Meta Start -->
-                        <div class="contact-form">
-                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-                                <span>Size :</span>
-                                <div class="input-item mb-4">
-                                    <input class="input-item" style=" border: none;border-bottom: 2px solid red; width:200px" type="number" placeholder="select size *" name="size" min="36" max="44" value="36">
-                                </div>
-                            </div>
-                            <div class="product-meta mb-3" data-aos="fade-up" data-aos-delay="300">
-                                <!-- Product Size Start -->
-                                <span style="font-size:20px;padding-bottom:5px;">Fit :</span><br>
-                                <?php
+
+                    <!-- Product Meta Start -->
+                    <div class="product-meta mb-3">
+                        <!-- Product Size Start -->
+                        <!-- <span style="font-size:20px;padding-bottom:5px;">Fit :</span><br>
+                        </?php
                                 $fit_ids=explode(',',$data['fit']);
                                 foreach ($fit_ids as $key) {
                                     $db = db_connect();
@@ -162,63 +173,62 @@
                                      
                              ?>
 
-                                    <input type="radio" id="size" name="fit" value="<?php echo $key ?>" required /> <?php echo $fitname  ?>
-                                <?php }} ?>
+                                    <input type="radio" id="size" name="fit" value="</?php echo $key ?>" required /> </?php echo $fitname  ?>
+                                </?php }} ?> -->
+                        <!-- Product Size End -->
+                    </div>
+                    <!-- Product Meta End -->
+                 <!--    <input type="text" value="</?php echo $data['userid'] ?>" name="userid">
+                    <input type="text" value="</?php echo $data['Product_price'] ?>" name="productprice">
+                    <input type="text" value="</?php echo $data['Product_code'] ?>" name="productcode"> -->
+                    <!-- Product Meta Start -->
+                    <div class="product-meta mb-5">
+                        <!-- Product Metarial Start -->
+                      <!--   <div class="product-metarial">
+                            <span style="font-size:20px;padding-bottom:5px;">Fabric Details:</span><br><br>
+                            <p><b>Fabric</b> :Fine Merino Wool Blend </p>
+                            <p><b>Count</b>:Super 110s</p>
+                            <p><b>Weave/Pattern</b>:Plain</p>
+                            <p><b>Care</b>:Dry</p>
+                        </div> -->
+                        <!-- Product Metarial End -->
+                    </div>
+                    <!-- Product Meta End -->
 
-                                <!-- Product Size End -->
-                            </div>
-                            <!-- Product Meta End -->
-                            <input type="text" value="<?php echo $data['userid'] ?>" name="userid">
-                            <input type="text" value="<?php echo $data['Product_price'] ?>" name="productprice">
-                            <input type="text" value="<?php echo $data['Product_code'] ?>" name="productcode">
-                          
-
-                            <!-- Product Meta Start -->
-                            <div class="product-meta mb-5" data-aos="fade-up" data-aos-delay="300">
-                                <!-- Product Metarial Start -->
-                                <div class="product-metarial">
-                                    <span style="font-size:20px;padding-bottom:5px;">Fabric Details:</span><br><br>
-                                    <p><b>Fabric</b> :Fine Merino Wool Blend </p>
-                                    <p><b>Count</b>:Super 110s</p>
-                                    <p><b>Weave/Pattern</b>:Plain</p>
-                                    <p><b>Care</b>:Dry</p>
-                                </div>
-                                <!-- Product Metarial End -->
-                            </div>
-                            <!-- Product Meta End -->
-
-                            <!-- Quantity Start -->
-                            <div class="quantity mb-5">
-                                <div class="cart-plus-minus">
-                                    <input class="cart-plus-minus-box" value="1" type="text" name="QTY">
-                                    <div class="dec qtybutton"></div>
-                                    <div class="inc qtybutton"></div>
-                                </div>
-                            </div>
-                            <!-- Quantity End -->
-
-                            <!-- Cart & Wishlist Button Start -->
-                            <div class="cart-wishlist-btn mb-4">
-                                <div class="add-to_cart">
-                                    <a href=""><input type="submit" class="btn btn-sm btn-outline-dark btn-hover-primary" style="height:50px;" value="Add To Cart"></a>
-                                </div>
-
-                            </div>
-                            <!-- Cart & Wishlist Button End -->
+                    <!-- Quantity Start -->
+                    <div class="quantity mb-5">
+                        <div class="cart-plus-minus">
+                            <input class="cart-plus-minus-box" value="1" type="text" name="QTY">
+                            <div class="dec qtybutton"></div>
+                            <div class="inc qtybutton"></div>
                         </div>
+                    </div>
+                    <!-- Quantity End -->
+
+                    <!-- Cart & Wishlist Button Start -->
+                    <div class="cart-wishlist-btn mb-4">
+                        <div class="add-to_cart">
+                            <a href=""><input type="submit" class="btn btn-sm btn-outline-dark btn-hover-primary" style="height:50px;" value="Add To Cart"></a>
+                        </div>
+                      
+                    </div>
+                    <!-- Cart & Wishlist Button End -->
+
                     </form>
                     <!-- Product Meta End -->
 
 
-                
 
-                   
+
+
                     <!--<div class="cart-wishlist-btn mb-4">-->
 
                     <!--    <div class="add-to-wishlist">-->
                     <!--        <a  href="#"><button class="btn btn-outline-dark btn-hover-primary">Add to Wishlist</button></a>-->
                     <!--    </div>-->
                     <!--</div>-->
+                    <!-- Social Shear Start -->
+
 
 
 
@@ -275,28 +285,55 @@
                             <table class="table border mb-0">
                                 <tbody>
                                     <tr>
-                                        <th class="cun-name"><span>Size</span></th>
-                                        <th class="cun-name"><span>Chest</span></th>
-                                        <th class="cun-name"><span>Waist</span></th>
-                                        <th class="cun-name"><span>Hip</span></th>
+                                        <td class="cun-name"><span>POINT OF MEASUREMENT</span></td>
+                                        <td class="cun-name"><span>XS</span></td>
+                                        <td class="cun-name"><span>S</span></td>
+                                        <td class="cun-name"><span>M</span></td>
+                                        <td class="cun-name"><span>L</span></td>
+                                        <td class="cun-name"><span>XL</span></td>
+                                        <td class="cun-name"><span>XXL</span></td>
+
                                     </tr>
-                                    <?php
-                                    $j = 40;
-                                    $k = 35;
-                                    $l = 41;
-                                    for ($i = 36; $i <= 50; $i++) {
-                                    ?>
-                                        <tr>
-                                            <td><?php echo $i ?></td>
-                                            <td><?php echo $j ?></td>
-                                            <td><?php echo $k ?></td>
-                                            <td><?php echo $l ?></td>
-                                        </tr>
-                                    <?php
-                                        $j++;
-                                        $k++;
-                                        $l++;
-                                    } ?>
+                                    <tr>
+
+                                        <td>Shoulder</td>
+                                        <td>14</td>
+                                        <td>14.5</td>
+                                        <td>15</td>
+                                        <td>15.5</td>
+                                        <td>16</td>
+                                        <td>16.5</td>
+                                    </tr>
+                                    <tr>
+
+                                        <td>Chest</td>
+                                        <td>34</td>
+                                        <td>36</td>
+                                        <td>38</td>
+                                        <td>40</td>
+                                        <td>42</td>
+                                        <td>44</td>
+                                    </tr>
+                                    <tr>
+
+                                        <td>Waist</td>
+                                        <td>31.5</td>
+                                        <td>33.5</td>
+                                        <td>35.5</td>
+                                        <td>37.5</td>
+                                        <td>39.5</td>
+                                        <td>41.5</td>
+                                    </tr>
+                                    <tr>
+
+                                        <td>Hip</td>
+                                        <td>48</td>
+                                        <td>48</td>
+                                        <td>48</td>
+                                        <td>48</td>
+                                        <td>48</td>
+                                        <td>48</td>
+                                    </tr>
 
 
                                 </tbody>

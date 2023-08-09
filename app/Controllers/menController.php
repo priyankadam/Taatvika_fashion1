@@ -219,9 +219,10 @@ class menController extends BaseController
         $db = db_connect();
         
    
-        $query = $db->query("SELECT * FROM `mens_master` WHERE `men_category`= '$cate' ");
+        $query = $db->query("SELECT * FROM `mens_master` WHERE `men_category`='$cate'");
+         //var_dump($query->getRowArray());exit();
         $query = $query->getRowArray();
-        // var_dump($query['Id']);exit();
+        //
         $Id = $query['Id'];
         $result = $db->query("SELECT * FROM `Mens` WHERE `Men_id`= $Id ");
         if (!empty($result->getResult())) {

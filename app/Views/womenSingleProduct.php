@@ -17,33 +17,33 @@
                         <div class="single-product-img swiper-container gallery-top">
                             <div class="swiper-wrapper popup-gallery">
                                 <?php if (isset($data['image1'])) { ?>
-                                    <a class="swiper-slide w-100" href="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image1']; ?>">
-                                        <img class="w-100" src="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image1']; ?>" alt="Product">
+                                    <a class="swiper-slide w-100" href="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image1']; ?>">
+                                        <img class="w-100" src="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image1']; ?>" alt="Product">
                                     </a>
                                 <?php } ?>
                                 <?php if (isset($data['image2'])) { ?>
-                                    <a class="swiper-slide w-100" href="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image1']; ?>">
-                                        <img class="w-100" src="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image1']; ?>" alt="Product">
+                                    <a class="swiper-slide w-100" href="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image1']; ?>">
+                                        <img class="w-100" src="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image1']; ?>" alt="Product">
                                     </a>
                                 <?php } ?>
                                 <?php if (isset($data['image3'])) { ?>
-                                    <a class="swiper-slide w-100" href="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image1']; ?>">
-                                        <img class="w-100" src="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image1']; ?>" alt="Product">
+                                    <a class="swiper-slide w-100" href="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image1']; ?>">
+                                        <img class="w-100" src="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image1']; ?>" alt="Product">
                                     </a>
                                 <?php } ?>
                                 <?php if (isset($data['image4'])) { ?>
-                                    <a class="swiper-slide w-100" href="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image4']; ?>">
-                                        <img class="w-100" src="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image4']; ?>" alt="Product">
+                                    <a class="swiper-slide w-100" href="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image4']; ?>">
+                                        <img class="w-100" src="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image4']; ?>" alt="Product">
                                     </a>
                                 <?php } ?>
                                 <?php if (isset($data['image5'])) { ?>
-                                    <a class="swiper-slide w-100" href="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image5']; ?>">
-                                        <img class="w-100" src="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image5']; ?>" alt="Product">
+                                    <a class="swiper-slide w-100" href="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image5']; ?>">
+                                        <img class="w-100" src="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image5']; ?>" alt="Product">
                                     </a>
                                 <?php } ?>
                                 <?php if (isset($data['image6'])) { ?>
-                                    <a class="swiper-slide w-100" href="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image6']; ?>">
-                                        <img class="w-100" src="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image6']; ?>" alt="Product">
+                                    <a class="swiper-slide w-100" href="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image6']; ?>">
+                                        <img class="w-100" src="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image6']; ?>" alt="Product">
                                     </a>
                                 <?php } ?>
                             </div>
@@ -55,32 +55,32 @@
                             <div class="swiper-wrapper">
                                 <?php if (isset($data['image1'])) { ?>
                                     <div class="swiper-slide">
-                                        <img src="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image1']; ?>" alt="Product">
+                                        <img src="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image1']; ?>" alt="Product">
                                     </div>
                                 <?php } ?>
                                 <?php if (isset($data['image2'])) { ?>
                                     <div class="swiper-slide">
-                                        <img src="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image2']; ?>" alt="Product">
+                                        <img src="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image2']; ?>" alt="Product">
                                     </div>
                                 <?php } ?>
                                 <?php if (isset($data['image3'])) { ?>
                                     <div class="swiper-slide">
-                                        <img src="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image3']; ?>" alt="Product">
+                                        <img src="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image3']; ?>" alt="Product">
                                     </div>
                                 <?php } ?>
                                 <?php if (isset($data['image4'])) { ?>
                                     <div class="swiper-slide">
-                                        <img src="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image4']; ?>" alt="Product">
+                                        <img src="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image4']; ?>" alt="Product">
                                     </div>
                                 <?php } ?>
                                 <?php if (isset($data['image5'])) { ?>
                                     <div class="swiper-slide">
-                                        <img src="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image5']; ?>" alt="Product">
+                                        <img src="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image5']; ?>" alt="Product">
                                     </div>
                                 <?php } ?>
                                 <?php if (isset($data['image6'])) { ?>
                                     <div class="swiper-slide">
-                                        <img src="<?php echo base_url(); ?>/assets/images/uploads/mens/<?php echo $data['image6']; ?>" alt="Product">
+                                        <img src="<?php echo base_url(); ?>/assets/images/uploads/womens/<?php echo $data['image6']; ?>" alt="Product">
                                     </div>
                                 <?php } ?>
                             </div>
@@ -281,10 +281,10 @@
                                         <th class="cun-name"><span>Hip</span></th>
                                     </tr>
                                     <?php
-                                    $j = 40;
-                                    $k = 35;
-                                    $l = 41;
-                                    for ($i = 36; $i <= 50; $i++) {
+                                    $j = 34;
+                                    $k = 30;
+                                    $l = 35;
+                                    for ($i = 30; $i <= 44; $i++) {
                                     ?>
                                         <tr>
                                             <td><?php echo $i ?></td>
