@@ -27,7 +27,8 @@ if ((session()->has('msg'))) { ?>
 
                     $tagline = $key->tag_line;
                     $subtagline = $key->subtag_line;
-                    $banner1 = $key->banner_img; ?>
+                    $banner1 = $key->banner_img; 
+                    $button=$key->button;                    ?>
                     <!-- Single Hero Slider Item Start -->
                     <div class="hero-slide-item-two swiper-slide">
 
@@ -47,7 +48,7 @@ if ((session()->has('msg'))) { ?>
                                         <?php echo $tagline ?>
                                     </h2>
                                     <p><b><?php echo $subtagline ?></b></p>
-                                    <a href="#" class="btn btn-lg btn-primary btn-hover-dark">Shop Now</a>
+                                    <a href="<?php echo base_url();?><?php echo $button ?>" class="btn btn-lg btn-primary btn-hover-dark">Shop Now</a>
                                 </div>
                             </div>
 
@@ -95,13 +96,13 @@ if ((session()->has('msg'))) { ?>
                 <div class="banner" data-aos="fade-up" data-aos-delay="300">
                     <div class="banner-image">
 
-                        <a href="#"><img src="<?php echo base_url(); ?>public/product/<?php echo $box1img; ?>" alt="" width: 100%; /></a>
+                        <a href="<?php echo base_url(); ?>Men-Wear/Suit"><img src="<?php echo base_url(); ?>public/product/<?php echo $box1img; ?>" alt="" width: 100%; /></a>
                     </div>
                     <div class="info">
                         <div class="small-banner-content">
                             <h4 class="sub-title"><?php echo $sub_title1 ?></h4>
                             <h3 class="title"><?php echo $title1 ?></h3>
-                            <a href="#" class="btn btn-dark btn-sm">Shop Now</a>
+                            <a href="<?php echo base_url();?>Accessories/Nails" class="btn btn-dark btn-sm">Shop Now</a>
                         </div>
                     </div>
                 </div>
@@ -124,7 +125,7 @@ if ((session()->has('msg'))) { ?>
             <div class="col-lg-4 col-md-6 col-12 mb-6">
                 <div class="banner" data-aos="fade-up" data-aos-delay="500">
                     <div class="banner-image">
-                        <a href="#"><img src="<?php echo base_url(); ?>public/product/<?php echo $box2img; ?>" alt="" width: 100%; /></a>
+                        <a href="<?php echo base_url(); ?>Women-Wear/Blouse"><img src="<?php echo base_url(); ?>public/product/<?php echo $box2img; ?>" alt="" width: 100%; /></a>
                     </div>
                     <div class="info">
                         <div class="small-banner-content">

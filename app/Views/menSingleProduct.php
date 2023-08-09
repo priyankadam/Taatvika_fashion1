@@ -156,7 +156,7 @@
                                 $fit_ids=explode(',',$data['fit']);
                                 foreach ($fit_ids as $key) {
                                     $db = db_connect();
-                                     $result = $db->query("SELECT * FROM fit WHERE id='$key'");
+                                     $result = $db->query("SELECT * FROM fit_master WHERE id='$key'");
                                       foreach ($result->getResult() as $key1) {
                                           $fitname=$key1->fit;
                                      

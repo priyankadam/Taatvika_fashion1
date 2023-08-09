@@ -116,7 +116,7 @@
                                             <li><a href="<?php echo base_url(); ?>Men-Wear/Suit">Suit</a></li>
 
                                             <li><a href="<?php echo base_url(); ?>Men-Wear/WaistCoat">WaistCoat</a></li>
-                                            <li><a href="<?php echo base_url(); ?>Men-Wear/Smokeing-Jacket">Smokeing Jacket</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Men-Wear/Smokeing Jacket">Smokeing Jacket</a></li>
                                             <li><a href="<?php echo base_url(); ?>Men-Wear/IKAT-Jacket">IKAT Jacket</a></li>
                                             <li><a href="<?php echo base_url(); ?>Men-Wear/Shirt">Shirt</a></li>
                                             <li><a href="<?php echo base_url(); ?>Men-Wear/Trouser">Trouser</a></li>

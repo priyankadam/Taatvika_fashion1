@@ -19,7 +19,7 @@
 <!-- Edit modal -->
 <div class="modal fade bd-example-modal-lg" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
-       <form action="" method="post" id="RecordForm1" enctype="multipart/form-data">
+        <form action="" method="post" id="RecordForm1" enctype="multipart/form-data">
             <div class="modal-content">
                 <div class="modal-header">
 
@@ -55,7 +55,60 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="mb-3">
+                                <label for="category" class="form-label">Shop Now Button</label>
+                              
+                                <div><span class="text-danger">Select according to Image Type</span></div>
+                                <select class="form-control" name="button" id="button" >
+                                <option value="" id="seleclink"></option>
+                                    <option value="Men-Wear/Suit">Men-Suit</option>
+                                    <option value="Men-Wear/WaistCoat">Men-WaistCoat</option>
+                                    <option value="Men-Wear/Smokeing Jacket">Men-Smokeing Jacket</option>
+                                    <option value="Men-Wear/IKAT-Jacket">Men-IKAT Jacket</option>
+                                    <option value="Men-Wear/Shirt">Men-Shirt</option>
+                                    <option value="Men-Wear/Trouser">Men-Trouser</option>
+                                    <option value="Men-Wear/Sherwani">Men-Sherwani</option>
+                                    <option value="Men-Wear/Kurta">Men-Kurta</option>
+                                    <option value="Men-Wear/Blazer">Men-Blazer</option>
+                                    <option value="Men-Wear/Bundi">Men-Bundi</option>
+                                    <!-- women -->
+                                    <option value="Women-Wear/Blouse">Women-Blouse</option>
+                                    <option value="Men-Wear/Shirt">Women-Shirt</option>
+                                    <option value="Women-Wear/Trouser">Women-Trouser</option>
+                                    <option value="Women-Wear/Skrit">Women-Skrit</option>
+                                    <option value="Women-Wear/Blazer">Women-Blazer</option>
+                                    <option value="Women-Wear/Suit">Women-Suit</option>
+                                    <option value="Women-Wear/IKAT Jacket">Women-IKAT Jacket</option>
+                                    <option value="Women-Wear/Sherwani">Women-Sherwani</option>
+                                    <!-- collection -->
+                                    <option value="Collection/Signature Stripe">Collection-Signature Stripe</option>
+                                    <option value="Collection/Art Work">Collection-Art Work</option>
+                                    <!-- Acessories -->
+                                    <option value="Accessories/Nails">Women-Nails</option>
+                                    <option value="Accessories/Neckline">Women-Neckline</option>
+                                    <option value="Accessories/Scarfs">Women-Scarfs</option>
+                                    <option value="Accessories/Brooch">Women-Brooch</option>
+                                    <option value="Accessories/Tie">Women-Tie</option>
+                                    <option value="Accessories/Belts">Women-Belts</option>
+                                    <option value="Accessories/Shoes">Women-Shoes</option>
+                                    <option value="Accessories/Lapel Pin">Women-Lapel Pin</option>
+                                    <option value="Accessories/Bow">Women-Bow</option>
+                                    <option value="Accessoriess/Brooch">Men-Brooch</option>
+                                    <option value="Accessoriess/cufflink">Men-cufflink</option>
+                                    <option value="Accessoriess/Pockets Square">Men-Pockets Square</option>
+                                    <option value="Accessoriess/Tie">Men-Tie</option>
+                                    <option value="Accessoriess/Belts">Men-Belts</option>
+                                    <option value="Accessoriess/Shoes">Men-Shoes</option>
+                                    <option value="Accessoriess/Bow">Men-Bow</option>
 
+
+
+                                </select>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="row">
 
@@ -84,23 +137,23 @@
             <h4 class="box-title m-b-0">Banner</h4>
         </div>
         <div class="card-body">
-            
+
 
             <div class="message mb-3"></div>
             <div class="row">
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-body">
-                          
+
 
 
 
                             <!-- <form action="<//?= base_url('admin/addbanner') ?>" method="post"    enctype="multipart/form-data"> -->
-                                <form  method="" enctype="multipart/form-data" id="RecordForm">
+                            <form method="" enctype="multipart/form-data" id="RecordForm">
                                 <!--<div class="form-group col-md-12">-->
                                 <!--      <label for="Banner">Banner *</label>-->
                                 <!--        <select class="form-control" name="bannertype" id="bannertype" required>-->
-                                           
+
                                 <!--                <option value="Banner 1">Banner 1</option>-->
                                 <!--                <option value="Banner 2">Banner 2</option>-->
                                 <!--                 <option value="Banner 3">Banner 3</option>-->
@@ -108,22 +161,70 @@
                                 <!--            </select>-->
                                 <!-- </div>-->
                                 <div class="form-group col-md-12">
-                                      <label for="tag">Tag Line *</label>  <span id="tag_val_error" class="text-danger ms-3"></span>
-                                     <input type="text" class="form-control" id="tag" name="tag" placeholder="Enter Tag Line"required> 
-                                  </div>
-                                  <div class="form-group col-md-12">
+                                    <label for="tag">Tag Line *</label> <span id="tag_val_error" class="text-danger ms-3"></span>
+                                    <input type="text" class="form-control" id="tag" name="tag" placeholder="Enter Tag Line" required>
+                                </div>
+                                <div class="form-group col-md-12">
                                     <label for="subTag">Sub-Tag Line *</label><span id="subtag_val_error" class="text-danger ms-3"></span>
-                                    <input type="text" class="form-control" id="subtag" name="subtag" placeholder="Enter Tag Line"required> 
-                                  </div>
-                                  <div class="form-group col-md-12">
-                                    <label for="Banner_Image">Choose Image To Dispaly in Banner*</label><span style="color:red;" id="img_error">Image Size Only greater than  or 1920 * 753</span>
+                                    <input type="text" class="form-control" id="subtag" name="subtag" placeholder="Enter Tag Line" required>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="Banner_Image">Choose Image To Dispaly in Banner*</label><span style="color:red;" id="img_error">Image Size Only greater than or 1920 * 753</span>
                                     <input type="file" class="form-control" id="banner" name="banner" required><span id="image_error" class="text-danger ms-3"></span>
                                 </div>
+                                <div class="form-group col-md-12">
+                                  
+                                    <label for="category" class="form-label">Shop Now Button*</label><span class="text-danger">Select according to Image Type</span>
+                                    <select class="form-control myselect" name="button" id="singleSelectExample" required>
 
+                                        <option value="Men-Wear/Suit">Men-Suit</option>
+                                        <option value="Men-Wear/WaistCoat">Men-WaistCoat</option>
+                                        <option value="Men-Wear/Smokeing Jacket">Men-Smokeing Jacket</option>
+                                        <option value="Men-Wear/IKAT-Jacket">Men-IKAT Jacket</option>
+                                        <option value="Men-Wear/Shirt">Men-Shirt</option>
+                                        <option value="Men-Wear/Trouser">Men-Trouser</option>
+                                        <option value="Men-Wear/Sherwani">Men-Sherwani</option>
+                                        <option value="Men-Wear/Kurta">Men-Kurta</option>
+                                        <option value="Men-Wear/Blazer">Men-Blazer</option>
+                                        <option value="Men-Wear/Bundi">Men-Bundi</option>
+                                        <!-- women -->
+                                        <option value="Women-Wear/Blouse">Women-Blouse</option>
+                                        <option value="Men-Wear/Shirt">Women-Shirt</option>
+                                        <option value="Women-Wear/Trouser">Women-Trouser</option>
+                                        <option value="Women-Wear/Skrit">Women-Skrit</option>
+                                        <option value="Women-Wear/Blazer">Women-Blazer</option>
+                                        <option value="Women-Wear/Suit">Women-Suit</option>
+                                        <option value="Women-Wear/IKAT Jacket">Women-IKAT Jacket</option>
+                                        <option value="Women-Wear/Sherwani">Women-Sherwani</option>
+                                        <!-- collection -->
+                                        <option value="Collection/Signature Stripe">Collection-Signature Stripe</option>
+                                        <option value="Collection/Art Work">Collection-Art Work</option>
+                                        <!-- Acessories -->
+                                        <option value="Accessories/Nails">Women-Nails</option>
+                                        <option value="Accessories/Neckline">Women-Neckline</option>
+                                        <option value="Accessories/Scarfs">Women-Scarfs</option>
+                                        <option value="Accessories/Brooch">Women-Brooch</option>
+                                        <option value="Accessories/Tie">Women-Tie</option>
+                                        <option value="Accessories/Belts">Women-Belts</option>
+                                        <option value="Accessories/Shoes">Women-Shoes</option>
+                                        <option value="Accessories/Lapel Pin">Women-Lapel Pin</option>
+                                        <option value="Accessories/Bow">Women-Bow</option>
+                                        <option value="Accessoriess/Brooch">Men-Brooch</option>
+                                        <option value="Accessoriess/cufflink">Men-cufflink</option>
+                                        <option value="Accessoriess/Pockets Square">Men-Pockets Square</option>
+                                        <option value="Accessoriess/Tie">Men-Tie</option>
+                                        <option value="Accessoriess/Belts">Men-Belts</option>
+                                        <option value="Accessoriess/Shoes">Men-Shoes</option>
+                                        <option value="Accessoriess/Bow">Men-Bow</option>
+
+
+
+                                    </select>
+                                </div>
 
                                 <div class="form-group col-md-12">
-                                 <!-- <input type="submit"  value="Add" class="btn btn-primary btn-lg"> -->
-                                 <input type="submit" class="btn btn-primary btn-lg" form="RecordForm" id="submit"  value="Add">
+                                    <!-- <input type="submit"  value="Add" class="btn btn-primary btn-lg"> -->
+                                    <input type="submit" class="btn btn-primary btn-lg" form="RecordForm" id="submit" value="Add">
                                 </div>
                             </form>
 
@@ -131,54 +232,57 @@
                     </div>
 
                 </div>
-              
+
             </div>
         </div>
     </div>
 </div>
-   <div class="row m-2 showkeyfeaturesdiv ">
-       
-
-            <div class="card  col-12">
-                <div class="card-header">
-                    <h4 class="box-title m-b-0">List of Banner List</h4>
-                </div>
-                <div class="card-body">
-
-                    <table id="Profiletable" class="table ">
-                        <thead>
-                            <tr>
-                                <th scope="col">#</th>
-                                <th>Tag Line</th>
-                                <th>Sub-title</th>
-                                <th>Image</th>
-                                <th>Action</th>
-                            </tr>
-                        </thead>
-                        <tbody class="Profiletable">
+<div class="row m-2 showkeyfeaturesdiv ">
 
 
-                        <!-- ajax data here -->
-                        </tbody>
-                    </table>
-                </div>
-            <!-- <div class="card-footer ">
+    <div class="card  col-12">
+        <div class="card-header">
+            <h4 class="box-title m-b-0">List of Banner List</h4>
+        </div>
+        <div class="card-body">
+
+            <table id="Profiletable" class="table ">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th>Tag Line</th>
+                        <th>Sub-title</th>
+                        <th>Image</th>
+                        <th>link</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody class="Profiletable">
+
+
+                    <!-- ajax data here -->
+                </tbody>
+            </table>
+        </div>
+        <!-- <div class="card-footer ">
            
         </div> -->
-        
+
     </div>
 </div>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 
-    <script src="<?= base_url(); ?>assets/js/vendor/bootstrap.bundle.min.js"></script>
-    <script src="<?= base_url(); ?>assets/js/vendor/jquery-3.6.0.min.js"></script>
-    <script src="<?= base_url(); ?>assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
-    <script src="<?= base_url(); ?>assets/js/vendor/modernizr-3.11.2.min.js"></script>
+
+<script src="<?= base_url(); ?>assets/js/vendor/bootstrap.bundle.min.js"></script>
+<script src="<?= base_url(); ?>assets/js/vendor/jquery-3.6.0.min.js"></script>
+<script src="<?= base_url(); ?>assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+<script src="<?= base_url(); ?>assets/js/vendor/modernizr-3.11.2.min.js"></script>
 
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet" />
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
+
 <script type="text/javascript">
     function readMultipleFiles(evt) {
 
@@ -220,13 +324,15 @@
 
     }
     document.getElementById('banner1').addEventListener('change', readMultipleFiles, false);
-    
 </script>
 <script>
-  $(document).ready(function() {
+    $(document).ready(function() {
 
         load();
+
     });
+
+
 
     function load() {
         // alert(1);
@@ -250,11 +356,15 @@
                 {
                     'data': 'subtag_line'
                 },
+
                 {
                     "data": null,
                     "render": function(data, type, row) {
                         return '<img src="' + data.banner + '" style="height:50px;" />';
                     },
+                },
+                {
+                    'data': 'button'
                 },
                 {
                     data: null,
@@ -268,11 +378,11 @@
             ],
         });
     }
-     $(document).on('click', '.deletebtn', function() {
-         alert('delete');
-         let id = $(this).attr('attrid');
+    $(document).on('click', '.deletebtn', function() {
+        alert('delete');
+        let id = $(this).attr('attrid');
         alert(id);
-          $.ajax({
+        $.ajax({
             method: "POST",
             url: "<?php echo base_url('admin/Bannerdelete') ?>",
             data: {
@@ -283,10 +393,10 @@
                 alert(response);
                 location.reload();
             }
-            });
-     });
-     
-     
+        });
+    });
+
+
     $(document).on('click', '.editbtn', function() {
         let id = $(this).attr('attrid');
         // alert(id);
@@ -299,86 +409,87 @@
             dataType: "JSON",
             success: function(response) {
                 // var response = JSON.parse(response);
-                //  alert(response['tag_line']);
+                 alert(response['button']);
                 // banner_id
-                alert(response);
+                // alert(response);
                 $('.banner_id').text(response['id']);
                 $('#tagline').val(response['tag_line']);
                 $('#subtagline').val(response['sub_tagline']);
                 $('#banner_id').val(response['id']);
-                $('.image').html("<img height='100px' src='<?php echo base_url();?>/assets/images/uploads/banner/" + response['image'] + "'>");
+                $('#seleclink').text(response['button']);
+              
+                $('.image').html("<img height='100px' src='<?php echo base_url(); ?>/assets/images/uploads/banner/" + response['image'] + "'>");
                 $('#editModal').modal('show');
             }
         });
     });
-  $("#RecordForm").submit(function (e) {
-     
-            e.preventDefault();
-         
-            var formData = new FormData(this);
-            var _URL = window.URL || window.webkitURL;
-            var fileInput = document.getElementById('banner');
-            var name = fileInput.value;
-            var file = fileInput.files[0];
-           img = new Image();
-           var imgwidth = 0;
-           var imgheight = 0;
+    $("#RecordForm").submit(function(e) {
 
-           var maxwidth = 1920;
-           var maxheight = 753;
-           
-           img.src = _URL.createObjectURL(file);
-    
-           img.onload = function() {
-                  imgwidth = this.width;//270
-                  imgheight = this.height;//270
- 
-                
-                  if(imgwidth < maxwidth || imgheight < maxheight){
-                  
-                     error_name = 'Please Insert Large Size Image';
-              
-                     $('#img_error').text(error_name);
-                     // location.reload();
-                   }
-                     // if (error_name != '') {
-                     //     return false;
-                     // }
-                      else{
-                
-            $.ajax({
-                type: "POST",
-                url: "<?=base_url()?>admin/addbanner",
-                dataType: 'json',
-                data: formData,
-                contentType: false,
-                processData: false,
+        e.preventDefault();
 
-                success: function (resp){
-                 
-                    if (resp.success) {
-                       
-                        toastr.success('Data Saved');
-                       //location.reload();
-                        setTimeout(function () {
-                        location.reload();
-                        }, 3000);
-                    } else {
-                        toastr.error('Data not Saved, Plz Insert Large Size Image');
-                      //location.reload();
+        var formData = new FormData(this);
+        var _URL = window.URL || window.webkitURL;
+        var fileInput = document.getElementById('banner');
+        var name = fileInput.value;
+        var file = fileInput.files[0];
+        img = new Image();
+        var imgwidth = 0;
+        var imgheight = 0;
 
-                    }
+        var maxwidth = 1920;
+        var maxheight = 753;
 
-                },
-                error: function (data) {
-                }
-            });
+        img.src = _URL.createObjectURL(file);
+
+        img.onload = function() {
+            imgwidth = this.width; //270
+            imgheight = this.height; //270
+
+
+            if (imgwidth < maxwidth || imgheight < maxheight) {
+
+                error_name = 'Please Insert Large Size Image';
+
+                $('#img_error').text(error_name);
+                // location.reload();
+            }
+            // if (error_name != '') {
+            //     return false;
+            // }
+            else {
+
+                $.ajax({
+                    type: "POST",
+                    url: "<?= base_url() ?>admin/addbanner",
+                    dataType: 'json',
+                    data: formData,
+                    contentType: false,
+                    processData: false,
+
+                    success: function(resp) {
+
+                        if (resp.success) {
+
+                            toastr.success('Data Saved');
+                            //location.reload();
+                            setTimeout(function() {
+                                location.reload();
+                            }, 3000);
+                        } else {
+                            toastr.error('Data not Saved, Plz Insert Large Size Image');
+                            //location.reload();
+
+                        }
+
+                    },
+                    error: function(data) {}
+                });
+            }
         }
-    }
-        });
-        
-       $("#RecordForm1").submit(function(e) {
-    //   alert('ok');
+    });
+
+    $("#RecordForm1").submit(function(e) {
+        //   alert('ok');
         e.preventDefault();
         // alert('ok');
         var formData = new FormData(this);
@@ -398,14 +509,13 @@
             enctype: 'multipart/form-data',
             success: function(response) {
                 //   var response = JSON.parse(response);
-                 alert(response.msg);
+                alert(response.msg);
                 location.reload();
             }
         });
     });
+</script>
 
-    </script>
-    
 
-    
+
 <?= $this->endSection('contents') ?>

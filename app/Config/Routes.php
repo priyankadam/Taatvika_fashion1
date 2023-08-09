@@ -51,8 +51,7 @@ $routes->post('admin/Bannerdelete', 'Admincontroller::Bannerdelete');
 $routes->get('admin/Add-Mens-Product', 'menController::AddMensProduct');
 $routes->post('admin/Add-Product', 'menController::MensProduct');
 // ----------mensFront----------------
-$routes->get('Men-Wear/(:any)', 'menController::men/$1');
-$routes->get('Men-Product-Details/(:any)','menController::productdetail/$1');
+
 // ------------------------------
 $routes->get('admin/Add-Womens-Product', 'womenController::AddWomensProduct');
 $routes->post('admin/Add-W-Product', 'womenController::WomensProduct');
@@ -79,6 +78,7 @@ $routes->post('admin/editminibanner', 'Admincontroller::editminibanner');
 $routes->post('admin/Updateminibanner', 'Admincontroller::Updateminibanner');
 $routes->post('admin/miniBannerdelete', 'Admincontroller::miniBannerdelete');
 $routes->post('admin/miniBanneractive', 'Admincontroller::miniBanneractive');
+
 
 
 $routes->get('admin/notification', 'NotificationController::notification');

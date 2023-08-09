@@ -1,0 +1,463 @@
+INFO - 2023-08-09 06:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 06:19:21 --> Undefined variable $userid
+in APPPATH\Controllers\menController.php on line 266.
+ 1 APPPATH\Controllers\menController.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userid', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\menController.php', 266)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-41V9A')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-09 06:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 06:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 06:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 06:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 06:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 06:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 06:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 08:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:45:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:59:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 11:01:04 --> unlink(assets/images/uploads/banner/1691578716_0cf145b126abe1efbcb6.jpg): No such file or directory
+in APPPATH\Controllers\Admincontroller.php on line 1021.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/images/uploads/banner/1691578716_0cf145b126abe1efbcb6.jpg): No such file or directory', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Admincontroller.php', 1021)
+ 2 APPPATH\Controllers\Admincontroller.php(1021): unlink('assets/images/uploads/banner/1691578716_0cf145b126abe1efbcb6.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->Updatebanner()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-09 11:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 11:01:08 --> unlink(assets/images/uploads/banner/1691578716_0cf145b126abe1efbcb6.jpg): No such file or directory
+in APPPATH\Controllers\Admincontroller.php on line 1021.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/images/uploads/banner/1691578716_0cf145b126abe1efbcb6.jpg): No such file or directory', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Admincontroller.php', 1021)
+ 2 APPPATH\Controllers\Admincontroller.php(1021): unlink('assets/images/uploads/banner/1691578716_0cf145b126abe1efbcb6.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->Updatebanner()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-09 11:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 11:01:12 --> unlink(assets/images/uploads/banner/1691578716_0cf145b126abe1efbcb6.jpg): No such file or directory
+in APPPATH\Controllers\Admincontroller.php on line 1021.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/images/uploads/banner/1691578716_0cf145b126abe1efbcb6.jpg): No such file or directory', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Admincontroller.php', 1021)
+ 2 APPPATH\Controllers\Admincontroller.php(1021): unlink('assets/images/uploads/banner/1691578716_0cf145b126abe1efbcb6.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->Updatebanner()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-09 11:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 11:01:24 --> unlink(assets/images/uploads/banner/1691578716_0cf145b126abe1efbcb6.jpg): No such file or directory
+in APPPATH\Controllers\Admincontroller.php on line 1021.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/images/uploads/banner/1691578716_0cf145b126abe1efbcb6.jpg): No such file or directory', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Admincontroller.php', 1021)
+ 2 APPPATH\Controllers\Admincontroller.php(1021): unlink('assets/images/uploads/banner/1691578716_0cf145b126abe1efbcb6.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->Updatebanner()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-09 11:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 11:01:33 --> unlink(assets/images/uploads/banner/1691578716_0cf145b126abe1efbcb6.jpg): No such file or directory
+in APPPATH\Controllers\Admincontroller.php on line 1021.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/images/uploads/banner/1691578716_0cf145b126abe1efbcb6.jpg): No such file or directory', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Admincontroller.php', 1021)
+ 2 APPPATH\Controllers\Admincontroller.php(1021): unlink('assets/images/uploads/banner/1691578716_0cf145b126abe1efbcb6.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->Updatebanner()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-09 11:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 11:01:34 --> unlink(assets/images/uploads/banner/1691578716_0cf145b126abe1efbcb6.jpg): No such file or directory
+in APPPATH\Controllers\Admincontroller.php on line 1021.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/images/uploads/banner/1691578716_0cf145b126abe1efbcb6.jpg): No such file or directory', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Admincontroller.php', 1021)
+ 2 APPPATH\Controllers\Admincontroller.php(1021): unlink('assets/images/uploads/banner/1691578716_0cf145b126abe1efbcb6.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->Updatebanner()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-09 11:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 11:03:11 --> unlink(assets/images/uploads/banner/1691578716_0cf145b126abe1efbcb6.jpg): No such file or directory
+in APPPATH\Controllers\Admincontroller.php on line 1021.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/images/uploads/banner/1691578716_0cf145b126abe1efbcb6.jpg): No such file or directory', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Admincontroller.php', 1021)
+ 2 APPPATH\Controllers\Admincontroller.php(1021): unlink('assets/images/uploads/banner/1691578716_0cf145b126abe1efbcb6.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->Updatebanner()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-09 11:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 11:04:45 --> Undefined variable $newfile_name
+in APPPATH\Controllers\Admincontroller.php on line 1153.
+ 1 APPPATH\Controllers\Admincontroller.php(1153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newfile_name', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Admincontroller.php', 1153)
+ 2 APPPATH\Controllers\Admincontroller.php(1028): App\Controllers\Admincontroller->resizeImage(Object(CodeIgniter\HTTP\Files\UploadedFile), 'C:\\shital\\tmp\\php94DA.tmp', 'image/webp', 'Banner', 'assets/images/uploads/banner/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->Updatebanner()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-09 11:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 11:07:09 --> Undefined variable $newfile_name
+in APPPATH\Controllers\Admincontroller.php on line 1154.
+ 1 APPPATH\Controllers\Admincontroller.php(1154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newfile_name', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Admincontroller.php', 1154)
+ 2 APPPATH\Controllers\Admincontroller.php(1021): App\Controllers\Admincontroller->resizeImage(Object(CodeIgniter\HTTP\Files\UploadedFile), 'C:\\shital\\tmp\\phpC587.tmp', 'image/webp', 'Banner', 'assets/images/uploads/banner/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->Updatebanner()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-09 11:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 11:08:29 --> Undefined variable $newfile_name
+in APPPATH\Controllers\Admincontroller.php on line 1155.
+ 1 APPPATH\Controllers\Admincontroller.php(1155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newfile_name', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Admincontroller.php', 1155)
+ 2 APPPATH\Controllers\Admincontroller.php(1021): App\Controllers\Admincontroller->resizeImage(Object(CodeIgniter\HTTP\Files\UploadedFile), 'C:\\shital\\tmp\\phpFC62.tmp', 'image/webp', 'Banner', 'assets/images/uploads/banner/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->Updatebanner()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-09 11:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 11:13:24 --> Undefined variable $newfile_name
+in APPPATH\Controllers\Admincontroller.php on line 1156.
+ 1 APPPATH\Controllers\Admincontroller.php(1156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newfile_name', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Admincontroller.php', 1156)
+ 2 APPPATH\Controllers\Admincontroller.php(1022): App\Controllers\Admincontroller->resizeImage(Object(CodeIgniter\HTTP\Files\UploadedFile), 'C:\\shital\\tmp\\php7F4E.tmp', 'image/webp', 'Banner', 'assets/images/uploads/banner/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->Updatebanner()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-09 11:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 11:21:32 --> Undefined variable $newfile_name
+in APPPATH\Controllers\Admincontroller.php on line 1148.
+ 1 APPPATH\Controllers\Admincontroller.php(1148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newfile_name', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Admincontroller.php', 1148)
+ 2 APPPATH\Controllers\Admincontroller.php(910): App\Controllers\Admincontroller->resizeImage(Object(CodeIgniter\HTTP\Files\UploadedFile), 'C:\\shital\\tmp\\phpF19F.tmp', 'image/webp', 'Banner', 'assets/images/uploads/banner/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->addbanner()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-09 11:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 11:21:36 --> Undefined variable $newfile_name
+in APPPATH\Controllers\Admincontroller.php on line 1148.
+ 1 APPPATH\Controllers\Admincontroller.php(1148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newfile_name', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Admincontroller.php', 1148)
+ 2 APPPATH\Controllers\Admincontroller.php(910): App\Controllers\Admincontroller->resizeImage(Object(CodeIgniter\HTTP\Files\UploadedFile), 'C:\\shital\\tmp\\php1BD.tmp', 'image/webp', 'Banner', 'assets/images/uploads/banner/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->addbanner()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-09 11:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 11:21:41 --> Undefined variable $newfile_name
+in APPPATH\Controllers\Admincontroller.php on line 1148.
+ 1 APPPATH\Controllers\Admincontroller.php(1148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newfile_name', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Admincontroller.php', 1148)
+ 2 APPPATH\Controllers\Admincontroller.php(910): App\Controllers\Admincontroller->resizeImage(Object(CodeIgniter\HTTP\Files\UploadedFile), 'C:\\shital\\tmp\\php14A9.tmp', 'image/webp', 'Banner', 'assets/images/uploads/banner/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->addbanner()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-09 11:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 11:21:42 --> Undefined variable $newfile_name
+in APPPATH\Controllers\Admincontroller.php on line 1148.
+ 1 APPPATH\Controllers\Admincontroller.php(1148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newfile_name', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Admincontroller.php', 1148)
+ 2 APPPATH\Controllers\Admincontroller.php(910): App\Controllers\Admincontroller->resizeImage(Object(CodeIgniter\HTTP\Files\UploadedFile), 'C:\\shital\\tmp\\php194E.tmp', 'image/webp', 'Banner', 'assets/images/uploads/banner/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->addbanner()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-09 11:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 11:22:01 --> Undefined variable $newfile_name
+in APPPATH\Controllers\Admincontroller.php on line 1148.
+ 1 APPPATH\Controllers\Admincontroller.php(1148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newfile_name', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Admincontroller.php', 1148)
+ 2 APPPATH\Controllers\Admincontroller.php(910): App\Controllers\Admincontroller->resizeImage(Object(CodeIgniter\HTTP\Files\UploadedFile), 'C:\\shital\\tmp\\php602B.tmp', 'image/webp', 'Banner', 'assets/images/uploads/banner/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->addbanner()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-09 11:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 11:24:42 --> Undefined variable $newfile_name
+in APPPATH\Controllers\Admincontroller.php on line 1148.
+ 1 APPPATH\Controllers\Admincontroller.php(1148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newfile_name', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Admincontroller.php', 1148)
+ 2 APPPATH\Controllers\Admincontroller.php(910): App\Controllers\Admincontroller->resizeImage(Object(CodeIgniter\HTTP\Files\UploadedFile), 'C:\\shital\\tmp\\phpD62E.tmp', 'image/webp', 'Banner', 'assets/images/uploads/banner/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->addbanner()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-09 11:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 11:25:59 --> Undefined variable $newfile_name
+in APPPATH\Controllers\Admincontroller.php on line 1148.
+ 1 APPPATH\Controllers\Admincontroller.php(1148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newfile_name', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Admincontroller.php', 1148)
+ 2 APPPATH\Controllers\Admincontroller.php(910): App\Controllers\Admincontroller->resizeImage(Object(CodeIgniter\HTTP\Files\UploadedFile), 'C:\\shital\\tmp\\php42F.tmp', 'image/webp', 'Banner', 'assets/images/uploads/banner/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->addbanner()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-09 11:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 11:26:09 --> Undefined variable $newfile_name
+in APPPATH\Controllers\Admincontroller.php on line 1148.
+ 1 APPPATH\Controllers\Admincontroller.php(1148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newfile_name', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Admincontroller.php', 1148)
+ 2 APPPATH\Controllers\Admincontroller.php(910): App\Controllers\Admincontroller->resizeImage(Object(CodeIgniter\HTTP\Files\UploadedFile), 'C:\\shital\\tmp\\php291D.tmp', 'image/webp', 'Banner', 'assets/images/uploads/banner/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->addbanner()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-09 11:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 11:54:44 --> Undefined variable $newfile_name
+in APPPATH\Controllers\Admincontroller.php on line 1148.
+ 1 APPPATH\Controllers\Admincontroller.php(1148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newfile_name', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Admincontroller.php', 1148)
+ 2 APPPATH\Controllers\Admincontroller.php(1022): App\Controllers\Admincontroller->resizeImage(Object(CodeIgniter\HTTP\Files\UploadedFile), 'C:\\shital\\tmp\\php9F10.tmp', 'image/webp', 'Banner', 'assets/images/uploads/banner/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->Updatebanner()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-09 11:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 11:54:57 --> Undefined variable $newfile_name
+in APPPATH\Controllers\Admincontroller.php on line 1148.
+ 1 APPPATH\Controllers\Admincontroller.php(1148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newfile_name', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Admincontroller.php', 1148)
+ 2 APPPATH\Controllers\Admincontroller.php(1022): App\Controllers\Admincontroller->resizeImage(Object(CodeIgniter\HTTP\Files\UploadedFile), 'C:\\shital\\tmp\\phpD12D.tmp', 'image/webp', 'Banner', 'assets/images/uploads/banner/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->Updatebanner()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-09 11:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:56:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 11:56:56 --> Undefined variable $newfile_name
+in APPPATH\Controllers\Admincontroller.php on line 1149.
+ 1 APPPATH\Controllers\Admincontroller.php(1149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newfile_name', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Admincontroller.php', 1149)
+ 2 APPPATH\Controllers\Admincontroller.php(911): App\Controllers\Admincontroller->resizeImage(Object(CodeIgniter\HTTP\Files\UploadedFile), 'C:\\shital\\tmp\\phpA002.tmp', 'image/webp', 'Banner', 'assets/images/uploads/banner/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->addbanner()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-09 11:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 11:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 12:01:56 --> Undefined variable $newfile_name
+in APPPATH\Controllers\Admincontroller.php on line 1149.
+ 1 APPPATH\Controllers\Admincontroller.php(1149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newfile_name', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Admincontroller.php', 1149)
+ 2 APPPATH\Controllers\Admincontroller.php(1012): App\Controllers\Admincontroller->resizeImage(Object(CodeIgniter\HTTP\Files\UploadedFile), 'C:\\shital\\tmp\\php3589.tmp', 'image/webp', 'Banner', 'assets/images/uploads/banner/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admincontroller->Updatebanner()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admincontroller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-09 12:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:33:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 12:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
