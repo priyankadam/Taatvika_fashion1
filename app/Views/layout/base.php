@@ -134,13 +134,14 @@
                                     <li class="has-children">
                                         <a href="<?php echo base_url(); ?>Women-Wear/1"><span>Women</span> <i class="fa fa-angle-down"></i></a>
                                         <ul class="sub-menu">
-                                            <li><a href="<?php echo base_url(); ?>Women-Wear/1">Blouses</a></li>
-                                            <li><a href="<?php echo base_url(); ?>Women-Wear/2">Shirt</a></li>
-                                            <li><a href="<?php echo base_url(); ?>Women-Wear/3">Trouser</a></li>
-                                            <li><a href="<?php echo base_url(); ?>Women-Wear/4">Skrit</a></li>
-                                            <li><a href="<?php echo base_url(); ?>Women-Wear/5">Blazer</a></li>
-                                            <li><a href="<?php echo base_url(); ?>Women-Wear/6">Suit</a></li>
-                                            <li><a href="<?php echo base_url(); ?>Women-Wear/7">IKAT Jacket</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Women-Wear/Blouses">Blouses</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Women-Wear/Shirt">Shirt</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Women-Wear/Trouser">Trouser</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Women-Wear/Skrit">Skrit</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Women-Wear/Blazer">Blazer</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Women-Wear/Suit">Suit</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Women-Wear/IKAT Jacket">IKAT Jacket</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Women-Wear/Sherwani">Sherwani</a></li>
                                         </ul>
                                     </li>
                                     <li class="has-children">

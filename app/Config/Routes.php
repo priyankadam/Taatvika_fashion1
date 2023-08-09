@@ -51,7 +51,8 @@ $routes->post('admin/Bannerdelete', 'Admincontroller::Bannerdelete');
 $routes->get('admin/Add-Mens-Product', 'menController::AddMensProduct');
 $routes->post('admin/Add-Product', 'menController::MensProduct');
 // ----------mensFront----------------
-
+// $routes->get('Men-Wear/(:any)', 'menController::men/$1');
+// $routes->get('Men-Product-Details/(:any)','menController::productdetail/$1');
 // ------------------------------
 $routes->get('admin/Add-Womens-Product', 'womenController::AddWomensProduct');
 $routes->post('admin/Add-W-Product', 'womenController::WomensProduct');
@@ -138,6 +139,10 @@ $routes->get('admin/size_materialView', 'Admincontroller::size_materialView');
 //New Route after requirement changes
 $routes->get('Men-Wear/(:any)', 'menController::men/$1');
 $routes->get('Men-Product-Details/(:any)','menController::productdetail/$1');
+
+$routes->get('Women-Wear/(:any)', 'womenController::women/$1');
+$routes->get('Women-Product-Details/(:any)','womenController::productdetail/$1');
+
 $routes->post('Add-To-Cart','AddtoCartController::Addtocart');
 
 $routes->post('Add-to-cart-customise', 'customiseController::cus_order');
