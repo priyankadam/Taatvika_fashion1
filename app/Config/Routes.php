@@ -144,6 +144,15 @@ $routes->get('Men-Product-Details/(:any)','menController::productdetail/$1');
 $routes->get('Women-Wear/(:any)', 'womenController::women/$1');
 $routes->get('Women-Product-Details/(:any)','womenController::productdetail/$1');
 
+$routes->get('MenAcc-Wear/(:any)', 'accessoriesController::menAcc/$1');
+$routes->get('WomenAcc-Wear/(:any)', 'accessoriesController::womenAcc/$1');
+$routes->get('Acces-Product-Details/(:any)','accessoriesController::productdetail/$1');
+
+$routes->get('Collection-Wear/(:any)', 'collectionController::collection/$1');
+$routes->get('Collection-Product-Details/(:any)','collectionController::productdetail/$1');
+
+
+
 $routes->post('Add-To-Cart','AddtoCartController::Addtocart');
 
 $routes->post('Add-to-cart-customise', 'customiseController::cus_order');
