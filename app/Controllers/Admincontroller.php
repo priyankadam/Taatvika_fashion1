@@ -101,11 +101,9 @@ class Admincontroller extends BaseController
         $result12 = $builder->get();
         //   var_dump($result12);exit();
         foreach ($result12->getResult() as $key11) {
-            if ($tablename == 'accessories') {
-                $id = $key11->id;
-            } else {
+           
                 $id = $key11->Id;
-            }
+           
             $productname = $key11->Product_name;
             $image1 = $key11->image1;
             $ssw[] = array(

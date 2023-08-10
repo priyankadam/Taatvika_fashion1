@@ -88,10 +88,10 @@ class Checkout extends BaseController
             "order_id" => $order_id,
             "cart_ids" =>  $this->request->getVar('cart_ids'),
             "total_amount" => '500',
-            // 'transaction_id' => '8888'
+            'ProductCode' => $this->request->getVar('ProductCode')
         );
         $cart_ids = $this->request->getVar('cart_ids');
-
+        $pc=$this->request->getVar('ProductCode');
         $total_amount = '500';
         $fetchcheckout = $db->query("SELECT * FROM checkout WHERE user_id='$userid' AND status=0 ");
         $fetch = $fetchcheckout->getResultArray();
@@ -185,6 +185,10 @@ class Checkout extends BaseController
             $data1 = "Payment Successfully Completed. ";
             $session->set('msg', $data1);
             return redirect()->to('/');
+            // return view('paymentSuccess');
         }
+    }
+    public function pay(){
+        return view('paymentSuccess');
     }
 }

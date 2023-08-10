@@ -265,11 +265,12 @@ class womenController extends BaseController
             );
             $womenid = $key->Women_id;
         }
-        // $query = $db->query("SELECT * FROM `fit_master`");
-        // $query = $query->getResult();
-        // // var_dump($query);exit();
-
-        // $data['query'] = $query;
+        $query = $db->query("SELECT * FROM review where product_code='$pc'");
+        $query = $query->getResult();
+        // var_dump($query);exit();
+        if($query){
+        $data['query'] = $query;
+        }
         $data['data'] = $ss;
         if ($womenid == 2 || $womenid == 1) {
             return view('womenShirtBlouse', $data);

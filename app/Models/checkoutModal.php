@@ -8,7 +8,7 @@ class checkoutModal extends Model
 {
     protected $table = 'checkout';
     protected $primaryKey = 'id';
-    protected $allowedFields = ['user_id', 'cart_ids', 'order_id', 'total_amount', 'status','transaction_id','transaction_date'];
+    protected $allowedFields = ['user_id', 'cart_ids', 'order_id', 'total_amount', 'status','transaction_id','transaction_date','ProductCode'];
 
      
      public function dataInsert(array $data) {

@@ -283,11 +283,12 @@ class menController extends BaseController
             );
             $menid = $key->Men_id;
         }
-        // $query = $db->query("SELECT * FROM `fit_master`");
-        // $query = $query->getResult();
-        // // var_dump($query);exit();
-
-        // $data['query'] = $query;
+        $query = $db->query("SELECT * FROM review where product_code='$pc'");
+        $query = $query->getResult();
+        // var_dump($query);exit();
+        if($query){
+        $data['query'] = $query;
+        }
         $data['data'] = $ss;
         if ($menid == 7) {
             return view('menShirt', $data);

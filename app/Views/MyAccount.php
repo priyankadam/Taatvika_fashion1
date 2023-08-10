@@ -1,9 +1,10 @@
 <?= $this->extend("layout/base"); ?>
 
 <?= $this->section('content'); ?>
-<?php if(isset($msg)){
+<?php if (isset($msg)) {
     echo '<script>alert("Address Updated Successfully")</script>';
-}?>
+} ?>
+<div class="message"></div>
 <!-- My Account Section Start -->
 <div class="section section-margin">
     <div class="container">
@@ -70,7 +71,7 @@
                                                         <th>Date</th>
                                                         <th>Status</th>
                                                         <th>Total</th>
-
+                                                        <th>Add Review</th>
 
                                                     </tr>
                                                 </thead>
@@ -87,8 +88,8 @@
                                                                 <td><?= $i++; ?></td>
                                                                 <td><?= $mydata['transaction_date']; ?></td>
                                                                 <td><?= $mydata['order_status']; ?></td>
-                                                                <td><?= $mydata['total_amount']; ?></td>
-
+                                                                <td><?= $mydata['ProductCode']; ?></td>
+                                                                <td><button class="btn btn-sm btn-outline-dark btn-hover-primary" id="review" attrid="<?= $mydata['ProductCode']; ?>">Review</button></td>
                                                             </tr>
                                                     <?php
                                                         }
@@ -302,20 +303,117 @@
     </div>
 </div>
 <!-- My Account Section End -->
+<div class="modal" tabindex="-1" id="editModal">
+    <div class="modal-dialog">
+    <form method="post" class="row  comment-form-area" action="" id="update_form" enctype="multipart/form-data">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Add Review</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="mb-3">
+                                <h5 class="">Product Name: <span class="ProductName"></span></h5>
+                                <input type="hidden" id="PC" name="PC" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="mb-3">
+                                <div><span class="image1"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 account-details-form">
+                        <div class="comment-form-comment mb-3">
+                                <label for="user_id">Add Your Valuable Review *</label><small id="error_name" class="text-danger ms-3"></small>
+                                <textarea rows="5" cols="50" name="review" id="addre" class="comment-notes"></textarea><br>
+                            </div>
+                        </div>
+                    </div>
 
+                </div>
+                
+                  
+                <div class="comment-form-submit modal-footer">
+                                                    <button type="submit" class="btn btn-dark btn-hover-primary">Submit</button>
+                                                </div>
+               
+            </form>
 
+        </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script>
-    //         document.ready(function(){
-    // $('#address-info').hide();
-    //         });
-    //         function openFun() {
-    //             alert("hdjshnc");
-    //             //  $('#address-info').hide();
-    //             $('#address-info').show();
+    $(document).on('submit', '#update_form', function(e) {
+        alert('ok');
+        e.preventDefault();
+        if ($.trim($('#addre').val()).length == 0) {
+            // alert('ok');
+            error_name = 'Please Enter your review about product';
+            $('#error_name').text(error_name);
+        } else {
+            error_name = '';
+            $('#error_name').text(error_name);
+        }
+        if (error_name != '') {
+            return false;
+        } else {
+            var formData = new FormData(this);
+            $.ajax({
+                url: "<?php echo base_url('/submitreview'); ?>",
+                dataType: 'json',
+                method: 'post',
+                processData: false,
+                contentType: false,
+                cache: false,
+                data: formData,
+                enctype: 'multipart/form-data',
+                success: function(response) {
+                    alert(response.success);
+                    location.reload();
 
+                    $('.message').append(' <div class="alert alert-success alert-dismissible fade show" role="alert"><strong>' + response.success + '</strong> <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>');
+                }
+            });
+        }
 
-    //         }
+    });
+    $(document).on('click', '#review', function() {
+        let PC = $(this).attr('attrid');
+        // alert(PC);
+        $.ajax({
+            type: "post",
+            url: "<?php echo base_url('addReview') ?> ",
+            data: {
+                'PC': PC,
+            },
+            dataType: "JSON",
+            success: function(response) {
+                // var response = JSON.parse(response);
+                //  alert(response);
+                // $('.ProductName').text(response.Product_name);
+                alert(response[0]['Product_name']);
+                // var id = response;
+                // // alert(id);
+                // // $('#Profiletable tbody').empty();
+                // load();
+                // // $('#mainTable').DataTable().ajax.reload();
+                // $('.buildcoursediv').removeClass('d-none');
+                $('#PC').val(response[0]['ProductCode']);
+                $('.ProductName').text(response[0]['Product_name']);
+                $('.image1').html("<img width='100' src='http://localhost/Taatvika_fashion/assets/images/uploads/" + response[0]['folder'] + "/" + response[0]['image1'] + "'>");
+                $('#editModal').modal('show');
+            }
+        });
 
+    });
 
     function menuTab() {
         if (x.style.display === "none") {

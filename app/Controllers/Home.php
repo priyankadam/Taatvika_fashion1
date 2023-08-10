@@ -249,4 +249,60 @@ class Home extends BaseController
         // return redirect()->back();
         return redirect()->back()->with('msg', 'message');
     }
+    public function addReview(){
+        $pc=$_POST['PC'];
+        $db = \Config\Database::connect();
+        $builder = $db->table('product');
+        $builder->where('ProductCode', $pc);
+        $query = $builder->get();
+
+        foreach ($query->getResult() as $row) {
+            $product_type = $row->product_type;
+        }
+        if ($product_type == 'mens') {
+            $table = 'mens';
+            $folder = 'assets/images/uploads/mens/';
+        }
+        if ($product_type == 'womens') {
+            $table = 'womens';
+            $folder = 'assets/images/uploads/womens/';
+        }
+        if ($product_type == 'collection') {
+            $table = 'collection';
+            $folder = 'assets/images/uploads/collections/';
+        }
+        if ($product_type == 'menaccessories') {
+            $table = 'men_accessories';
+            $folder = 'assets/images/uploads/accessories/';
+        }
+        if ($product_type == 'womenaccessories') {
+            $table = 'women_accessories';
+            $folder = 'assets/images/uploads/accessories/';
+        }
+    
+
+        $builder = $db->table($table);
+        $builder->where('ProductCode', $pc);
+        $result = $builder->get();
+        // var_dump($result->getResult());
+        foreach ($result->getResult() as $key1) {
+            $ss[]=array(
+                'Product_name'=>$key1->Product_name,
+                'image1'=>$key1->image1,
+                'folder'=>$folder,
+                'ProductCode'=>$pc
+            );
+          
+        }
+        echo json_encode($ss);
+    }
+    public function submitreview(){
+        // var_dump($_POST);exit();
+        $db = \Config\Database::connect();
+        $review=$_POST['review'];
+        $PC=$_POST['PC'];
+        $query = $db->query("insert into review(product_code,product_review) values('$PC','$review')");
+        $data['success'] = 'Thanks For Your Valuable Feedback!!';
+            return json_encode($data);
+    }
 }

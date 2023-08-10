@@ -96,7 +96,7 @@
                             </div>
                         </div>
                     </div>
-                 <!--    <div class="row">
+                    <!--    <div class="row">
                         <div class="col-6">
                             <div class="mb-3">
                                 <label for="category" class="form-label">Product Brand</label>
@@ -142,15 +142,15 @@
                                 <?php
                                 $db = db_connect();
                                 $result = $db->query("SELECT * FROM `size_master` ");
-                                if($result){
-                                foreach ($result->getResult() as $key) {
+                                if ($result) {
+                                    foreach ($result->getResult() as $key) {
 
-                                    $ID = $key->id;
-                                    $size = $key->size; ?>
-                                    <input type="radio" name="sizes[<?php echo $ID; ?>]" value="<?php echo $ID ?>" /> <?php echo $size ?>
+                                        $ID = $key->id;
+                                        $size = $key->size; ?>
+                                        <input type="radio" name="sizes[<?php echo $ID; ?>]" value="<?php echo $ID ?>" /> <?php echo $size ?>
 
-                                <?php    } 
-                            }?>
+                                <?php    }
+                                } ?>
                                 <span class="text-danger ml-1 author_error"></span>
                                 <div><span class="author"></span></div>
                                 <input type="text" class="form-control author" id="ms" name="author" readonly>
@@ -158,54 +158,54 @@
                         </div>
                     </div>
                     <div class="form-group col-md-12 ">
-                                        <div class="row">
-                                            <div class="form-group col-md-6">
-                                                <label for="size">Fit</label>
-                                                <br>
-                                                <?php
-                                                $db = db_connect();
-                                                $result = $db->query("SELECT * FROM `fit_master` ");
-                                                foreach ($result->getResult() as $key) {
-                                                    //  var_dump($key);  
-                                                    $ID = $key->id;
-                                                    $fit = $key->fit; ?>
-                                                    <input type="radio" name="fits[<?php echo $ID; ?>]" value="<?php echo $ID ?>"  /> <?php echo $fit ?>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="size">Fit</label>
+                                <br>
+                                <?php
+                                $db = db_connect();
+                                $result = $db->query("SELECT * FROM `fit_master` ");
+                                foreach ($result->getResult() as $key) {
+                                    //  var_dump($key);  
+                                    $ID = $key->id;
+                                    $fit = $key->fit; ?>
+                                    <input type="radio" name="fits[<?php echo $ID; ?>]" value="<?php echo $ID ?>" /> <?php echo $fit ?>
 
-                                                <?php    } ?>
-                                                 <span class="text-danger ml-1 author_error"></span>
+                                <?php    } ?>
+                                <span class="text-danger ml-1 author_error"></span>
                                 <div><span class="author"></span></div>
                                 <input type="text" class="form-control author" id="fit" name="fit" readonly>
-                                            </div>
-                                       
-                                        </div>
-                                    </div>
-                                     <div class="form-group col-md-12 ">
-                                        <div class="row">
-                                            <div class="form-group col-md-6">
-                                                <label for="Name">Fabric:</label>
-                                            <input type="text" id="fabric" name="fabric" placeholder="">
-                                            </div>
-                                               <div class="form-group col-md-6">
-                                                <label for="Name">Count:</label>
-                                            <input type="text" id="count" name="count" placeholder="">
-                                            </div>
-                                               
-                                       
-                                        </div>
-                                        <div class="row">
-                                            <div class="form-group col-md-6">
-                                                <label for="Name">Weave/Pattern:</label>
-                                            <input type="text" id="weave" name="weave" placeholder="">
-                                            </div>
-                                               <div class="form-group col-md-6">
-                                                <label for="Name">Care:</label>
-                                            <input type="text" id="care" name="care" placeholder="">
-                                            </div>
-                                               
-                                       
-                                        </div>
-                                    </div>
-                   <!--  <div class="row">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="form-group col-md-12 ">
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="Name">Fabric:</label>
+                                <input type="text" id="fabric" name="fabric" placeholder="">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="Name">Count:</label>
+                                <input type="text" id="count" name="count" placeholder="">
+                            </div>
+
+
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="Name">Weave/Pattern:</label>
+                                <input type="text" id="weave" name="weave" placeholder="">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="Name">Care:</label>
+                                <input type="text" id="care" name="care" placeholder="">
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <!--  <div class="row">
 
                         <div class="col-12">
                             <div class="mb-3">
@@ -285,7 +285,8 @@
                 </div>
         </form>
     </div>
-</div></div>
+</div>
+</div>
 <!-- <script src="<?= base_url(); ?>assets/js/vendor/jquery-3.6.0.min.js"></script> -->
 <?= $this->endSection('contents') ?>
 
@@ -373,7 +374,7 @@
             enctype: 'multipart/form-data',
             success: function(response) {
                 alert(response.msg);
-                  location.reload();
+                location.reload();
             }
         });
     });
@@ -428,12 +429,13 @@
                 // {
                 //     'data': 'image1'
                 // },
-                { data: null ,
-                          render: function (data, type, row) {
-                          return '<img src="https://digileadz.com/sirsonite/Beseen/assets/images/uploads/' + data.folder + '/' + data.image1 + '" width="100px">';
-                              
-                          }
-                  },
+                {
+                    data: null,
+                    render: function(data, type, row) {
+                        return '<img src="https://digileadz.com/sirsonite/Beseen/assets/images/uploads/' + data.folder + '/' + data.image1 + '" width="100px">';
+
+                    }
+                },
                 {
                     data: null,
                     render: function(data, type, row) {
@@ -472,29 +474,29 @@
                 $('#count').val(response.count);
                 $('#weave').val(response.weave);
                 $('#care').val(response.care);
-               $('#fit').val(response.fit);
-//alert(response.size);
-               // if(response.size){
-               // $('.sizediv').removeClass('d-none');
-               $('#ms').val(response.size);
-               //}
+                $('#fit').val(response.fit);
+                //alert(response.size);
+                // if(response.size){
+                // $('.sizediv').removeClass('d-none');
+                $('#ms').val(response.size);
+                //}
 
 
-               
-        //         if(response.size==){
-        // //             document.getElementById('hidden_div').style.display = "block";
-        // //             $('#ms').val(response.size);
-        // //       } else{
-        // // document.getElementById('hidden_div').style.display = "none";
-        //               alert(response.size);
-        //             //$('.sizediv').AddClass('d-none');
-                     
-        //         $('.sizediv').removeClass('d-none');
-        //         $('#ms').val(response.size);
-                    
-        //         }
-               
-                
+
+                //         if(response.size==){
+                // //             document.getElementById('hidden_div').style.display = "block";
+                // //             $('#ms').val(response.size);
+                // //       } else{
+                // // document.getElementById('hidden_div').style.display = "none";
+                //               alert(response.size);
+                //             //$('.sizediv').AddClass('d-none');
+
+                //         $('.sizediv').removeClass('d-none');
+                //         $('#ms').val(response.size);
+
+                //         }
+
+
                 $('#ms1').val(response.material);
                 $('.image1').html("<img width='100' src='https://digileadz.com/sirsonite/Beseen/assets/images/uploads/" + response.folder + "/" + response.image1 + "'>");
                 $('.image2').html("<img width='100' src='https://digileadz.com/sirsonite/Beseen/assets/images/uploads/" + response.folder + "/" + response.image2 + "'>");
@@ -525,8 +527,8 @@
                 alert(response);
                 location.reload();
             }
+        });
     });
-});
 </script>
 
 <?= $this->endSection('scripts') ?>
