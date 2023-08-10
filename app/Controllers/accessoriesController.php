@@ -254,4 +254,173 @@ if($result){
 }
 
 }
+
+ public function menAcc($cate)
+    {
+        // return view('NewMenCollection');
+
+        $db = db_connect();
+        //var_dump($query->getRowArray());exit();
+   
+        $query = $db->query("SELECT * FROM `mens_accessories` WHERE `men_acces`='$cate'");
+         //
+        $query = $query->getRowArray();
+        //
+        $Id = $query['Id'];
+        $result = $db->query("SELECT * FROM `accessories` WHERE `men_acces_id`= $Id ");
+        if (!empty($result->getResult())) {
+            foreach ($result->getResult() as $key) {
+                $fold = 'accessories';
+                $table = 'accessories';
+                $id = $key->Id;
+                $ss[] = array(
+                    'id' => $key->Id,
+                    'Product_code' => $key->ProductCode,
+                    'Product_name' => $key->Product_name,
+                    'Product_price' => $key->Product_price,
+                    'image1' => $key->image1,
+                    'image2' => $key->image2
+                );
+            }
+            $data['data'] = $ss;
+            // var_dump($ss);exit();
+
+            return view('NewMenAccCollection', $data);
+        } else {
+            return redirect()->to('/');
+        }
+    }
+    public function womenAcc($cate)
+    {
+        // return view('NewMenCollection');
+
+        $db = db_connect();
+        
+   
+        $query = $db->query("SELECT * FROM `womens_accessories` WHERE `womens_acces`='$cate'");
+         //var_dump($query->getRowArray());exit();
+        $query = $query->getRowArray();
+        //
+        $Id = $query['Id'];
+        $result = $db->query("SELECT * FROM `accessories` WHERE `women_acces_id`= $Id ");
+        if (!empty($result->getResult())) {
+            foreach ($result->getResult() as $key) {
+                $fold = 'accessories';
+                $table = 'accessories';
+                $id = $key->Id;
+                $ss[] = array(
+                    'id' => $key->Id,
+                    'Product_code' => $key->ProductCode,
+                    'Product_name' => $key->Product_name,
+                    'Product_price' => $key->Product_price,
+                    'image1' => $key->image1,
+                    'image2' => $key->image2
+                );
+                 // $menAccid = $key->men_acces_id;
+                 // $womenAccid = $key->women_acces_id;
+            }
+            $data['data'] = $ss;
+            // var_dump($ss);exit();
+
+            return view('NewWomenAccCollection', $data);
+        } else {
+            return redirect()->to('/');
+        }
+    }
+    public function productdetail($pc)
+    {
+        if ((session()->has('logged_info'))) {
+            $data = session()->get('logged_info');
+            $userid = $data['user_id'];
+        }
+        if ((session()->has('logged1_info'))) {
+            $data = session()->get('logged1_info');
+            $userid = $data['user_id'];
+        }
+        $db = db_connect();
+        $result = $db->query("SELECT * FROM `accessories` WHERE `ProductCode`= '$pc' ");
+        // var_dump($result->getResult());exit();
+        foreach ($result->getResult() as $key) {
+           
+            $ss[] = array(
+                'id' => $key->Id,
+                'userid' => $userid,
+                'Product_code' => $key->ProductCode,
+                'Product_name' => $key->Product_name,
+                'Product_price' => $key->Product_price,
+                'ProductDesc' => $key->ProductDesc,
+                'image1' => $key->image1,
+                'image2' => $key->image2,
+                'image3' => $key->image3,
+                'image4' => $key->image4,
+                'image5' => $key->image5,
+                'image6' => $key->image6,
+                'size' => $key->size,
+               // 'material' => $key->material,
+                'fit'=>$key->fit,
+                'folder'=>'accessories',
+                'table'=>'accessories'
+            );
+            $menAccid = $key->men_acces_id;
+             $womenAccid = $key->women_acces_id;
+        }
+        // $query = $db->query("SELECT * FROM `fit_master`");
+        // $query = $query->getResult();
+        // // var_dump($query);exit();
+
+        // $data['query'] = $query;
+        $data['data'] = $ss;
+        $data['MenACCProductID'] = $ss;
+        if ($menAccid == 6) {
+            return view('menAccShoes', $data);
+        }
+        if ($womenAccid == 7) {
+            return view('womenAccShoes', $data);
+        } else {
+            return view('MWAccSingle', $data);
+        }
+    }
+    
+    // public function Addtocartshirt($pc)
+    // {
+    //     if ((session()->has('logged_info'))) {
+    //         $data = session()->get('logged_info');
+    //         $userid = $data['user_id'];
+    //     }
+    //     if ((session()->has('logged1_info'))) {
+    //         $data = session()->get('logged1_info');
+    //         $userid = $data['user_id'];
+    //     }
+    //     $db = db_connect();
+    //     $result = $db->query("SELECT * FROM `Mens` WHERE `ProductCode`= '$pc' ");
+    //     // var_dump($result->getResult());exit();
+    //     foreach ($result->getResult() as $key) {
+
+
+    //         $ss[] = array(
+    //             'id' => $key->Id,
+    //             'userid' => $userid,
+    //             'Product_code' => $key->ProductCode,
+    //             'Product_name' => $key->Product_name,
+    //             'Product_price' => $key->Product_price,
+    //             'ProductDesc' => $key->ProductDesc,
+    //             'image1' => $key->image1,
+    //             'image2' => $key->image2,
+    //             'image3' => $key->image3,
+    //             'image4' => $key->image4,
+    //             'image5' => $key->image5,
+    //             'image6' => $key->image6,
+    //             'size' => $key->size,
+    //             'material' => $key->material
+    //         );
+    //         $menid = $key->Men_id;
+    //     }
+    //     $query = $db->query("SELECT * FROM `fit_master`");
+    //     $query = $query->getResult();
+    //     // var_dump($query);exit();
+
+    //     $data['query'] = $query;
+    //     $data['data'] = $ss;
+    //     return view('customiseShirt', $data);
+    // }
 }

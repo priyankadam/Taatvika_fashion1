@@ -143,16 +143,16 @@
                     <form method="post" action="<?php echo base_url(); ?>Add-To-Cart" id="myform">
                         <!-- Product Meta Start -->
                         <div class="contact-form">
-                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                           <!--  <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
                                 <span>Size :</span>
                                 <div class="input-item mb-4">
                                     <input class="input-item" style=" border: none;border-bottom: 2px solid red; width:200px" type="number" placeholder="select size *" name="size" min="36" max="44" value="36">
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="product-meta mb-3" data-aos="fade-up" data-aos-delay="300">
                                 <!-- Product Size Start -->
-                                <span style="font-size:20px;padding-bottom:5px;">Fit :</span><br>
-                                <?php
+                                <!-- <span style="font-size:20px;padding-bottom:5px;">Fit :</span><br>
+                                </?php
                                 $fit_ids = explode(',', $data['fit']);
                                 foreach ($fit_ids as $key) {
                                     $db = db_connect();
@@ -162,10 +162,10 @@
 
                                 ?>
 
-                                        <input type="radio" id="size" name="fit" value="<?php echo $key ?>" required /> <?php echo $fitname  ?>
-                                <?php }
+                                        <input type="radio" id="size" name="fit" value="</?php echo $key ?>" required /> </?php echo $fitname  ?>
+                                </?php }
                                 } ?>
-
+ -->
                                 <!-- Product Size End -->
                             </div>
                             <!-- Product Meta End -->
@@ -179,13 +179,13 @@
                             <!-- Product Meta Start -->
                             <div class="product-meta mb-5" data-aos="fade-up" data-aos-delay="300">
                                 <!-- Product Metarial Start -->
-                                <div class="product-metarial">
+                               <!--  <div class="product-metarial">
                                     <span style="font-size:20px;padding-bottom:5px;">Fabric Details:</span><br><br>
                                     <p><b>Fabric</b> :Fine Merino Wool Blend </p>
                                     <p><b>Count</b>:Super 110s</p>
                                     <p><b>Weave/Pattern</b>:Plain</p>
                                     <p><b>Care</b>:Dry</p>
-                                </div>
+                                </div> -->
                                 <!-- Product Metarial End -->
                             </div>
                             <!-- Product Meta End -->
@@ -272,7 +272,7 @@
                         </div>
                         <!-- Shipping Policy End -->
                     </div>
-                    <div class="tab-pane fade" id="connect-4" role="tabpanel" aria-labelledby="review-tab">
+                   <!--  <div class="tab-pane fade" id="connect-4" role="tabpanel" aria-labelledby="review-tab">
                         <div class="size-tab table-responsive-lg">
                             <h4 class="title-3 mb-4">Size Chart</h4>
                             <table class="table border mb-0">
@@ -305,7 +305,7 @@
                                 </tbody>
                             </table>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <!-- Single Product Tab End -->

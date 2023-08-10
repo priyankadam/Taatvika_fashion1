@@ -129,7 +129,7 @@ class Checkout extends BaseController
                 'email' => $email,
                 'amount' => '10',
                 'phone' => $phone,
-                'redirect_url' => 'https://digileadz.com/sirsonite/Beseen/Payment_success/' . $id,
+                'redirect_url' => 'http://localhost/Taatvika_fashion/Payment_success/?id=' . $id,
                 'allow_repeated_payments' => false
             );
             curl_setopt($ch, CURLOPT_POST, true);

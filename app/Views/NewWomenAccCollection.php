@@ -14,9 +14,9 @@
                         <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 product" data-aos="fade-up" data-aos-delay="200">
                             <div class="product-inner">
                                 <div class="thumb">
-                                    <a href="<?php echo base_url();?>Collection-Product-Details/<?php echo $key['Product_code'] ?>" class="image">
-                                        <img class="first-image" src="<?php echo base_url(); ?>/assets/images/uploads/collections/<?php echo $key['image1']; ?>" alt="Product" />
-                                        <img class="second-image" src="<?php echo base_url(); ?>/assets/images/uploads/collections/<?php echo $key['image2']; ?>" alt="Product" />
+                                    <a href="<?php echo base_url();?>Acces-Product-Details/<?php echo $key['Product_code'] ?>" class="image">
+                                        <img class="first-image" src="<?php echo base_url(); ?>/assets/images/uploads/accessories/<?php echo $key['image1']; ?>" alt="Product" />
+                                        <img class="second-image" src="<?php echo base_url(); ?>/assets/images/uploads/accessories/<?php echo $key['image2']; ?>" alt="Product" />
                                     </a>
 
                                 </div>

@@ -145,10 +145,10 @@
                                         </ul>
                                     </li>
                                     <li class="has-children">
-                                        <a><span>Collection</span> <i class="fa fa-angle-down"></i></a>
+                                        <a href="<?php echo base_url(); ?>Collection-Wear/1"><span>Collection</span> <i class="fa fa-angle-down"></i></a>
                                         <ul class="sub-menu">
-                                            <li><a href="<?php echo base_url(); ?>Collection/1">Signature Stripe</a></li>
-                                            <li><a href="<?php echo base_url(); ?>Collection/2">Art Work</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Collection-Wear/Signature Stripe">Signature Stripe</a></li>
+                                            <li><a href="<?php echo base_url(); ?>Collection-Wear/Art Work">Art Work</a></li>
                                         </ul>
                                     </li>
                                     <li class="has-children position-static">
@@ -157,28 +157,28 @@
                                             <li class="col">
                                                 <h4 class="mega-menu-title">Womens</h4>
                                                 <ul class="mb-n2">
-                                                    <li><a href="<?php echo base_url(); ?>Accessories/1">Nails</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessories/2">Neckline</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessories/3">Scarfs</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessories/4">Brooch</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessories/5">Tie</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessories/6">Belts</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessories/7">Shoes</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessories/8">Lapel</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessories/9">Pin</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessories/10">Bow</a></li>
+                                                    <li><a href="<?php echo base_url(); ?>WomenAcc-Wear/Nails">Nails</a></li>
+                                                    <li><a href="<?php echo base_url(); ?>WomenAcc-Wear/Neckline">Neckline</a></li>
+                                                    <li><a href="<?php echo base_url(); ?>WomenAcc-Wear/Scarfs">Scarfs</a></li>
+                                                    <li><a href="<?php echo base_url(); ?>WomenAcc-Wear/Brooch">Brooch</a></li>
+                                                    <li><a href="<?php echo base_url(); ?>WomenAcc-Wear/Tie">Tie</a></li>
+                                                    <li><a href="<?php echo base_url(); ?>WomenAcc-Wear/Belts">Belts</a></li>
+                                                    <li><a href="<?php echo base_url(); ?>WomenAcc-Wear/Shoes">Shoes</a></li>
+                                                    <li><a href="<?php echo base_url(); ?>WomenAcc-Wear/Lapel Pin">Lapel</a></li>
+                                                    <!-- <li><a href="</?php echo base_url(); ?>WomenAcc-Wear/Pin"></a></li> -->
+                                                    <li><a href="<?php echo base_url(); ?>WomenAcc-Wear/Bow">Bow</a></li>
                                                 </ul>
                                             </li>
                                             <li class="col">
                                                 <h4 class="mega-menu-title">Men</h4>
                                                 <ul class="mb-n2">
-                                                    <li><a href="<?php echo base_url(); ?>Accessoriess/1">Brooch</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessoriess/2">Cufflink</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessoriess/3">Pockets Square</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessoriess/4">Tie</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessoriess/5">Belts</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessoriess/6">Shoes</a></li>
-                                                    <li><a href="<?php echo base_url(); ?>Accessoriess/7">Bow</a></li>
+                                                    <li><a href="<?php echo base_url(); ?>MenAcc-Wear/Brooch">Brooch</a></li>
+                                                    <li><a href="<?php echo base_url(); ?>MenAcc-Wear/Cufflink">Cufflink</a></li>
+                                                    <li><a href="<?php echo base_url(); ?>MenAcc-Wear/Pockets Square">Pockets Square</a></li>
+                                                    <li><a href="<?php echo base_url(); ?>MenAcc-Wear/Tie">Tie</a></li>
+                                                    <li><a href="<?php echo base_url(); ?>MenAcc-Wear/Belts">Belts</a></li>
+                                                    <li><a href="<?php echo base_url(); ?>MenAcc-Wear/Shoes">Shoes</a></li>
+                                                    <li><a href="<?php echo base_url(); ?>MenAcc-Wear/Bow">Bow</a></li>
                                                 </ul>
                                             </li>
                                         </ul>

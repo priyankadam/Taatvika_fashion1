@@ -202,4 +202,81 @@ if($result){
 }
 
 }
+public function collection($cate)
+    {
+        // return view('NewMenCollection');
+
+        $db = db_connect();
+       // var_dump($cate);exit();
+   
+        $query = $db->query("SELECT * FROM `collection_master` WHERE `collection_category`='$cate'");
+         //
+        $query = $query->getRowArray();
+        //
+        $Id = $query['Id'];
+        $result = $db->query("SELECT * FROM `collection` WHERE `Collection_id`= $Id ");
+        if (!empty($result->getResult())) {
+            foreach ($result->getResult() as $key) {
+                $fold = 'collections';
+                $table = 'collection';
+                $id = $key->Id;
+                $ss[] = array(
+                    'id' => $key->Id,
+                    'Product_code' => $key->ProductCode,
+                    'Product_name' => $key->Product_name,
+                    'Product_price' => $key->Product_price,
+                    'image1' => $key->image1,
+                    'image2' => $key->image2
+                );
+            }
+            $data['data'] = $ss;
+            // var_dump($ss);exit();
+
+            return view('CollectionProduct', $data);
+        } else {
+            return redirect()->to('/');
+        }
+    }
+    public function productdetail($pc)
+    {
+        if ((session()->has('logged_info'))) {
+            $data = session()->get('logged_info');
+            $userid = $data['user_id'];
+        }
+        if ((session()->has('logged1_info'))) {
+            $data = session()->get('logged1_info');
+            $userid = $data['user_id'];
+        }
+        $db = db_connect();
+        $result = $db->query("SELECT * FROM `collection` WHERE `ProductCode`= '$pc' ");
+        // var_dump($result->getResult());exit();
+        foreach ($result->getResult() as $key) {
+           
+            $ss[] = array(
+                'id' => $key->Id,
+                'userid' => $userid,
+                'Product_code' => $key->ProductCode,
+                'Product_name' => $key->Product_name,
+                'Product_price' => $key->Product_price,
+                'ProductDesc' => $key->ProductDesc,
+                'image1' => $key->image1,
+                'image2' => $key->image2,
+                'image3' => $key->image3,
+                'image4' => $key->image4,
+                'image5' => $key->image5,
+                'image6' => $key->image6,
+                'size' => $key->size,
+                'material' => $key->material,
+                'fit'=>$key->fit,
+                'folder'=>'collections',
+                'table'=>'collection'
+            );
+            //$menid = $key->Men_id;
+        }
+          $data['data'] = $ss;
+      
+        
+            return view('collectionSingleProduct', $data);
+        
+    }
 }
