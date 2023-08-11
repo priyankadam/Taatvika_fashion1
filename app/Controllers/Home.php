@@ -298,10 +298,21 @@ class Home extends BaseController
     }
     public function submitreview(){
         // var_dump($_POST);exit();
+        if ((session()->has('logged_info'))) {
+            $data = session()->get('logged_info');
+            $userid = $data['user_id'];
+        }
         $db = \Config\Database::connect();
+        $builder = $db->table('register_user');
+        $builder->where('user_id', $userid);
+        $result = $builder->get();
+        // var_dump($result->getResult());
+        foreach ($result->getResult() as $key1) {
+            $name=$key1->firstname;
+        }
         $review=$_POST['review'];
         $PC=$_POST['PC'];
-        $query = $db->query("insert into review(product_code,product_review) values('$PC','$review')");
+        $query = $db->query("insert into review(product_code,product_review,user) values('$PC','$review','$name')");
         $data['success'] = 'Thanks For Your Valuable Feedback!!';
             return json_encode($data);
     }

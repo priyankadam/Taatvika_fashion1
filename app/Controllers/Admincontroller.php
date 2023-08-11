@@ -325,8 +325,8 @@ class Admincontroller extends BaseController
         //     $product_type = $key11->Product_type;
         // }
 
-        if ($product_type == 'Mens') {
-            $table = 'Mens';
+        if ($product_type == 'mens') {
+            $table = 'mens';
             $folder = 'assets/images/uploads/mens/';
         }
         if ($product_type == 'womens') {
@@ -947,7 +947,7 @@ class Admincontroller extends BaseController
             $subtagline = $key['subtag_line'];
             $banner = $key['banner_img'];
             $button = $key['button'];
-            $folder = 'http://localhost/Taatvika_fashion/assets/images/uploads/banner/';
+            $folder = 'https://mediventurz.com/sirsonite/Taatvika_fashion/assets/images/uploads/banner/';
             $bannerdata[] = array(
                 'tag_line' => $tagline,
                 'subtag_line' => $subtagline,
@@ -969,7 +969,7 @@ class Admincontroller extends BaseController
         $id = $this->request->getVar('id');
         // var_dump($id);exit();
 
-        $builder = $db->table('Banner_Master');
+        $builder = $db->table('banner_master');
         $builder->where('banner_id', $id);
         $result = $builder->get();
         foreach ($result->getResult() as $key11) {
@@ -998,7 +998,7 @@ class Admincontroller extends BaseController
         $file_name = $this->request->getFile('banner1');
         // var_dump($file_name);exit();
         if(empty($_POST['button'])){
-            $builder = $db->table('Banner_Master');
+            $builder = $db->table('banner_master');
             $builder->where('banner_id', $banner_id);
             $result = $builder->get();
             foreach ($result->getResult() as $key11) {
@@ -1018,7 +1018,7 @@ class Admincontroller extends BaseController
             $image = "Banner";
             $folder = 'assets/images/uploads/banner/';
             $cover1 = $this->resizeImage($file_name, $fileName, $imageType, $image, $folder);
-            $builder = $db->table('Banner_Master');
+            $builder = $db->table('banner_master');
             $builder->where('banner_id', $banner_id);
             $result = $builder->get();
             foreach ($result->getResult() as $key11) {
@@ -1028,7 +1028,7 @@ class Admincontroller extends BaseController
              unlink($upload_path);
            
         } else {
-            $builder = $db->table('Banner_Master');
+            $builder = $db->table('banner_master');
             $builder->where('banner_id', $banner_id);
             $result = $builder->get();
             foreach ($result->getResult() as $key11) {
@@ -1047,7 +1047,7 @@ class Admincontroller extends BaseController
         ];
         //    echo json_encode($data);
 
-        $builder = $db->table('Banner_Master');
+        $builder = $db->table('banner_master');
         $builder->where('banner_id', $banner_id);
         $result = $builder->update($data);
         if ($result) {
@@ -1070,7 +1070,7 @@ class Admincontroller extends BaseController
     {
         $db  = \Config\Database::connect();
         $id = $this->request->getVar('id');
-        $builder = $db->table('Banner_Master');
+        $builder = $db->table('banner_master');
         $builder->where('banner_id', $id);
         if ($builder->delete()) {
             echo json_encode(array(
@@ -1267,7 +1267,7 @@ class Admincontroller extends BaseController
             } else {
                 $status1 = 'Inactive Image';
             }
-            $folder = 'https://digileadz.com/sirsonite/Beseen/public/product/';
+            $folder = 'https://mediventurz.com/sirsonite/Taatvika_fashion/public/product/';
             $bannerdata[] = array(
                 'tag_line' => $tagline,
                 'subtag_line' => $subtagline,
@@ -1489,7 +1489,7 @@ class Admincontroller extends BaseController
             $subtagline = $key['subtag_line'];
             $banner = $key['image1'];
             $box_type = $key['mega_box_type'];
-            $folder = 'https://digileadz.com/sirsonite/Beseen/assets/images/uploads/mega_box/';
+            $folder = 'https://mediventurz.com/sirsonite/Taatvika_fashion/assets/images/uploads/mega_box/';
             $bannerdata[] = array(
                 'tag_line' => $tagline,
                 'subtag_line' => $subtagline,
@@ -1691,7 +1691,7 @@ class Admincontroller extends BaseController
             $tagline = $key['tag_line'];
             $subtagline = $key['subtag_line'];
             $banner = $key['mini_banner_img'];
-            $folder = 'https://digileadz.com/sirsonite/Beseen/assets/images/uploads/mini_banner/';
+            $folder = 'https://mediventurz.com/sirsonite/Taatvika_fashion/assets/images/uploads/mini_banner/';
             $bannerdata[] = array(
                 'tag_line' => $tagline,
                 'subtag_line' => $subtagline,

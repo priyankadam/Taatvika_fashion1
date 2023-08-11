@@ -169,11 +169,11 @@
                                 <!-- Product Size End -->
                             </div>
                             <!-- Product Meta End -->
-                            <input type="text" value="<?php echo $data['folder'] ?>" name="folder">
-                            <input type="text" value="<?php echo $data['table'] ?>" name="table">
-                            <input type="text" value="<?php echo $data['userid'] ?>" name="userid">
-                            <input type="text" value="<?php echo $data['Product_price'] ?>" name="productprice">
-                            <input type="text" value="<?php echo $data['Product_code'] ?>" name="productcode">
+                            <input type="hidden" value="<?php echo $data['folder'] ?>" name="folder">
+                            <input type="hidden" value="<?php echo $data['table'] ?>" name="table">
+                            <input type="hidden" value="<?php echo $data['userid'] ?>" name="userid">
+                            <input type="hidden" value="<?php echo $data['Product_price'] ?>" name="productprice">
+                            <input type="hidden" value="<?php echo $data['Product_code'] ?>" name="productcode">
 
 
                             <!-- Product Meta Start -->

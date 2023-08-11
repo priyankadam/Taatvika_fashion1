@@ -432,7 +432,7 @@
                 {
                     data: null,
                     render: function(data, type, row) {
-                        return '<img src="https://digileadz.com/sirsonite/Beseen/assets/images/uploads/' + data.folder + '/' + data.image1 + '" width="100px">';
+                        return '<img src="https://mediventurz.com/sirsonite/Taatvika_fashion/assets/images/uploads/' + data.folder + '/' + data.image1 + '" width="100px">';
 
                     }
                 },
@@ -498,12 +498,12 @@
 
 
                 $('#ms1').val(response.material);
-                $('.image1').html("<img width='100' src='https://digileadz.com/sirsonite/Beseen/assets/images/uploads/" + response.folder + "/" + response.image1 + "'>");
-                $('.image2').html("<img width='100' src='https://digileadz.com/sirsonite/Beseen/assets/images/uploads/" + response.folder + "/" + response.image2 + "'>");
-                $('.image3').html("<img width='100' src='https://digileadz.com/sirsonite/Beseen/assets/images/uploads/" + response.folder + "/" + response.image3 + "'>");
-                $('.image4').html("<img width='100' src='https://digileadz.com/sirsonite/Beseen/assets/images/uploads/" + response.folder + "/" + response.image4 + "'>");
-                $('.image5').html("<img width='100' src='https://digileadz.com/sirsonite/Beseen/assets/images/uploads/" + response.folder + "/" + response.image5 + "'>");
-                $('.image6').html("<img width='100' src='https://digileadz.com/sirsonite/Beseen/assets/images/uploads/" + response.folder + "/" + response.image6 + "'>");
+                $('.image1').html("<img width='100' src='https://mediventurz.com/sirsonite/Taatvika_fashion/assets/images/uploads/" + response.folder + "/" + response.image1 + "'>");
+                $('.image2').html("<img width='100' src='https://mediventurz.com/sirsonite/Taatvika_fashion/assets/images/uploads/" + response.folder + "/" + response.image2 + "'>");
+                $('.image3').html("<img width='100' src='https://mediventurz.com/sirsonite/Taatvika_fashion/assets/images/uploads/" + response.folder + "/" + response.image3 + "'>");
+                $('.image4').html("<img width='100' src='https://mediventurz.com/sirsonite/Taatvika_fashion/assets/images/uploads/" + response.folder + "/" + response.image4 + "'>");
+                $('.image5').html("<img width='100' src='https://mediventurz.com/sirsonite/Taatvika_fashion/assets/images/uploads/" + response.folder + "/" + response.image5 + "'>");
+                $('.image6').html("<img width='100' src='https://mediventurz.com/sirsonite/Taatvika_fashion/assets/images/uploads/" + response.folder + "/" + response.image6 + "'>");
                 $('#editModal').modal('show');
             }
         });

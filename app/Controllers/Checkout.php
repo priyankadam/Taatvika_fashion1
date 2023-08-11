@@ -19,14 +19,11 @@ class Checkout extends BaseController
     }
     public function test($ss)
     {
-         //var_dump($ss);exit();
-        // $session = \Config\Services::session();
-        // $session = session();
+        $session = \Config\Services::session();
+        $session = session();
 
-        // $session->set('MenID', $ss);
-        // return redirect()->to('Men-Wear');
-       $data['ss']=$ss;
-        return view('MensCollection',$data);
+        $session->set('MenID', $ss);
+        return redirect()->to('Men-Wear');
         // var_dump($ss);exit();
     }
     public function testw($women)
@@ -88,10 +85,11 @@ class Checkout extends BaseController
             "order_id" => $order_id,
             "cart_ids" =>  $this->request->getVar('cart_ids'),
             "total_amount" => '500',
-            'ProductCode' => $this->request->getVar('ProductCode')
+             "ProductCode" => $this->request->getVar('ProductCode')
+             
         );
         $cart_ids = $this->request->getVar('cart_ids');
-        $pc=$this->request->getVar('ProductCode');
+
         $total_amount = '500';
         $fetchcheckout = $db->query("SELECT * FROM checkout WHERE user_id='$userid' AND status=0 ");
         $fetch = $fetchcheckout->getResultArray();
@@ -129,7 +127,7 @@ class Checkout extends BaseController
                 'email' => $email,
                 'amount' => '10',
                 'phone' => $phone,
-                'redirect_url' => 'http://localhost/Taatvika_fashion/Payment_success/?id=' . $id,
+                'redirect_url' => 'https://mediventurz.com/sirsonite/Taatvika_fashion/Payment_success/' . $id,
                 'allow_repeated_payments' => false
             );
             curl_setopt($ch, CURLOPT_POST, true);
@@ -184,11 +182,7 @@ class Checkout extends BaseController
         if ($update) {
             $data1 = "Payment Successfully Completed. ";
             $session->set('msg', $data1);
-            return redirect()->to('/');
-            // return view('paymentSuccess');
+               return view('paymentSuccess');
         }
-    }
-    public function pay(){
-        return view('paymentSuccess');
     }
 }

@@ -30,9 +30,10 @@
                                 <div class="form-group col-md-12">
                                       <label for="Banner">Womens Category *</label>
                                         <select class="form-control" name="wom_cat" id="wom_cat" required onchange="showDiv('hidden_div', this)">
+                                             <option disabled="" selected="" value="">Select Category</option>
                                             <?php 
                                          $db = db_connect();
-                                        $result = $db->query("SELECT * FROM `Womens_master` ");
+                                        $result = $db->query("SELECT * FROM `womens_master` ");
                                          foreach ($result->getResult() as $key) {
                                                                
                                         $ID=$key->Id;
@@ -93,7 +94,7 @@
                               </div> -->
                                 <!-- </div> -->
                                   </div>
-                                  <div class="form-group col-md-12">
+                                  <div class="form-group col-md-12"id="hidden_div1"style="display: none;">
                                         <div class="row">
                                             <div class="form-group col-md-6">
                                                 <label for="size">Fit</label>
@@ -559,11 +560,17 @@
     {
        var el= document.getElementById('wom_cat');
        var text= el. options[el. selectedIndex]. text;
-     alert(text);
-         if(text=='Shirt'||text=='Skrit'||text=='Blouses'){
+    //  alert(text);
+         if(text=='Shirt'||text=='Skrit'||text=='Blouses'){// size
         document.getElementById('hidden_div').style.display = "block";
        } else{
         document.getElementById('hidden_div').style.display = "none";
+       }
+
+       if(text=='Blazer'||text=='Suit'||text=='IKAT Jacket'||text=='Sherwani'){//fit
+        document.getElementById('hidden_div1').style.display = "block";
+       } else{
+        document.getElementById('hidden_div1').style.display = "none";
        }
 
     }

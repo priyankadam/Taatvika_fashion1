@@ -1,0 +1,869 @@
+INFO - 2023-08-10 05:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 05:47:43 --> Undefined variable $addressData
+in APPPATH\Views\MyAccount.php on line 206.
+ 1 APPPATH\Views\MyAccount.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $addressData', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\MyAccount.php', 206)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\MyAccount.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MyAccount', [], true)
+ 5 APPPATH\Controllers\Home.php(216): view('MyAccount')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->myaccount()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 05:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 05:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 05:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 05:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 05:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 05:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 05:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 05:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 05:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 06:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 06:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 06:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 06:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-10 06:29:09 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\menSingleProduct.php on line 156.
+ 1 APPPATH\Views\menSingleProduct.php(156): explode(',', null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\menSingleProduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menSingleProduct', [], true)
+ 5 APPPATH\Controllers\menController.php(298): view('menSingleProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-OZ6PQ')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 06:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 06:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-10 06:30:44 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\menSingleProduct.php on line 156.
+ 1 APPPATH\Views\menSingleProduct.php(156): explode(',', null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\menSingleProduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menSingleProduct', [], true)
+ 5 APPPATH\Controllers\menController.php(298): view('menSingleProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-OZ6PQ')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 06:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 06:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-10 06:30:50 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\menSingleProduct.php on line 156.
+ 1 APPPATH\Views\menSingleProduct.php(156): explode(',', null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\menSingleProduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menSingleProduct', [], true)
+ 5 APPPATH\Controllers\menController.php(298): view('menSingleProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-OZ6PQ')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 06:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 06:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 06:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 06:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 06:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 06:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 06:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 06:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 06:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 06:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 06:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 06:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 06:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 07:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 07:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 07:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 07:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 07:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 08:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 08:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 08:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 08:19:46 --> Undefined variable $table
+in APPPATH\Controllers\Home.php on line 284.
+ 1 APPPATH\Controllers\Home.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Home.php', 284)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->addReview()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 08:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 08:21:06 --> Undefined variable $table
+in APPPATH\Controllers\Home.php on line 284.
+ 1 APPPATH\Controllers\Home.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Home.php', 284)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->addReview()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 08:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 08:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 08:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 08:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 08:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 08:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 08:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 08:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 08:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 08:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 08:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 08:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 08:38:36 --> Undefined variable $table
+in APPPATH\Controllers\Home.php on line 284.
+ 1 APPPATH\Controllers\Home.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Home.php', 284)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->addReview()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 08:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 08:42:53 --> Undefined variable $table
+in APPPATH\Controllers\Home.php on line 284.
+ 1 APPPATH\Controllers\Home.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Home.php', 284)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->addReview()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 08:43:40 --> Undefined variable $table
+in APPPATH\Controllers\Home.php on line 284.
+ 1 APPPATH\Controllers\Home.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Home.php', 284)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->addReview()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 08:44:11 --> Undefined variable $table
+in APPPATH\Controllers\Home.php on line 284.
+ 1 APPPATH\Controllers\Home.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Home.php', 284)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->addReview()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 08:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 08:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 08:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 08:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 08:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 08:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 08:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 08:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 08:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 08:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 08:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 08:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 08:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 09:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 09:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 09:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 10:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 10:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 10:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 10:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 10:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 10:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 10:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 10:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 10:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 10:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 10:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 10:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 10:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 10:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 10:46:26 --> Undefined array key "submitreview"
+in APPPATH\Controllers\Home.php on line 302.
+ 1 APPPATH\Controllers\Home.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "submitreview"', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Home.php', 302)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitreview()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-10 10:47:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\shital\htdocs\Taatvika_fashion\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\shital\htdocs\Taatvika_fashion\system\Database\MySQLi\Connection.php(295): mysqli->query('insert into rev...', 0)
+#1 C:\shital\htdocs\Taatvika_fashion\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('insert into rev...')
+#2 C:\shital\htdocs\Taatvika_fashion\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('insert into rev...')
+#3 C:\shital\htdocs\Taatvika_fashion\app\Controllers\Home.php(304): CodeIgniter\Database\BaseConnection->query('insert into rev...')
+#4 C:\shital\htdocs\Taatvika_fashion\system\CodeIgniter.php(934): App\Controllers\Home->submitreview()
+#5 C:\shital\htdocs\Taatvika_fashion\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\shital\htdocs\Taatvika_fashion\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\shital\htdocs\Taatvika_fashion\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-08-10 10:47:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('insert into review values(   ffffff,M-YEOYF', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('insert into review values(   ffffff,M-YEOYF')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('insert into review values(   ffffff,M-YEOYF')
+ 4 APPPATH\Controllers\Home.php(304): CodeIgniter\Database\BaseConnection->query('insert into review values(   ffffff,M-YEOYF')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitreview()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-10 10:47:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\shital\htdocs\Taatvika_fashion\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\shital\htdocs\Taatvika_fashion\system\Database\MySQLi\Connection.php(295): mysqli->query('insert into rev...', 0)
+#1 C:\shital\htdocs\Taatvika_fashion\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('insert into rev...')
+#2 C:\shital\htdocs\Taatvika_fashion\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('insert into rev...')
+#3 C:\shital\htdocs\Taatvika_fashion\app\Controllers\Home.php(304): CodeIgniter\Database\BaseConnection->query('insert into rev...')
+#4 C:\shital\htdocs\Taatvika_fashion\system\CodeIgniter.php(934): App\Controllers\Home->submitreview()
+#5 C:\shital\htdocs\Taatvika_fashion\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\shital\htdocs\Taatvika_fashion\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\shital\htdocs\Taatvika_fashion\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-08-10 10:47:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('insert into review values(ffffff,M-YEOYF', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('insert into review values(ffffff,M-YEOYF')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('insert into review values(ffffff,M-YEOYF')
+ 4 APPPATH\Controllers\Home.php(304): CodeIgniter\Database\BaseConnection->query('insert into review values(ffffff,M-YEOYF')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitreview()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-10 10:49:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\shital\htdocs\Taatvika_fashion\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\shital\htdocs\Taatvika_fashion\system\Database\MySQLi\Connection.php(295): mysqli->query('insert into rev...', 0)
+#1 C:\shital\htdocs\Taatvika_fashion\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('insert into rev...')
+#2 C:\shital\htdocs\Taatvika_fashion\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('insert into rev...')
+#3 C:\shital\htdocs\Taatvika_fashion\app\Controllers\Home.php(304): CodeIgniter\Database\BaseConnection->query('insert into rev...')
+#4 C:\shital\htdocs\Taatvika_fashion\system\CodeIgniter.php(934): App\Controllers\Home->submitreview()
+#5 C:\shital\htdocs\Taatvika_fashion\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\shital\htdocs\Taatvika_fashion\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\shital\htdocs\Taatvika_fashion\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-08-10 10:49:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('insert into review(product_code,product_review) values(\'M-YEOYF\',\'ffffff\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('insert into review(product_code,product_review) values(\'M-YEOYF\',\'ffffff\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('insert into review(product_code,product_review) values(\'M-YEOYF\',\'ffffff\'')
+ 4 APPPATH\Controllers\Home.php(304): CodeIgniter\Database\BaseConnection->query('insert into review(product_code,product_review) values(\'M-YEOYF\',\'ffffff\'')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitreview()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 10:52:35 --> Undefined variable $session
+in APPPATH\Views\MyAccount.php on line 7.
+ 1 APPPATH\Views\MyAccount.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\MyAccount.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\MyAccount.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('MyAccount', [], true)
+ 5 APPPATH\Controllers\Home.php(216): view('MyAccount')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->myaccount()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 10:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 10:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 10:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 10:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 10:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 10:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 10:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 10:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 10:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 10:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 10:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 10:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 10:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 10:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 11:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 11:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 11:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 11:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 11:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 11:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 11:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 11:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 12:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 12:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 12:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 12:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 12:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 12:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 12:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 12:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 12:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 12:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-10 12:17:57 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\menSingleProduct.php on line 156.
+ 1 APPPATH\Views\menSingleProduct.php(156): explode(',', null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\menSingleProduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menSingleProduct', [], true)
+ 5 APPPATH\Controllers\menController.php(298): view('menSingleProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-OZ6PQ')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 12:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-10 12:21:10 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\menSingleProduct.php on line 156.
+ 1 APPPATH\Views\menSingleProduct.php(156): explode(',', null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\menSingleProduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menSingleProduct', [], true)
+ 5 APPPATH\Controllers\menController.php(298): view('menSingleProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-OZ6PQ')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 12:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 12:21:11 --> Undefined variable $ss
+in APPPATH\Controllers\menController.php on line 291.
+ 1 APPPATH\Controllers\menController.php(291): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ss', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\menController.php', 291)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('assets', 'images', 'review', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 12:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-10 12:21:59 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\menSingleProduct.php on line 156.
+ 1 APPPATH\Views\menSingleProduct.php(156): explode(',', null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\menSingleProduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menSingleProduct', [], true)
+ 5 APPPATH\Controllers\menController.php(298): view('menSingleProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-OZ6PQ')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 12:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 12:21:59 --> Undefined variable $ss
+in APPPATH\Controllers\menController.php on line 291.
+ 1 APPPATH\Controllers\menController.php(291): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ss', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\menController.php', 291)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('assets', 'images', 'review', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 12:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-10 12:22:48 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\menSingleProduct.php on line 156.
+ 1 APPPATH\Views\menSingleProduct.php(156): explode(',', null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\menSingleProduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menSingleProduct', [], true)
+ 5 APPPATH\Controllers\menController.php(298): view('menSingleProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-OZ6PQ')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 12:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 12:22:48 --> Undefined variable $ss
+in APPPATH\Controllers\menController.php on line 291.
+ 1 APPPATH\Controllers\menController.php(291): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ss', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\menController.php', 291)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('assets', 'images', 'review', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 12:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-10 12:23:06 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\menSingleProduct.php on line 156.
+ 1 APPPATH\Views\menSingleProduct.php(156): explode(',', null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\menSingleProduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menSingleProduct', [], true)
+ 5 APPPATH\Controllers\menController.php(298): view('menSingleProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-OZ6PQ')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 12:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 12:23:07 --> Undefined variable $ss
+in APPPATH\Controllers\menController.php on line 291.
+ 1 APPPATH\Controllers\menController.php(291): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ss', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\menController.php', 291)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('assets', 'images', 'review', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 12:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 12:37:24 --> syntax error, unexpected token ")", expecting "->" or "?->" or "{" or "["
+in APPPATH\Views\menSingleProduct.php on line 321.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menSingleProduct', [], true)
+ 3 APPPATH\Controllers\menController.php(298): view('menSingleProduct', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-OZ6PQ')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 12:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 12:37:46 --> syntax error, unexpected token ")", expecting "->" or "?->" or "{" or "["
+in APPPATH\Views\menSingleProduct.php on line 321.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menSingleProduct', [], true)
+ 3 APPPATH\Controllers\menController.php(298): view('menSingleProduct', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-OZ6PQ')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 12:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 12:37:48 --> syntax error, unexpected token ")", expecting "->" or "?->" or "{" or "["
+in APPPATH\Views\menSingleProduct.php on line 321.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menSingleProduct', [], true)
+ 3 APPPATH\Controllers\menController.php(298): view('menSingleProduct', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-OZ6PQ')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 12:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-10 12:38:20 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\menSingleProduct.php on line 156.
+ 1 APPPATH\Views\menSingleProduct.php(156): explode(',', null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\menSingleProduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menSingleProduct', [], true)
+ 5 APPPATH\Controllers\menController.php(298): view('menSingleProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-OZ6PQ')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 12:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-10 12:40:28 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\menSingleProduct.php on line 156.
+ 1 APPPATH\Views\menSingleProduct.php(156): explode(',', null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\menSingleProduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menSingleProduct', [], true)
+ 5 APPPATH\Controllers\menController.php(298): view('menSingleProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-OZ6PQ')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 12:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 12:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-10 12:40:38 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\menSingleProduct.php on line 156.
+ 1 APPPATH\Views\menSingleProduct.php(156): explode(',', null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\menSingleProduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menSingleProduct', [], true)
+ 5 APPPATH\Controllers\menController.php(298): view('menSingleProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-OZ6PQ')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 12:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 12:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 12:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 12:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 12:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 12:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 12:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 12:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 12:48:55 --> Cannot use object of type stdClass as array
+in APPPATH\Views\menSingleProduct.php on line 352.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menSingleProduct', [], true)
+ 4 APPPATH\Controllers\menController.php(298): view('menSingleProduct', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-YEOYF')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 12:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 12:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 12:50:02 --> Undefined variable $ss
+in APPPATH\Controllers\menController.php on line 291.
+ 1 APPPATH\Controllers\menController.php(291): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ss', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\menController.php', 291)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('assets', 'images', 'review', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 12:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 12:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 12:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 12:51:04 --> Undefined variable $ss
+in APPPATH\Controllers\menController.php on line 291.
+ 1 APPPATH\Controllers\menController.php(291): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ss', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\menController.php', 291)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('assets', 'images', 'review', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 12:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 12:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 12:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-10 12:51:23 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\menSingleProduct.php on line 156.
+ 1 APPPATH\Views\menSingleProduct.php(156): explode(',', null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\menSingleProduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menSingleProduct', [], true)
+ 5 APPPATH\Controllers\menController.php(298): view('menSingleProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-N433S')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 12:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-10 12:52:38 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\menSingleProduct.php on line 156.
+ 1 APPPATH\Views\menSingleProduct.php(156): explode(',', null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\menSingleProduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menSingleProduct', [], true)
+ 5 APPPATH\Controllers\menController.php(299): view('menSingleProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-N433S')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 12:52:38 --> Undefined variable $query
+in APPPATH\Views\menSingleProduct.php on line 322.
+ 1 APPPATH\Views\menSingleProduct.php(322): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $query', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\menSingleProduct.php', 322)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\menSingleProduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menSingleProduct', [], true)
+ 5 APPPATH\Controllers\menController.php(299): view('menSingleProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-N433S')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 12:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-10 12:54:07 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\menSingleProduct.php on line 156.
+ 1 APPPATH\Views\menSingleProduct.php(156): explode(',', null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\menSingleProduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menSingleProduct', [], true)
+ 5 APPPATH\Controllers\menController.php(299): view('menSingleProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-N433S')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 13:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-10 13:02:20 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\menSingleProduct.php on line 156.
+ 1 APPPATH\Views\menSingleProduct.php(156): explode(',', null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\menSingleProduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menSingleProduct', [], true)
+ 5 APPPATH\Controllers\menController.php(299): view('menSingleProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-N433S')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 13:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-10 13:02:29 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\menTrouser.php on line 156.
+ 1 APPPATH\Views\menTrouser.php(156): explode(',', null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\menTrouser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menTrouser', [], true)
+ 5 APPPATH\Controllers\menController.php(297): view('menTrouser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-F0C8E')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 13:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-10 13:04:15 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\menTrouser.php on line 156.
+ 1 APPPATH\Views\menTrouser.php(156): explode(',', null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\menTrouser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menTrouser', [], true)
+ 5 APPPATH\Controllers\menController.php(297): view('menTrouser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-F0C8E')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 13:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-10 13:10:16 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\menTrouser.php on line 156.
+ 1 APPPATH\Views\menTrouser.php(156): explode(',', null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\menTrouser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menTrouser', [], true)
+ 5 APPPATH\Controllers\menController.php(297): view('menTrouser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-F0C8E')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 13:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-10 13:24:29 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\collectionSingleProduct.php on line 156.
+ 1 APPPATH\Views\collectionSingleProduct.php(156): explode(',', null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\collectionSingleProduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('collectionSingleProduct', [], true)
+ 5 APPPATH\Controllers\collectionController.php(279): view('collectionSingleProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\collectionController->productdetail('C-TYPPR')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\collectionController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 13:24:39 --> syntax error, unexpected token "<<", expecting end of file
+in APPPATH\Controllers\accessoriesController.php on line 261.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\accessoriesController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\accessoriesController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\accessoriesController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\accessoriesController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 13:25:41 --> Unmatched '}'
+in APPPATH\Controllers\accessoriesController.php on line 384.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\accessoriesController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\accessoriesController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\accessoriesController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\accessoriesController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 13:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-10 13:28:20 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\collectionSingleProduct.php on line 156.
+ 1 APPPATH\Views\collectionSingleProduct.php(156): explode(',', null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\collectionSingleProduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('collectionSingleProduct', [], true)
+ 5 APPPATH\Controllers\collectionController.php(279): view('collectionSingleProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\collectionController->productdetail('C-TYPPR')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\collectionController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 13:29:00 --> Unmatched '}'
+in APPPATH\Controllers\accessoriesController.php on line 384.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\accessoriesController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\accessoriesController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\accessoriesController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\accessoriesController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 13:29:13 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\accessoriesController.php on line 386.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\accessoriesController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\accessoriesController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\accessoriesController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\accessoriesController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 13:33:29 --> Undefined array key "Id"
+in APPPATH\Controllers\accessoriesController.php on line 270.
+ 1 APPPATH\Controllers\accessoriesController.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Id"', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\accessoriesController.php', 270)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\accessoriesController->menAcc('Shoes')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\accessoriesController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 13:36:14 --> Undefined array key "Id"
+in APPPATH\Controllers\accessoriesController.php on line 270.
+ 1 APPPATH\Controllers\accessoriesController.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Id"', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\accessoriesController.php', 270)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\accessoriesController->menAcc('Shoes')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\accessoriesController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 13:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 13:38:14 --> Undefined variable $product_type
+in APPPATH\Controllers\Home.php on line 262.
+ 1 APPPATH\Controllers\Home.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_type', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Home.php', 262)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->addReview()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 13:38:15 --> Undefined variable $product_type
+in APPPATH\Controllers\Home.php on line 262.
+ 1 APPPATH\Controllers\Home.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_type', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Home.php', 262)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->addReview()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 13:38:16 --> Undefined variable $product_type
+in APPPATH\Controllers\Home.php on line 262.
+ 1 APPPATH\Controllers\Home.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_type', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Home.php', 262)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->addReview()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 13:38:17 --> Undefined variable $product_type
+in APPPATH\Controllers\Home.php on line 262.
+ 1 APPPATH\Controllers\Home.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_type', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Home.php', 262)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->addReview()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 13:38:18 --> Undefined variable $product_type
+in APPPATH\Controllers\Home.php on line 262.
+ 1 APPPATH\Controllers\Home.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_type', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Home.php', 262)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->addReview()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 13:38:18 --> Undefined variable $product_type
+in APPPATH\Controllers\Home.php on line 262.
+ 1 APPPATH\Controllers\Home.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_type', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Home.php', 262)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->addReview()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 13:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 13:41:44 --> Undefined variable $ss
+in APPPATH\Controllers\menController.php on line 292.
+ 1 APPPATH\Controllers\menController.php(292): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ss', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\menController.php', 292)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('assets', 'images', 'review', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 13:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 13:41:51 --> Undefined variable $ss
+in APPPATH\Controllers\menController.php on line 292.
+ 1 APPPATH\Controllers\menController.php(292): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ss', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\menController.php', 292)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('assets', 'images', 'review', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 13:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 13:42:26 --> Attempt to read property "success" on null
+in APPPATH\Controllers\Checkout.php on line 140.
+ 1 APPPATH\Controllers\Checkout.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "success" on null', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\Checkout.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->payment()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 13:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 13:51:53 --> Undefined variable $ss
+in APPPATH\Controllers\menController.php on line 292.
+ 1 APPPATH\Controllers\menController.php(292): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ss', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\menController.php', 292)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('assets', 'images', 'review', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 13:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 13:51:59 --> Undefined variable $ss
+in APPPATH\Controllers\menController.php on line 292.
+ 1 APPPATH\Controllers\menController.php(292): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ss', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\menController.php', 292)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('assets', 'images', 'review', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 13:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 13:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 14:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 14:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-10 14:01:10 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\menShirt.php on line 167.
+ 1 APPPATH\Views\menShirt.php(167): explode(',', null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\menShirt.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menShirt', [], true)
+ 5 APPPATH\Controllers\menController.php(294): view('menShirt', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-073A5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 14:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 14:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 14:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 14:01:20 --> Undefined variable $ss
+in APPPATH\Controllers\menController.php on line 292.
+ 1 APPPATH\Controllers\menController.php(292): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ss', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\menController.php', 292)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('assets', 'images', 'review', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 14:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 14:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 14:09:52 --> Undefined variable $ss
+in APPPATH\Controllers\menController.php on line 292.
+ 1 APPPATH\Controllers\menController.php(292): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ss', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\menController.php', 292)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('assets', 'images', 'review', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 14:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 14:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 14:19:55 --> Undefined variable $ss
+in APPPATH\Controllers\menController.php on line 292.
+ 1 APPPATH\Controllers\menController.php(292): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ss', 'C:\\shital\\htdocs\\Taatvika_fashion\\app\\Controllers\\menController.php', 292)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('assets', 'images', 'review', '1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 14:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 14:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 14:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 14:27:34 --> date_format(): Argument #1 ($object) must be of type DateTimeInterface, string given
+in APPPATH\Views\menSingleProduct.php on line 351.
+ 1 APPPATH\Views\menSingleProduct.php(351): date_format('2023-08-10', 'd M Y')
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\menSingleProduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menSingleProduct', [], true)
+ 5 APPPATH\Controllers\menController.php(299): view('menSingleProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-YEOYF')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 14:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 14:28:29 --> date_format(): Argument #1 ($object) must be of type DateTimeInterface, string given
+in APPPATH\Views\menSingleProduct.php on line 351.
+ 1 APPPATH\Views\menSingleProduct.php(351): date_format('2023-08-10', 'd M Y')
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\menSingleProduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menSingleProduct', [], true)
+ 5 APPPATH\Controllers\menController.php(299): view('menSingleProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-YEOYF')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 14:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 14:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 14:28:38 --> date_format(): Argument #1 ($object) must be of type DateTimeInterface, string given
+in APPPATH\Views\menSingleProduct.php on line 351.
+ 1 APPPATH\Views\menSingleProduct.php(351): date_format('2023-08-10', 'd M Y')
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\menSingleProduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menSingleProduct', [], true)
+ 5 APPPATH\Controllers\menController.php(299): view('menSingleProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-YEOYF')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 14:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 14:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 14:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 14:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-10 14:33:21 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\menSingleProduct.php on line 156.
+ 1 APPPATH\Views\menSingleProduct.php(156): explode(',', null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\menSingleProduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menSingleProduct', [], true)
+ 5 APPPATH\Controllers\menController.php(299): view('menSingleProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\menController->productdetail('M-OZ6PQ')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\menController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-10 14:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 14:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 14:33:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 14:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 14:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-10 14:34:21 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\collectionSingleProduct.php on line 156.
+ 1 APPPATH\Views\collectionSingleProduct.php(156): explode(',', null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\shital\\htdocs\\Taatvika_fashion\\app\\Views\\collectionSingleProduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('collectionSingleProduct', [], true)
+ 5 APPPATH\Controllers\collectionController.php(279): view('collectionSingleProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\collectionController->productdetail('C-TYPPR')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\collectionController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

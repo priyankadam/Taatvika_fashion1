@@ -20,6 +20,10 @@
                                     $data = session()->get('logged1_info');
                                       $userid = $data['user_id'];
                    }
+                     if ((session()->has('logged_info'))) {
+                                    $data = session()->get('logged_info');
+                                      $userid = $data['user_id'];
+                   }
                    $db = db_connect();
    $session = \Config\Services::session();
         $session = session();
@@ -168,7 +172,7 @@ foreach ($result->getResult() as $key) {
                        <!-- Product Meta Start -->
                        <div class="product-meta mb-3">
                             <!-- Product Size Start -->
-                            <form method="post" action="<?php echo base_url(); ?>/Add-to-cart-customise" id="myform">
+                            <form method="post" action="<?php echo base_url(); ?>Add-To-Cart" id="myform">
                             <div class="product-size">
                                 <span>Size :</span>
                                 <?php
@@ -224,7 +228,7 @@ foreach ($result->getResult() as $key) {
                         </div>
                         <!-- Quantity End -->
                          <input type="hidden" value="<?php echo $id ?>" name="id"> 
-                          <input type="hidden" value="<?php echo $tableName ?>" name="tablename">
+                          <input type="text" value="<?php echo $tableName ?>" name="tablename">
                           <input type="hidden" value="<?php echo $folder ?>" name="foldername">
                           <input type="hidden" value="<?php echo $productCode ?>" name="productcode">
                            <input type="hidden" value="<?php echo $userid ?>" name="userid"> 
@@ -242,10 +246,7 @@ foreach ($result->getResult() as $key) {
                         <!-- Cart & Wishlist Button End -->
                         </form>
 
-                       <form method="post" action="<?php echo base_url(); ?>My-customise-single" id="myform">
-
-                        <input type="submit" class="btn btn-sm btn-outline-dark btn-hover-primary" style="height:50px;" value="Customise" >
-                       </form>
+                      
 
                         <!-- Social Shear Start -->
                         <div class="social-share">

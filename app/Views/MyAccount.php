@@ -88,7 +88,7 @@
                                                                 <td><?= $i++; ?></td>
                                                                 <td><?= $mydata['transaction_date']; ?></td>
                                                                 <td><?= $mydata['order_status']; ?></td>
-                                                                <td><?= $mydata['ProductCode']; ?></td>
+                                                                <td><?= $mydata['total_amount']; ?></td>
                                                                 <td><button class="btn btn-sm btn-outline-dark btn-hover-primary" id="review" attrid="<?= $mydata['ProductCode']; ?>">Review</button></td>
                                                             </tr>
                                                     <?php
@@ -352,7 +352,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script>
     $(document).on('submit', '#update_form', function(e) {
-        alert('ok');
+        // alert('ok');
         e.preventDefault();
         if ($.trim($('#addre').val()).length == 0) {
             // alert('ok');
@@ -399,7 +399,7 @@
                 // var response = JSON.parse(response);
                 //  alert(response);
                 // $('.ProductName').text(response.Product_name);
-                alert(response[0]['Product_name']);
+                // alert(response[0]['Product_name']);
                 // var id = response;
                 // // alert(id);
                 // // $('#Profiletable tbody').empty();
@@ -408,7 +408,7 @@
                 // $('.buildcoursediv').removeClass('d-none');
                 $('#PC').val(response[0]['ProductCode']);
                 $('.ProductName').text(response[0]['Product_name']);
-                $('.image1').html("<img width='100' src='http://localhost/Taatvika_fashion/assets/images/uploads/" + response[0]['folder'] + "/" + response[0]['image1'] + "'>");
+                $('.image1').html("<img width='100' src='https://mediventurz.com/sirsonite/Taatvika_fashion/assets/images/uploads/" + response[0]['folder'] + "/" + response[0]['image1'] + "'>");
                 $('#editModal').modal('show');
             }
         });

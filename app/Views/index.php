@@ -1,19 +1,7 @@
 <?= $this->extend("layout/base"); ?>
 
 <?= $this->section('content'); ?>
-<?php
-$session = session();
-if ((session()->has('msg'))) { ?>
-    <div class="alertbox">
 
-        <?php
-
-        echo '<script>alert("Payment Completed")</script>';
-
-        ?>
-    </div>
-
-<?php } ?>
 
 <!-- Hero/Intro Slider Start -->
 <div class="section">
@@ -22,7 +10,7 @@ if ((session()->has('msg'))) { ?>
             <div class="swiper-wrapper">
                 <?php
                 $db = db_connect();
-                $result = $db->query("SELECT * FROM `Banner_Master`");
+                $result = $db->query("SELECT * FROM `banner_master`");
                 foreach ($result->getResult() as $key) {
 
                     $tagline = $key->tag_line;
@@ -338,7 +326,7 @@ if ((session()->has('msg'))) { ?>
                                         <?php
                                         $db = db_connect();
                                         $result1 = $db->query("SELECT * FROM `product`
-                                                        WHERE `product_type`='Mens'
+                                                        WHERE `product_type`='mens'
                                                         ORDER  BY prod_id  DESC
                                                         LIMIT 2 ");
                                         $p_data = $result1->getResultArray();
@@ -353,13 +341,13 @@ if ((session()->has('msg'))) { ?>
                                         }
                                         // var_dump($mensData);exit();
 
-                                        $table = 'Mens';
+                                        $table = 'mens';
 
                                         $folder = 'mens';
                                         if (isset($mensData[0]['ProductCode'])) {
                                             $mensPcode1 = $mensData[0]['ProductCode'];
 
-                                            $result2 = $db->query("SELECT * FROM `Mens` WHERE `ProductCode`= '$mensPcode1'");
+                                            $result2 = $db->query("SELECT * FROM `mens` WHERE `ProductCode`= '$mensPcode1'");
                                             $m_data = $result2->getResultArray();
 
                                             foreach ($m_data as $key) {
@@ -371,7 +359,7 @@ if ((session()->has('msg'))) { ?>
                                                 <!-- Single Product Start -->
                                                 <div class="product product-border-left mb-10" data-aos="fade-up" data-aos-delay="300">
                                                     <div class="thumb">
-                                                        <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $mensPcode1; ?>/<?php echo $table ?>/<?php echo $folder ?>" class="image">
+                                                        <a href="#" class="image">
 
                                                             <img class="first-image" src="<?php echo base_url(); ?>assets/images/uploads/mens/<?php echo $key['image1']; ?>" alt="Product" height=268 , width=268 />
                                                             <img class="second-image" src="<?php echo base_url(); ?>assets/images/uploads/mens/<?php echo $key['image2']; ?>" alt="Product" height=268 , width=268 />
@@ -392,7 +380,7 @@ if ((session()->has('msg'))) { ?>
                                                             <!--<span class="old">Rs42.85</span>-->
                                                         </span>
                                                         <!-- <a href="</?php echo base_url(); ?>Add-to-cart"> -->
-                                                        <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $mensPcode1; ?>/<?php echo $table ?>/<?php echo $folder ?>">
+                                                        <a href="#">
                                                             <button class="btn btn-sm btn-outline-dark btn-hover-primary">Add To Cart</button></a>
                                                     </div>
                                                 </div>
@@ -402,11 +390,11 @@ if ((session()->has('msg'))) { ?>
                                         ?>
                                         <?php
 
-                                        $table = 'Mens';
+                                        $table = 'mens';
                                         $folder = 'mens';
                                         if (isset($mensData[1]['ProductCode'])) {
                                             $mensPcode2 = $mensData[1]['ProductCode'];
-                                            $result2 = $db->query("SELECT * FROM `Mens` WHERE `ProductCode`= '$mensPcode2'");
+                                            $result2 = $db->query("SELECT * FROM `mens` WHERE `ProductCode`= '$mensPcode2'");
                                             $m_data = $result2->getResultArray();
 
                                             foreach ($m_data as $key2) {
@@ -416,7 +404,7 @@ if ((session()->has('msg'))) { ?>
                                                 <!-- Single Product Start -->
                                                 <div class="product product-border-left" data-aos="fade-up" data-aos-delay="400">
                                                     <div class="thumb">
-                                                        <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $mensPcode2; ?>/<?php echo $table ?>/<?php echo $folder ?>" class="image">
+                                                        <a href="#" class="image">
                                                             <img class="first-image" src="<?php echo base_url(); ?>assets/images/uploads/mens/<?php echo $key2['image1']; ?>" alt="Product" height=268 , width=268 />
                                                             <img class="second-image" src="<?php echo base_url(); ?>assets/images/uploads/mens/<?php echo $key2['image2']; ?>" alt="Product" height=268 , width=268 />
                                                         </a>
@@ -435,7 +423,7 @@ if ((session()->has('msg'))) { ?>
                                                             <span class="new">₹.<?php echo $key2['Product_price'] ?></span>
                                                             <!--<span class="old">Rs18.00</span>-->
                                                         </span>
-                                                        <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $mensPcode2; ?>/<?php echo $table ?>/<?php echo $folder ?>">
+                                                        <a href="#">
 
                                                             <button class="btn btn-sm btn-outline-dark btn-hover-primary">Add To Cart</button></a>
                                                     </div>
@@ -480,7 +468,7 @@ if ((session()->has('msg'))) { ?>
                                         <!-- Single Product Start -->
                                         <div class="product product-border-left mb-10" data-aos="fade-up" data-aos-delay="400">
                                             <div class="thumb">
-                                                <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $womensPcode1; ?>/<?php echo $table ?>/<?php echo $folder ?>" class="image">
+                                                <a href="#" class="image">
                                                     <img class="first-image" src="<?php echo base_url(); ?>assets/images/uploads/womens/<?php echo $womens['image1']; ?>" alt="Product" height=268 , width=268 />
                                                     <img class="second-image" src="<?php echo base_url(); ?>assets/images/uploads/womens/<?php echo $womens['image2']; ?>" alt="Product" height=268 , width=268 />
                                                 </a>
@@ -502,7 +490,7 @@ if ((session()->has('msg'))) { ?>
                                                     <span class="new">₹.<?php echo $womens['Product_price'] ?></span>
                                                     <!--<span class="old">Rs48.85</span>-->
                                                 </span>
-                                                <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $womensPcode1; ?>/<?php echo $table ?>/<?php echo $folder ?>">
+                                                <a href="#">
 
                                                     <button class="btn btn-sm btn-outline-dark btn-hover-primary">Add To Cart</button></a>
                                             </div>
@@ -525,7 +513,7 @@ if ((session()->has('msg'))) { ?>
                                         <!-- Single Product Start -->
                                         <div class="product product-border-left" data-aos="fade-up" data-aos-delay="500">
                                             <div class="thumb">
-                                                <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $womensPcode2; ?>/<?php echo $table ?>/<?php echo $folder ?>" class="image">
+                                                  <a href="#" class="image">
 
                                                     <img class="first-image" src="<?php echo base_url(); ?>assets/images/uploads/womens/<?php echo $key2['image1']; ?>" alt="Product" height=268 , width=268 />
                                                     <img class="second-image" src="<?php echo base_url(); ?>assets/images/uploads/womens/<?php echo $key2['image2']; ?>" alt="Product" height=268 , width=268 />
@@ -548,7 +536,7 @@ if ((session()->has('msg'))) { ?>
                                                     <span class="new">₹.<?php echo $key2['Product_price'] ?></span>
                                                   
                                                 </span>
-                                                <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $womensPcode2; ?>/<?php echo $table ?>/<?php echo $folder ?>">
+                                                <a href="#">
                                                     <button class="btn btn-sm btn-outline-dark btn-hover-primary">Add To Cart</button></a>
                                             </div>
                                         </div>
@@ -591,7 +579,7 @@ if ((session()->has('msg'))) { ?>
                                         <!-- Single Product Start -->
                                         <div class="product product-border-left mb-10" data-aos="fade-up" data-aos-delay="600">
                                             <div class="thumb">
-                                                <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $collePcode1; ?>/<?php echo $table ?>/<?php echo $folder ?>" class="image">
+                                                <a href="#" class="image">
 
                                                     <img class="first-image" src="<?php echo base_url(); ?>assets/images/uploads/collections/<?php echo $collection['image1']; ?>" alt="Product" height=268 , width=268 />
                                                     <img class="second-image" src="<?php echo base_url(); ?>assets/images/uploads/collections/<?php echo $collection['image2']; ?>" alt="Product" height=268 , width=268 />
@@ -611,7 +599,7 @@ if ((session()->has('msg'))) { ?>
                                                     <span class="new">₹.<?php echo $collection['Product_price'] ?></span>
                                                     <!--<span class="old">Rs100.00</span>-->
                                                 </span>
-                                                <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $collePcode1; ?>/<?php echo $table ?>/<?php echo $folder ?>">
+                                                <a href="#">
                                                     <button class="btn btn-sm btn-outline-dark btn-hover-primary">Add To Cart</button></a>
                                             </div>
                                         </div>
@@ -632,7 +620,7 @@ if ((session()->has('msg'))) { ?>
                                         <!-- Single Product Start -->
                                         <div class="product product-border-left" data-aos="fade-up" data-aos-delay="700">
                                             <div class="thumb">
-                                                <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $collePcode2; ?>/<?php echo $table ?>/<?php echo $folder ?>" class="image">
+                                                <a href="#" class="image">
 
                                                     <img class="first-image" src="<?php echo base_url(); ?>assets/images/uploads/collections/<?php echo $collection['image1']; ?>" alt="Product" height=268 , width=268 />
                                                     <img class="second-image" src="<?php echo base_url(); ?>assets/images/uploads/collections/<?php echo $collection['image2']; ?>" alt="Product" height=268 , width=268 />
@@ -651,7 +639,7 @@ if ((session()->has('msg'))) { ?>
                                                 <span class="price">
                                                     <span class="new">₹.<?php echo $collection['Product_price'] ?></span>
                                                 </span>
-                                                <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $collePcode2; ?>/<?php echo $table ?>/<?php echo $folder ?>">
+                                                <a href="#">
                                                     <button class="btn btn-sm btn-outline-dark btn-hover-primary">Add To Cart</button></a>
                                             </div>
                                         </div>
@@ -694,7 +682,7 @@ if ((session()->has('msg'))) { ?>
                                         <!-- Single Product Start -->
                                         <div class="product product-border-left mb-10" data-aos="fade-up" data-aos-delay="500">
                                             <div class="thumb">
-                                                <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $wPcode; ?>/<?php echo $table ?>/<?php echo $folder ?>" class="image">
+                                                <a href="#" class="image">
 
                                                     <img class="first-image" src="<?php echo base_url(); ?>assets/images/uploads/accessories/<?php echo $accessories['image1']; ?>" alt="Product" height=268 , width=268 />
                                                     <img class="second-image" src="<?php echo base_url(); ?>assets/images/uploads/accessories/<?php echo $accessories['image2']; ?>" alt="Product" height=268 , width=268 />
@@ -713,7 +701,7 @@ if ((session()->has('msg'))) { ?>
                                                 <span class="price">
                                                     <span class="new">₹.<?php echo $accessories['Product_price'] ?></span>
                                                 </span>
-                                                <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $wPcode; ?>/<?php echo $table ?>/<?php echo $folder ?>">
+                                                <a href="#">
                                                     <button class="btn btn-sm btn-outline-dark btn-hover-primary">Add To Cart</button></a>
                                             </div>
                                         </div>
@@ -736,7 +724,7 @@ if ((session()->has('msg'))) { ?>
                                 ?>
                                         <div class="product product-border-left" data-aos="fade-up" data-aos-delay="600">
                                             <div class="thumb">
-                                                <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $wPcode; ?>/<?php echo $table ?>/<?php echo $folder ?>" class="image">
+                                                <a href="#" class="image">
 
                                                     <img class="first-image" src="<?php echo base_url(); ?>assets/images/uploads/accessories/<?php echo $accessories['image1']; ?>" alt="Product" height=268 , width=268 />
                                                     <img class="second-image" src="<?php echo base_url(); ?>assets/images/uploads/accessories/<?php echo $accessories['image2']; ?>" alt="Product" height=268 , width=268 />
@@ -756,7 +744,7 @@ if ((session()->has('msg'))) { ?>
                                                     <span class="new">₹.<?php echo $accessories['Product_price'] ?></span>
                                                     <!--<span class="old">Rs29.50</span>-->
                                                 </span>
-                                                <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $wPcode; ?>/<?php echo $table ?>/<?php echo $folder ?>">
+                                                <a href="#">
                                                     <button class="btn btn-sm btn-outline-dark btn-hover-primary">Add To Cart</button></a>
                                             </div>
                                         </div>
@@ -784,7 +772,7 @@ if ((session()->has('msg'))) { ?>
                                 <!-- Single Product Start -->
                                 <div class="product product-border-left mb-10" data-aos="fade-up" data-aos-delay="700">
                                     <div class="thumb">
-                                        <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $wPcode; ?>/<?php echo $table ?>/<?php echo $folder ?>" class="image">
+                                        <a href="#" class="image">
 
                                             <img class="first-image" src="<?php echo base_url(); ?>assets/images/uploads/accessories/<?php echo $accessories2['image1']; ?>" alt="Product" height=268 , width=268 />
                                             <img class="second-image" src="<?php echo base_url(); ?>assets/images/uploads/accessories/<?php echo $accessories2['image2']; ?>" alt="Product" height=268 , width=268 />
@@ -803,7 +791,7 @@ if ((session()->has('msg'))) { ?>
                                         <span class="price">
                                             <span class="new">₹.<?php echo $accessories2['Product_price'] ?></span>
                                         </span>
-                                        <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $wPcode; ?>/<?php echo $table ?>/<?php echo $folder ?>">
+                                        <a href="#">
                                             <button class="btn btn-sm btn-outline-dark btn-hover-primary">Add To Cart</button></a>
                                     </div>
                                 </div>
@@ -825,7 +813,7 @@ if ((session()->has('msg'))) { ?>
                         ?>
                                 <div class="product product-border-left" data-aos="fade-up" data-aos-delay="800">
                                     <div class="thumb">
-                                        <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $wPcode; ?>/<?php echo $table ?>/<?php echo $folder ?>" class="image">
+                                        <a href="#" class="image">
 
                                             <img class="first-image" src="<?php echo base_url(); ?>assets/images/uploads/accessories/<?php echo $accessories2['image1']; ?>" alt="Product" height=268 , width=268 />
                                             <img class="second-image" src="<?php echo base_url(); ?>assets/images/uploads/accessories/<?php echo $accessories2['image2']; ?>" alt="Product" height=268 , width=268 />
@@ -845,7 +833,7 @@ if ((session()->has('msg'))) { ?>
                                             <span class="new">₹.<?php echo $accessories2['Product_price'] ?></span>
                                             <!--<span class="old">Rs29.50</span>-->
                                         </span>
-                                        <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $wPcode; ?>/<?php echo $table ?>/<?php echo $folder ?>">
+                                        <a href="#">
                                             <button class="btn btn-sm btn-outline-dark btn-hover-primary">Add To Cart</button></a>
                                     </div>
                                 </div>
@@ -894,11 +882,11 @@ if ((session()->has('msg'))) { ?>
                                         }
                                         // var_dump($mens1Data);exit();
 
-                                        $table = 'Mens';
+                                        $table = 'mens';
                                         $folder = 'mens';
                                         if (isset($mens1Data[0]['ProductCode'])) {
                                             $mensPcode1 = $mens1Data[0]['ProductCode'];
-                                            $result22 = $db->query("SELECT * FROM `Mens` WHERE `ProductCode`='$mensPcode1'");
+                                            $result22 = $db->query("SELECT * FROM `mens` WHERE `ProductCode`='$mensPcode1'");
                                             $mens1_data = $result22->getResultArray();
                                             foreach ($mens1_data as $mens1) { ?>
 
@@ -906,7 +894,7 @@ if ((session()->has('msg'))) { ?>
                                                 <!-- Single Product Start -->
                                                 <div class="product product-border-left mb-10">
                                                     <div class="thumb">
-                                                        <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $mensPcode1; ?>/<?php echo $table ?>/<?php echo $folder ?>" class="image">
+                                                        <a href="#" class="image">
 
                                                             <img class="first-image" src="<?php echo base_url(); ?>assets/images/uploads/mens/<?php echo $mens1['image1']; ?>" alt="Product" height=268 , width=268 />
                                                             <img class="second-image" src="<?php echo base_url(); ?>assets/images/uploads/mens/<?php echo $mens1['image2']; ?>" alt="Product" height=268 , width=268 />
@@ -926,7 +914,7 @@ if ((session()->has('msg'))) { ?>
                                                             <span class="new">₹.<?php echo $mens1['Product_price'] ?></span>
                                                             <!--<span class="old">Rs18.00</span>-->
                                                         </span>
-                                                        <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $mensPcode1; ?>/<?php echo $table ?>/<?php echo $folder ?>">
+                                                        <a href="#">
                                                             <button class="btn btn-sm btn-outline-dark btn-hover-primary">Add To Cart</button></a>
                                                     </div>
                                                 </div>
@@ -934,11 +922,11 @@ if ((session()->has('msg'))) { ?>
                                         <?php }
                                         } ?>
                                         <?php
-                                        $table = 'Mens';
+                                        $table = 'mens';
                                         $folder = 'mens';
                                         if (isset($mens1Data[1]['ProductCode'])) {
                                             $mensPcode2 = $mens1Data[1]['ProductCode'];
-                                            $result22 = $db->query("SELECT * FROM `Mens`
+                                            $result22 = $db->query("SELECT * FROM `mens`
                                                 WHERE `ProductCode`='$mensPcode2'");
                                             $mens2_data = $result22->getResultArray();
                                             foreach ($mens2_data as $mens2) { ?>
@@ -946,7 +934,7 @@ if ((session()->has('msg'))) { ?>
                                                 <!-- Single Product Start -->
                                                 <div class="product product-border-left">
                                                     <div class="thumb">
-                                                        <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $mensPcode2; ?>/<?php echo $table ?>/<?php echo $folder ?>" class="image">
+                                                        <a href="#" class="image">
 
                                                             <img class="first-image" src="<?php echo base_url(); ?>assets/images/uploads/mens/<?php echo $mens2['image1']; ?>" alt="Product" height=268 , width=268 />
                                                             <img class="second-image" src="<?php echo base_url(); ?>assets/images/uploads/mens/<?php echo $mens2['image2']; ?>" alt="Product" height=268 , width=268 />
@@ -967,7 +955,7 @@ if ((session()->has('msg'))) { ?>
                                                             <span class="new">₹.<?php echo $mens2['Product_price'] ?></span>
                                                             <!--<span class="old">Rs42.85</span>-->
                                                         </span>
-                                                        <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $mensPcode2; ?>/<?php echo $table ?>/<?php echo $folder ?>">
+                                                        <a href="#">
                                                             <button class="btn btn-sm btn-outline-dark btn-hover-primary">Add To Cart</button></a>
                                                     </div>
                                                 </div>
@@ -1005,7 +993,7 @@ if ((session()->has('msg'))) { ?>
                                                 <!-- Single Product Start -->
                                                 <div class="product product-border-left mb-10">
                                                     <div class="thumb">
-                                                        <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $womensPcode1; ?>/<?php echo $table ?>/<?php echo $folder ?>" class="image">
+                                                        <a href="#" class="image">
 
                                                             <img class="first-image" src="<?php echo base_url(); ?>assets/images/uploads/womens/<?php echo $womens1['image1']; ?>" alt="Product" height=268 , width=268 />
                                                             <img class="second-image" src="<?php echo base_url(); ?>assets/images/uploads/womens/<?php echo $womens1['image2']; ?>" alt="Product" height=268 , width=268 />
@@ -1025,7 +1013,7 @@ if ((session()->has('msg'))) { ?>
                                                             <span class="new">₹.<?php echo $womens1['Product_price'] ?></span>
                                                             <!--<span class="old">Rs100.00</span>-->
                                                         </span>
-                                                        <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $womensPcode1; ?>/<?php echo $table ?>/<?php echo $folder ?>">
+                                                        <a href="#">
                                                             <button class="btn btn-sm btn-outline-dark btn-hover-primary">Add To Cart</button></a>
                                                     </div>
                                                 </div>
@@ -1045,7 +1033,7 @@ if ((session()->has('msg'))) { ?>
                                                 <!-- Single Product Start -->
                                                 <div class="product product-border-left">
                                                     <div class="thumb">
-                                                        <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $womensPcode2; ?>/<?php echo $table ?>/<?php echo $folder ?>" class="image">
+                                                        <a href="#" class="image">
 
                                                             <img class="first-image" src="<?php echo base_url(); ?>assets/images/uploads/womens/<?php echo $womens2['image1']; ?>" alt="Product" height=268 , width=268 />
                                                             <img class="second-image" src="<?php echo base_url(); ?>assets/images/uploads/womens/<?php echo $womens2['image2']; ?>" alt="Product" height=268 , width=268 />
@@ -1064,7 +1052,7 @@ if ((session()->has('msg'))) { ?>
                                                         <span class="price">
                                                             <span class="new">₹.<?php echo $womens2['Product_price'] ?></span>
                                                         </span>
-                                                        <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $womensPcode2; ?>/<?php echo $table ?>/<?php echo $folder ?>">
+                                                        <a href="#">
                                                             <button class="btn btn-sm btn-outline-dark btn-hover-primary">Add To Cart</button></a>
                                                     </div>
                                                 </div>
@@ -1101,7 +1089,7 @@ if ((session()->has('msg'))) { ?>
                                                 <!-- Single Product Start -->
                                                 <div class="product product-border-left mb-10">
                                                     <div class="thumb">
-                                                        <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $collPcode1; ?>/<?php echo $table ?>/<?php echo $folder ?>" class="image">
+                                                        <a href="#" class="image">
 
                                                             <img class="first-image" src="<?php echo base_url(); ?>assets/images/uploads/collections/<?php echo $coll1['image1']; ?>" alt="Product" height=268 , width=268 />
                                                             <img class="second-image" src="<?php echo base_url(); ?>assets/images/uploads/collections/<?php echo $coll1['image2']; ?>" alt="Product" height=268 , width=268 />
@@ -1123,7 +1111,7 @@ if ((session()->has('msg'))) { ?>
                                                             <span class="new">₹.<?php echo $coll1['Product_price'] ?></span>
                                                           
                                                         </span>
-                                                        <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $collPcode1; ?>/<?php echo $table ?>/<?php echo $folder ?>">
+                                                        <a href="#">
                                                             <button class="btn btn-sm btn-outline-dark btn-hover-primary">Add To Cart</button></a>
                                                     </div>
                                                 </div>
@@ -1144,7 +1132,7 @@ if ((session()->has('msg'))) { ?>
                                                 <!-- Single Product Start -->
                                                 <div class="product product-border-left">
                                                     <div class="thumb">
-                                                        <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $collPcode2; ?>/<?php echo $table ?>/<?php echo $folder ?>" class="image">
+                                                        <a href="#" class="image">
 
                                                             <img class="first-image" src="<?php echo base_url(); ?>assets/images/uploads/collections/<?php echo $coll2['image1']; ?>" alt="Product" height=268 , width=268 />
                                                             <img class="second-image" src="<?php echo base_url(); ?>assets/images/uploads/collections/<?php echo $coll2['image2']; ?>" alt="Product" height=268 , width=268 />
@@ -1166,7 +1154,7 @@ if ((session()->has('msg'))) { ?>
                                                             <span class="new">₹.<?php echo $coll2['Product_price'] ?></span>
                                                             <!--<span class="old">Rs18.00</span>-->
                                                         </span>
-                                                        <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $collPcode2; ?>/<?php echo $table ?>/<?php echo $folder ?>">
+                                                        <a href="#">
                                                             <button class="btn btn-sm btn-outline-dark btn-hover-primary">Add To Cart</button></a>
                                                     </div>
                                                 </div>
@@ -1207,7 +1195,7 @@ if ((session()->has('msg'))) { ?>
                                                 <!-- Single Product Start -->
                                                 <div class="product product-border-left mb-10" data-aos="fade-up" data-aos-delay="500">
                                                     <div class="thumb">
-                                                        <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $a1Pcode1; ?>/<?php echo $table ?>/<?php echo $folder ?>" class="image">
+                                                        <a href="#" class="image">
 
                                                             <img class="first-image" src="<?php echo base_url(); ?>assets/images/uploads/accessories/<?php echo $a1['image1']; ?>" alt="Product" height=268 , width=268 />
                                                             <img class="second-image" src="<?php echo base_url(); ?>assets/images/uploads/accessories/<?php echo $a1['image2']; ?>" alt="Product" height=268 , width=268 />
@@ -1225,7 +1213,7 @@ if ((session()->has('msg'))) { ?>
                                                         <span class="price">
                                                             <span class="new">₹.<?php echo $a1['Product_price'] ?></span>
                                                         </span>
-                                                        <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $a1Pcode1; ?>/<?php echo $table ?>/<?php echo $folder ?>">
+                                                        <a href="#">
                                                             <button class="btn btn-sm btn-outline-dark btn-hover-primary">Add To Cart</button></a>
                                                     </div>
                                                 </div>
@@ -1246,7 +1234,7 @@ if ((session()->has('msg'))) { ?>
                                         ?>
                                                 <div class="product product-border-left" data-aos="fade-up" data-aos-delay="600">
                                                     <div class="thumb">
-                                                        <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $a2Pcode1; ?>/<?php echo $table ?>/<?php echo $folder ?>" class="image">
+                                                        <a href="#" class="image">
 
                                                             <img class="first-image" src="<?php echo base_url(); ?>assets/images/uploads/accessories/<?php echo $a2['image1']; ?>" alt="Product" height=268 , width=268 />
                                                             <img class="second-image" src="<?php echo base_url(); ?>assets/images/uploads/accessories/<?php echo $a2['image2']; ?>" alt="Product" height=268 , width=268 />
@@ -1265,7 +1253,7 @@ if ((session()->has('msg'))) { ?>
                                                             <span class="new">₹.<?php echo $a2['Product_price'] ?></span>
                                                             <!--<span class="old">Rs29.50</span>-->
                                                         </span>
-                                                        <a href="<?php echo base_url(); ?>Add-to-cart_Home/<?php echo $a2Pcode1; ?>/<?php echo $table ?>/<?php echo $folder ?>">
+                                                        <a href="#">
                                                             <button class="btn btn-sm btn-outline-dark btn-hover-primary">Add To Cart</button></a>
                                                     </div>
                                                 </div>
@@ -1292,7 +1280,7 @@ if ((session()->has('msg'))) { ?>
                                         <!-- Single Product Start -->
                                         <div class="product product-border-left mb-10" data-aos="fade-up" data-aos-delay="700">
                                             <div class="thumb">
-                                                <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $a2Pcode1; ?>/<?php echo $table ?>/<?php echo $folder ?>" class="image">
+                                                <a href="#" class="image">
 
                                                     <img class="first-image" src="<?php echo base_url(); ?>assets/images/uploads/accessories/<?php echo $a2['image1']; ?>" alt="Product" height=268 , width=268 />
                                                     <img class="second-image" src="<?php echo base_url(); ?>assets/images/uploads/accessories/<?php echo $a2['image2']; ?>" alt="Product" height=268 , width=268 />
@@ -1311,7 +1299,7 @@ if ((session()->has('msg'))) { ?>
                                                     <span class="new">₹.<?php echo $a2['Product_price'] ?></span>
                                                     <!--<span class="old">Rs29.50</span>-->
                                                 </span>
-                                                <a href="<?php echo base_url(); ?>Add-to-cart_Home/<?php echo $a2Pcode1; ?>/<?php echo $table ?>/<?php echo $folder ?>">
+                                                <a href="#">
                                                     <button class="btn btn-sm btn-outline-dark btn-hover-primary">Add To Cart</button></a>
                                             </div>
                                         </div>
@@ -1332,7 +1320,7 @@ if ((session()->has('msg'))) { ?>
                                 ?>
                                         <div class="product product-border-left" data-aos="fade-up" data-aos-delay="800">
                                             <div class="thumb">
-                                                <a href="<?php echo base_url(); ?>Add-to-cart-Home/<?php echo $a2Pcode1; ?>/<?php echo $table ?>/<?php echo $folder ?>" class="image">
+                                                <a href="#" class="image">
 
                                                     <img class="first-image" src="<?php echo base_url(); ?>assets/images/uploads/accessories/<?php echo $a2['image1']; ?>" alt="Product" height=268 , width=268 />
                                                     <img class="second-image" src="<?php echo base_url(); ?>assets/images/uploads/accessories/<?php echo $a2['image2']; ?>" alt="Product" height=268 , width=268 />
@@ -1351,7 +1339,7 @@ if ((session()->has('msg'))) { ?>
                                                     <span class="new">₹.<?php echo $a2['Product_price'] ?></span>
                                                     <!--<span class="old">Rs29.50</span>-->
                                                 </span>
-                                                <a href="<?php echo base_url(); ?>Add-to-cart_Home/<?php echo $a2Pcode1; ?>/<?php echo $table ?>/<?php echo $folder ?>">
+                                                <a href="#">
                                                     <button class="btn btn-sm btn-outline-dark btn-hover-primary">Add To Cart</button></a>
                                             </div>
                                         </div>

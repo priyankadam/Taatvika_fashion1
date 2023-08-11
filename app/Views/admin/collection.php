@@ -30,6 +30,7 @@
                                 <div class="form-group col-md-12">
                                       <label for="Banner">Collection Category *</label>
                                         <select class="form-control" name="coll_cat" id="coll_cat" required>
+                                            <option disabled="" selected="" value="">Select Category</option>
                                             <?php 
                                          $db = db_connect();
                                 $result = $db->query("SELECT * FROM `collection_master` ");

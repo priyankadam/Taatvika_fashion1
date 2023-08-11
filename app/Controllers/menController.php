@@ -191,7 +191,7 @@ class menController extends BaseController
         $result = $mens->save($data);
 
         $data1['product_name'] = $ProductName;
-        $data1['product_type'] = 'Mens';
+        $data1['product_type'] = 'mens';
 
         $data1['ProductCode'] = 'M-' . $getProductCode;
 
@@ -224,11 +224,11 @@ class menController extends BaseController
         $query = $query->getRowArray();
         //
         $Id = $query['Id'];
-        $result = $db->query("SELECT * FROM `Mens` WHERE `Men_id`= $Id ");
+        $result = $db->query("SELECT * FROM `mens` WHERE `Men_id`= $Id ");
         if (!empty($result->getResult())) {
             foreach ($result->getResult() as $key) {
                 $fold = 'mens';
-                $table = 'Mens';
+                $table = 'mens';
                 $id = $key->Id;
                 $ss[] = array(
                     'id' => $key->Id,
@@ -258,7 +258,7 @@ class menController extends BaseController
             $userid = $data['user_id'];
         }
         $db = db_connect();
-        $result = $db->query("SELECT * FROM `Mens` WHERE `ProductCode`= '$pc' ");
+        $result = $db->query("SELECT * FROM `mens` WHERE `ProductCode`= '$pc' ");
         // var_dump($result->getResult());exit();
         foreach ($result->getResult() as $key) {
            
@@ -310,7 +310,7 @@ class menController extends BaseController
             $userid = $data['user_id'];
         }
         $db = db_connect();
-        $result = $db->query("SELECT * FROM `Mens` WHERE `ProductCode`= '$pc' ");
+        $result = $db->query("SELECT * FROM `mens` WHERE `ProductCode`= '$pc' ");
         // var_dump($result->getResult());exit();
         foreach ($result->getResult() as $key) {
 

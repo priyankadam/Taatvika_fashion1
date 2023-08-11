@@ -177,12 +177,11 @@
                                 </?php }} ?>
                       
                     </div> -->
-                    <!-- Product Meta End -->
-                    <input type="text" value="<?php echo $data['folder'] ?>" name="folder">
-                    <input type="text" value="<?php echo $data['table'] ?>" name="table">
-                    <input type="text" value="<?php echo $data['userid'] ?>" name="userid">
-                    <input type="text" value="<?php echo $data['Product_price'] ?>" name="productprice">
-                    <input type="text" value="<?php echo $data['Product_code'] ?>" name="productcode">
+                    <input type="hidden" value="<?php echo $data['folder'] ?>" name="folder">
+                            <input type="hidden" value="<?php echo $data['table'] ?>" name="table">
+                            <input type="hidden" value="<?php echo $data['userid'] ?>" name="userid">
+                            <input type="hidden" value="<?php echo $data['Product_price'] ?>" name="productprice">
+                            <input type="hidden" value="<?php echo $data['Product_code'] ?>" name="productcode">
                     <!-- Product Meta Start -->
                     <div class="product-meta mb-5">
                         <!-- Product Metarial Start -->
@@ -253,6 +252,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-uppercase" id="review-tab" data-bs-toggle="tab" href="#connect-4" role="tab" aria-selected="false">Size Chart</a>
+                    </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-uppercase" id="profile-tab" data-bs-toggle="tab" href="#connect-2" role="tab" aria-selected="false">Reviews</a>
                     </li>
                 </ul>
                 <div class="tab-content mb-text" id="myTabContent">
@@ -365,7 +367,67 @@
 
                                                 <!-- Review Title & Date Start -->
                                                 <div class="review-title-date d-flex">
-                                                    <h5 class="title">Admin - </h5><span> January 19, 2023</span>
+                                                    <?php 
+                                                   $date=date_create($kay->date);
+                                                   $newdate=  date_format($date,"d M Y");?>
+                                                    <h5 class="title"><?php echo $kay->user; ?>- </h5><span> <?php echo $newdate; ?></span>
+                                                </div>
+                                                <!-- Review Title & Date End -->
+
+                                            </div>
+                                            <p><?php echo $kay->product_review; ?></p>
+                                        </div>
+                                        <!-- Review Details End -->
+
+                                    </div>
+                                <?php }
+                            } else { ?>
+                                <p>No Reviews for this product </p>
+                            <?php } ?>
+                            <!-- End Single Review -->
+
+
+
+
+                        </div>
+                        <!-- End Single Content -->
+                    </div>
+                    <div class="tab-pane fade" id="connect-2" role="tabpanel" aria-labelledby="profile-tab">
+                        <!-- Start Single Content -->
+                        <div class="product_tab_content  border p-3">
+                            <!-- Start Single Review -->
+                            <?php
+                            if (!empty($query)) {
+                                foreach ($query as $kay) {
+                                    // var_dump($kay);exit();
+                            ?>
+                                    <div class="single-review d-flex mb-4">
+
+                                        <!-- Review Thumb Start -->
+                                        <div class="review_thumb">
+                                            <img alt="review images" src="assets/images/review/1.jpg">
+                                        </div>
+                                        <!-- Review Thumb End -->
+
+                                        <!-- Review Details Start -->
+                                        <div class="review_details">
+                                            <div class="review_info mb-2">
+
+                                                <!-- Rating Start -->
+                                                <span class="ratings justify-content-start mb-3">
+                                                    <span class="rating-wrap">
+                                                        <span class="star" style="width: 100%"></span>
+                                                    </span>
+                                                    <span class="rating-num">(1)</span>
+                                                </span>
+                                                <!-- Rating End -->
+
+                                                <!-- Review Title & Date Start -->
+                                                <div class="review-title-date d-flex">
+                                                    <?php 
+                                                   $date=date_create($kay->date);
+                                                   $newdate=  date_format($date,"d M Y");?>
+                                                    <h5 class="title"><?php echo $kay->user; ?>- </h5><span> <?php echo $newdate; ?></span>
                                                 </div>
                                                 <!-- Review Title & Date End -->
 

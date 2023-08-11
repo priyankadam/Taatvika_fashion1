@@ -137,7 +137,8 @@ $routes->get('admin/size_materialView', 'Admincontroller::size_materialView');
 // ------------Frontend Routes---------------------------------------------------------------------
 
 //New Route after requirement changes
-$routes->get('Payment-Success', 'checkout::pay');
+$routes->get('Payment_success/(:any)','Checkout::payment_success/$1');
+// $routes->get('Payment-Success', 'checkout::pay');
 $routes->get('Men-Wear/(:any)', 'menController::men/$1');
 $routes->get('Men-Product-Details/(:any)','menController::productdetail/$1');
 
@@ -199,7 +200,7 @@ $routes->post('Payment', 'Checkout::payment');
 $routes->post('remove_item', 'Home::remove_item');
 $routes->get('My-Account', 'Home::myaccount');
 $routes->get('About-us', 'Home::aboutus');
-$routes->get('Payment_success/(:any)','Checkout::payment_success/$1');
+
 $routes->post('EditAddress','Home::EditAddress');
 $routes->post('addReview','Home::addReview');
 $routes->post('/submitreview','Home::submitreview');

@@ -62,9 +62,10 @@
                                     <div class="form-group col-md-12">
                                         <label for="Banner">Mens Category *</label>
                                         <select class="form-control" name="men_cat" id="men_cat" required  onchange="showDiv('hidden_div', this)">
+                                            <option disabled="" selected="" value="">Select Category</option>
                                             <?php
                                             $db = db_connect();
-                                            $result = $db->query("SELECT * FROM `Mens_master` ");
+                                            $result = $db->query("SELECT * FROM `mens_master` ");
                                             foreach ($result->getResult() as $key) {
 
                                                 $ID = $key->Id;
